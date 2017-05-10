@@ -2,8 +2,10 @@
 
 ## Overview
 
-* [My Awesome API](README.md)
+* [Intro](README.md)
 
 ## Methods
 
-* [Defining Methods](methods.md)
+* [Example: Defining Methods](methods.md)
+* [EDL Format](edl-format.md)
+

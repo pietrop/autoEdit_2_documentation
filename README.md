@@ -1,3 +1,4 @@
-# My Awesome API
+# autoEdit 2 R&D Documentation for Developers
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+R&D Documentation for Developers for autoEdit2. [autoEdit.io](/www.autoEdit.io) 
+
