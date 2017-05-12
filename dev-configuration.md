@@ -4,6 +4,8 @@
 
 see user manual guide on [setting up Speech To Text System]({{book.userManual}} )
 
+{{book.userManual}} 
+
 ### 2. Install dependencies 
 
 ```
