@@ -1,7 +1,7 @@
 {
     "plugins": [ "theme-api" ],
-    variables:{
-        guide: "https://pietropassarelli.gitbooks.io/autoedit2-user-manual/content/"
+    "variables":{
+        "guide": "https://pietropassarelli.gitbooks.io/autoedit2-user-manual/content/"
     },
     "pluginsConfig": {
         "theme-api": {
