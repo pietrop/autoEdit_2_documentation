@@ -45,13 +45,16 @@ Tick \(✔\) for features implemented in `1.0.5`**
 
    1. Paper-edit export to EDL
 
+## Data structures
+
 Main data structures in the project
 
 * Transcription json 
 * paper-cuts json 
 * paper-edit json 
 
----
+
+## Stack 
 
 If you are not familiar with [Node](https://nodejs.org/en/), [NWJS](http://docs.nwjs.io/en/latest/For Users/Getting Started/), [backbone](http://backbonejs.org/) or not sure were to start to get an overview to familiarise yourself with this project, check out the [prerequisite section](/prerequisites.md) to get an overview of the stack and see the minimum you need to know to get up to speed with this project.
 
