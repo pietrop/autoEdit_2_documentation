@@ -11,7 +11,7 @@
 
 * [Transcriptions](transcriptions/transcriptions.md)
 * [Transcriber](transcriptions/transcriber.md)
-* Hypertranscript
+* [Hypertranscript](transcriptions/hypertranscript.md)
 
 ## Papercuts
 
@@ -30,6 +30,7 @@
 * [Prerequisites](prerequisites.md)
 * [JQuery and NWJS Packaging](jquery-and-nwjs-packaging.md)
 * [Roadmap](roadmap.md)
+  * [Future Roadmap](roadmap/future-roadmap.md)
 
 ## Appendix - Data structures
 

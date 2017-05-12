@@ -39,4 +39,10 @@ Read metadata info from input video or audio file, uses `ffprobe`, minimum requi
 * File name
 
 
+## In client side view
+
+<!-- TODO: Add balsamiq mockup from google doc --> 
+
+
+
 
