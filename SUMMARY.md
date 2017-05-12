@@ -9,6 +9,10 @@
 
 ## Transcriptions
 
+* [Transcriptions](transcriptions/transcriptions.md)
+* [Transcriber](transcriptions/transcriber.md)
+* Hypertranscript
+
 ## Papercuts
 
 ## Paper-edit
