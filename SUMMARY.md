@@ -31,6 +31,8 @@
 * [JQuery and NWJS Packaging](jquery-and-nwjs-packaging.md)
 * [Roadmap](roadmap.md)
   * [Future Roadmap](roadmap/future-roadmap.md)
+* [Testing](testing.md)
+* [Updating automated documentation](updating-automated-documentation.md)
 
 ## Appendix - Data structures
 

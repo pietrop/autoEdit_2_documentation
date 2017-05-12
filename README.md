@@ -1,14 +1,18 @@
-# autoEdit 2 R&D Documentation for Developers
+# autoEdit 2 R&D Documentation for Developers `1.0.6`
 
-R&D Documentation for Developers for autoEdit2. [autoEdit.io](/www.autoEdit.io)
+R&D Documentation for Developers for [autoEdit2](/www.autoEdit.io) `v1.0.6`  \(That does paper-editing\). 
 
-**TL;DR **: New version of autoEdit 2 `1.0.6` that does paper-editing.
+**TL;DR **:This is meant to be a higher level overview of the structure, parts and components of the application. Focused more on how problem domain issue have been addressed, which options have been tried and considered and what is the current implementation strength and weaknesses. 
 
-## **Parts**
+---
+
+## **High level Parts**
+
+<!-- TODO: add some kind of diagram -->
 
 It's helpful to discuss the implementation of autoEdit by looking at the parts that make up the whole as stand alone overarching components, that are built of other smaller components and modules.
 
-Tick \(✔\) for features implemented in `1.0.5`**      
+Tick \(✔\) for features implemented in `1.0.5`**        
 **
 
 1. **Transcriptions** ✔
@@ -49,5 +53,5 @@ Main data structures in the project
 
 ---
 
-If you are not familiar with [Node](https://nodejs.org/en/), [NWJS](http://docs.nwjs.io/en/latest/For%20Users/Getting%20Started/), [backbone](http://backbonejs.org/) or not sure were to start to get an overview to familiarise yourself with this project, check out the [prerequisite section](/prerequisites.md) to get an overview of the stack and see the minimum you need to know to get up to speed with this project.
+If you are not familiar with [Node](https://nodejs.org/en/), [NWJS](http://docs.nwjs.io/en/latest/For Users/Getting Started/), [backbone](http://backbonejs.org/) or not sure were to start to get an overview to familiarise yourself with this project, check out the [prerequisite section](/prerequisites.md) to get an overview of the stack and see the minimum you need to know to get up to speed with this project.
 
