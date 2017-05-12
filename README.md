@@ -4,11 +4,12 @@ R&D Documentation for Developers for autoEdit2. [autoEdit.io](/www.autoEdit.io)
 
 **TL;DR **: New version of autoEdit 2 `1.0.6` that does paper-editing.
 
+
 ## **Parts**
 
 It's helpful to discuss the implementation of autoEdit by looking at the parts that make up the whole as stand alone overarching components, that are built of other smaller components and modules.
 
-Tick \(✔\) for features implemented in `1.0.5`**  
+Tick \(✔\) for features implemented in `1.0.5`**    
 **
 
 1. **Transcriptions** ✔
@@ -40,8 +41,6 @@ Tick \(✔\) for features implemented in `1.0.5`**
 5. **Export**
 
    1. Paper-edit export to EDL
-
-
 
 Main data structures in the project
 

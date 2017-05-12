@@ -2,14 +2,14 @@
 
 ### 1. Setup Speech To text APIs 
 
-see user manual guide on [setting up Speech To Text System]({{book.guide}} )
+see user manual guide on [setting up Speech To Text System]({{ guide}} )
 
 ---
 
 
-{{ page.title }} 
+{{ guide  }}  
 
-{{ JSON.stringify(book) }} 
+{{ ./dependencies.md }}
 
 ### 2. Install dependencies 
 
