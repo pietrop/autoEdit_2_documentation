@@ -2,14 +2,8 @@
 
 ### 1. Setup Speech To text APIs 
 
-see user manual guide on [setting up Speech To Text System]({{ guide}} )
+See user manual guide on [setting up Speech To Text System](https://www.gitbook.com/read/book/pietropassarelli/autoedit2-user-manual )
 
----
-
-
-{{ guide  }}  
-
-{{ ./dependencies.md }}
 
 ### 2. Install dependencies 
 

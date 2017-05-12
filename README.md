@@ -46,3 +46,8 @@ Main data structures in the project
 
 ![](https://docs.google.com/drawings/d/slSCkfwYW5hCSyJSEP8ggjg/image?w=624&h=221&rev=90&ac=1)
 
+
+
+If you are not familiar with [Node][node], [NWJS][nwjs], [backbone][backbone] or not sure were to start to get an overview to familiarise yourself with this project, check out the [prerequisite section](/jsdoc_docs/tutorial-prerequisites.html) to get an overview of the stack and see the minimum you need to know to get up to speed with this project.
+
+
