@@ -4,7 +4,7 @@ R&D Documentation for Developers for [autoEdit2](/www.autoEdit.io) `v1.0.6`  \(T
 
 **TL;DR **:This is meant to be a higher level overview of the structure, parts and components of the application. Focused more on how problem domain issue have been addressed, which options have been tried and considered and what is the current implementation strength and weaknesses. 
 
----
+--- 
 
 ## **High level Parts**
 
