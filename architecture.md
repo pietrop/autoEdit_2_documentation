@@ -1,5 +1,9 @@
 ## Project folder structure. - Draft  
 
+
+<!--TODO: update folder structure, focus more on main components --->
+
+
 ```bash
 .
 ├── LICENCE.md
