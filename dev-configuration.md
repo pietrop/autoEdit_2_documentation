@@ -2,9 +2,13 @@
 
 ### 1. Setup Speech To text APIs 
 
-see user manual guide on [setting up Speech To Text System]({{book.userManual}} )
+see user manual guide on [setting up Speech To Text System]({{book.guide}} )
 
-{{book.userManual}} 
+---
+
+{{ book.guide }} 
+
+{{ gitbook.version }}
 
 ### 2. Install dependencies 
 
