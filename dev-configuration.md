@@ -2,7 +2,7 @@
 
 ### 1. Setup Speech To text APIs 
 
-see user manual guide on [setting up Speech To Text System](https://opennewslabs.github.io/autoEdit_2/user_manual/setup.html)
+see user manual guide on [setting up Speech To Text System]({{book.userManual}} )
 
 ### 2. Install dependencies 
 
