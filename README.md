@@ -4,12 +4,11 @@ R&D Documentation for Developers for autoEdit2. [autoEdit.io](/www.autoEdit.io)
 
 **TL;DR **: New version of autoEdit 2 `1.0.6` that does paper-editing.
 
-
 ## **Parts**
 
 It's helpful to discuss the implementation of autoEdit by looking at the parts that make up the whole as stand alone overarching components, that are built of other smaller components and modules.
 
-Tick \(✔\) for features implemented in `1.0.5`**    
+Tick \(✔\) for features implemented in `1.0.5`**      
 **
 
 1. **Transcriptions** ✔
@@ -43,9 +42,12 @@ Tick \(✔\) for features implemented in `1.0.5`**
    1. Paper-edit export to EDL
 
 Main data structures in the project
-- T
 
+* Transcription json 
+* paper-cuts json 
+* paper-edit json 
 
-If you are not familiar with [Node][node], [NWJS][nwjs], [backbone][backbone] or not sure were to start to get an overview to familiarise yourself with this project, check out the [prerequisite section](/jsdoc_docs/tutorial-prerequisites.html) to get an overview of the stack and see the minimum you need to know to get up to speed with this project.
+---
 
+If you are not familiar with [Node](https://nodejs.org/en/), [NWJS](http://docs.nwjs.io/en/latest/For%20Users/Getting%20Started/), [backbone](http://backbonejs.org/) or not sure were to start to get an overview to familiarise yourself with this project, check out the [prerequisite section](/prerequisites.md) to get an overview of the stack and see the minimum you need to know to get up to speed with this project.
 
