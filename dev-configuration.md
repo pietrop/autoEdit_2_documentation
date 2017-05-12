@@ -6,9 +6,10 @@ see user manual guide on [setting up Speech To Text System]({{book.guide}} )
 
 ---
 
-{{ book.guide }} 
 
-{{ gitbook.version }}
+{{ page.title }} 
+
+{{ JSON.stringify(book) }} 
 
 ### 2. Install dependencies 
 
