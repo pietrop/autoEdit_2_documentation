@@ -16,6 +16,7 @@
 ## Appendix
 
 * [EDL Format](edl-format.md)
+* [Gentle Json transcription specs](gentle-json-transcription-specs.md)
 
 ## Other refactoring
 
