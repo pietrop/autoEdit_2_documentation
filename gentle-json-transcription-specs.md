@@ -1,6 +1,5 @@
 ## Gentle transcription json spec
-
-[Gentle](https://gentle-demo.lowerquality.com), [github repo](https://github.com/lowerquality/gentle)
+A quick reference for [Gentle](https://gentle-demo.lowerquality.com)( [github repo](https://github.com/lowerquality/gentle) ) transcription json spec.
 
 ```json
 {

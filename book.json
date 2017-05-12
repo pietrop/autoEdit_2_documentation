@@ -1,5 +1,8 @@
 {
     "plugins": [ "theme-api" ],
+    "variables":{
+        "userManual": "https://pietropassarelli.gitbooks.io/autoedit2-user-manual/content/"
+    },
     "pluginsConfig": {
         "theme-api": {
             "languages": [
