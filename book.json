@@ -1,4 +1,5 @@
 {
+    "gitbook": "1.0.0",
     "plugins": [ "theme-api" ],
     "variables":{
         "guide": "https://pietropassarelli.gitbooks.io/autoedit2-user-manual/content/"
