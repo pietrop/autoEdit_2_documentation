@@ -1,4 +1,4 @@
-## Project folder structure. - Draft 
+## Project folder structure. - Draft  
 
 ```bash
 .
