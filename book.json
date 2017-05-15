@@ -6,6 +6,10 @@
         "guide": "https://pietropassarelli.gitbooks.io/autoedit2-user-manual/content/"
     },
     "pluginsConfig": {
+        "edit-link": {
+                "base": "https://github.com/pietrop/autoEdit_2_documentation/tree/master",
+                "label": "Edit This Page"
+            },
         "theme-api": {
             "languages": [
                 {
