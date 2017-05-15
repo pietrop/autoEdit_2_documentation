@@ -19,10 +19,6 @@
 
 ## Export
 
-## QA
-
-* [QA Intro](qa/qa-intro.md)
-
 ## Appendix
 
 * [Dev configuration](dev-configuration.md)
@@ -45,6 +41,10 @@
 * [Pocketsphinx results](pocketsphinx-results.md)
 
 ## Other refactoring
+
+## QA List
+
+* [QA Intro](qa/qa-intro.md)
 
 ## Methods
 
