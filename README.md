@@ -1,4 +1,4 @@
-# autoEdit 2 R&D Documentation for Developers `1.0.6`
+# autoEdit 2 R&D Documentation for Developers -`1.0.6` - Working Draft
 
 R&D Documentation for Developers for [autoEdit2](/www.autoEdit.io) `v1.0.6`  \(That does paper-editing\). 
 
