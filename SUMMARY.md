@@ -31,6 +31,7 @@
 * [JQuery and NWJS Packaging](jquery-and-nwjs-packaging.md)
 * [Roadmap](roadmap.md)
   * [Future Roadmap](roadmap/future-roadmap.md)
+  * [Live video editing](roadmap/live-video-editing.md)
 * [Testing](testing.md)
 * [Updating automated documentation](updating-automated-documentation.md)
 

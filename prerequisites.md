@@ -17,12 +17,12 @@ Read about [mixed context mode in nwjs][nwjscontexts].
 From this project app initial iteration this [nwjs boilerplate][nwjsboilerplate] as been extrapolated.
 If you need/want to familiarize  yourself with core nwjs setup choices check it out. 
 
-### Why I nwjs and not electron?
+### Why `nwjs` and not `electron`?
 1. I personally found nwjs documentation easier to follow wants you get a round the different contexts.
 2. In nwjs you can easily hand a front end that could be moved to work as standalone "static site" or be a part of a web app. Allowing for max decoupling 
 3. As far as I  understood electron is more opinionated and this would not be possible within that.
 
-### small NWJS apps Examples
+### Small NWJS apps Examples
 
 #### [Transcriber][transcriber]
 OS X desktop application to transcibe video or audio files using IBM Watson Speech to text API. This was an initial prototype preceeding autoEdit2. The idea was to test the quality of the IBM Watson STT recognition with the user in isolation from other functionality. It proved very popular with video producers.     
