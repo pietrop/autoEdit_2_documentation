@@ -8,4 +8,4 @@ Here is a video demo of the  main "Transcription" in v `1.0.5` use case: https:/
 
 The app should be downloaded on a mac OS X that does not have any [dependencies installed on the system, e.g. node, ffmpeg, etc](/dependencies.md). Here is the [latest release](https://github.com/OpenNewsLabs/autoEdit_2/releases).     
 
-For any issues during the QA process please file in[Github repo](https://github.com/OpenNewsLabs/autoEdit_2) and assign to `pietrop`, tag them as `QA` and the version number eg `1.0.6`. 
+For any issues during the QA process please file in the [Github repo](https://github.com/OpenNewsLabs/autoEdit_2) and assign to `pietrop`, tag them as `QA` and the version number eg `1.0.6`. 
