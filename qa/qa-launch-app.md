@@ -8,7 +8,7 @@
 ### Expected Results:
 - If no transcription, expect load screen.
 
-![Home screen ]()
+![Home screen ]() 
 
 - If transcriptions is present, expect to view list of transcriptions. 
 
