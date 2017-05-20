@@ -20,6 +20,9 @@
 ## Paper-edit
 
 * [Paper-edit](paper-edit/paper-edit.md)
+  * [search-filter](paper-edit/paper-edit/paper-editsearch-filter.md)
+  * [drag-and-drop](paper-edit/paper-edit/paper-editdrag-and-drop.md)
+  * [video-preview](paper-edit/paper-edit/paper-editvideo-preview.md)
 
 ## Export
 
