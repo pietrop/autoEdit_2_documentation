@@ -44,6 +44,15 @@
   * [Future Roadmap](roadmap/future-roadmap.md)
     * [Live video editing](roadmap/future-roadmap/live-video-editing.md)
     * [Social Media Export](roadmap/future-roadmap/social-media-export.md)
+    * [Translate transcriptions](roadmap/future-roadmap/translate-transcriptions.md)
+    * Web app
+      * Multi-user collaboration
+    * Searchable Editable Archive
+    * NLP insights
+    * Slack/Chat bot integration
+    * [Interactive dev tool](roadmap/future-roadmap/interactive-dev-tool.md)
+    * [Phone mms integration with twillio](roadmap/future-roadmap/phone-mms-integration-with-twillio.md)
+    * [B-roll computational photography](roadmap/future-roadmap/b-roll-computational-photography.md)
 * Paper-editing Roadmap
 * [Testing](testing.md)
 * [Updating automated documentation](updating-automated-documentation.md)
