@@ -1,4 +1,4 @@
 # QA Paperedit
 
 
-<!-- TODO: -->
+<!-- TODO: Model it over how the transcription QA page is done-->
