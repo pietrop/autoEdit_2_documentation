@@ -1,6 +1,6 @@
 # Export
 
-Module: EDL Composer module in autoEdit 2. 
+## Module: EDL Composer module in autoEdit 2. 
 To extrapolate as standalone module and publish to npm. Add tests. Decide on test suite for these modules. 
 http://www.autoedit.io/jsdoc_docs/module-edl_composer.html 
 
@@ -8,10 +8,12 @@ Module figured out by reverse engineering export EDL from FCP7. supports limited
 
 ![Chris bbc img EDL explanation]()
 
+connected with spec of paper-edit json. 
 
-EDL tutorial 
+<!-- example or link to appendix example -->
+ 
 
-http://www.autoedit.io/jsdoc_docs/tutorial-EDL_format.html
+[EDL tutorial](/edl-format.md)
 
 EDL specifications 
 https://documentation.apple.com/en/finalcutpro/usermanual/index.html#chapter=96%26section=1%26tasks=true 
