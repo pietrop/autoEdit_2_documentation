@@ -47,6 +47,10 @@
 ## QA List
 
 * [QA Intro](qa/qa-intro.md)
+* [QA Launch App](qa/qa-launch-app.md)
+* [QA Transcriptions](qa/qa-transcriptions.md)
+* [QA Paperedits](qa/qa-paperedits.md)
+* [QA Export](qa/qa-export.md)
 
 ## Methods
 
