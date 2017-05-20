@@ -78,7 +78,9 @@ see what needs to change in the code to export audio.
 
 ## Captioning - export
 
+This is discuss [in more details here](https://trello.com/c/Q5jClWkc/1-module-srt-parser-composer-refactor) as part of [textAV event](http://www.textav.tech).
 
+ >The idea is basically if you have a transcription Json ( for simplicity's sake let's assume in it's simplest form as an array of word objects with Start and end timecode attributes) how to create an srt where the lines/words  are well spaced and timed appropriately, automatically . 
 
 ### Breaking down sentences
 
@@ -111,6 +113,28 @@ Look into
 For the gentle implementation it be best to incorporate Gentle into the app.   
 It can be run as python module.or started as a server.
 
+To be done, make a better text editor to proofread automatically generated transcription drafts. Drawing on example from trint and BBC News Labs use of draft.js to make the experience more seamless.
+
+At the moment is possible to edit only one word at a time. Altho this is not has bad using keyboard shortcuts (tab to move to next word).
+
+More R&D and user testing is required on this to get it right.
+
+O transcribe is praised for it’s UX but no automated transcription integration.
+
+![oTranscribe screenshot]()
+
+<!-- https://docs.google.com/document/d/1N-Pjay9fbBa9AP98AYH5RjFkLiJB6iMdFXRDgrRB6jc/edit# -->
+
+Trint has a smoother UX when it comes to editing the text 
+
+![Trint Screenshot]()
+
+Youtube captioning is still the go to option for many video producers that end up transcribing in plain text in google docs and using youtube captioning to re-allign the video and export an srt. 
+(they generally don’t like the captioning interface to edit the captions text. But is ok for adjusting position).
+
+![Youtube captioning Screenshot]()
+
+
 ---
 
 ## Incorporating Gentle into autoEdit
@@ -123,12 +147,4 @@ This requires
 
 2 - looking into [Refactoring Transcriber module](#Refactoring Transcriber module) from above section to see how to best integrate it.   
 If Gentle is part of the transcriber module. It could take trimmed audio file as input, same as other transcriber APIs, and to do so ffmpeg could be removed from a "gentle light" version which narrows down the code needed to be added as a transcriber plugin.
-
----
-
-## audotEdit -&gt; paperedit roadmap
-
-more info in google docs &lt;-- link coming soon
-
-### Add support for annotations
 
