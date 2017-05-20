@@ -32,6 +32,8 @@
 ### Expected Results:
 - You are taken to a transcription show page.
 
+![Transcription show page]()
+
 _Known issue_: When video is done processing, it does not self-update the preview if on show page. You need to go back to list and then back to show to get an updated video preview. 
 
 ## Item to test #5: Show transcription - playback
