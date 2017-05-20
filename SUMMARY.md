@@ -15,7 +15,11 @@
 
 ## Papercuts
 
+* [Papercuts](papercuts/papercuts.md)
+
 ## Paper-edit
+
+* [Paper-edit](paper-edit/paper-edit.md)
 
 ## Export
 
@@ -30,11 +34,11 @@
 * [Prerequisites](prerequisites.md)
 * [JQuery and NWJS Packaging](jquery-and-nwjs-packaging.md)
 * [Roadmap](roadmap.md)
-  * [Extra Features Roadmap ](roadmap/extra-features-roadmap.md)
   * [Paper-editing Roadmap](roadmap/paper-editing-roadmap.md)
-* [Future Roadmap](roadmap/future-roadmap.md)
-  * [Live video editing](roadmap/future-roadmap/live-video-editing.md)
-  * [Social Media Export](roadmap/future-roadmap/social-media-export.md)
+  * [Extra Features Roadmap ](roadmap/extra-features-roadmap.md)
+  * [Future Roadmap](roadmap/future-roadmap.md)
+    * [Live video editing](roadmap/future-roadmap/live-video-editing.md)
+    * [Social Media Export](roadmap/future-roadmap/social-media-export.md)
 * Paper-editing Roadmap
 * [Testing](testing.md)
 * [Updating automated documentation](updating-automated-documentation.md)

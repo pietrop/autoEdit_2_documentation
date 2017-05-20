@@ -4,16 +4,16 @@
 
 ## Current roadmap 
 
-1. Transcriber 
+1. [Transcriber](/transcriptions/transcriber.md) 
 	1. **Video/Audio** → plain text
 	2. **Video/Audio** → Text + Timecodes
-2. Papercuts
+2. [Papercuts](/papercuts/papercuts.md)
 	1. **Highlights + EDL export** 
 	2. Annotations ←  TODO
 	3. Search and filter ←  TODO
 	4. Speaker names ← TODO
 	5. Projects ← TODO
-3. Paper-edit  ← current version
+3. [Paper-edit](/paper-edit/paper-edit.md)  ← current version
 	1. **Paper-edit view** 
 	2. **Outline**
 	3. **Video preview** ← beta
@@ -24,3 +24,5 @@ In v`1.0.6` leaped from papercuts to paper-edit, skipping, annotations, search/f
 v`1.0.5` which only featured upt to papercuts, Higlights + EDL export, [is described in this aritlce](https://product.voxmedia.com/2016/11/22/13669486/faster-video-editing). 
 
 Next version `1.0.7` will see adding features such as the possibility to annotate selections, search and filter the transcriptions. Ability to add speaker names. And group transcriptions by projects.
+
+See main sections of documentation for more details on each  stage of this roadmap. 
