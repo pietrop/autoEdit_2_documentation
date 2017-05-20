@@ -4,9 +4,21 @@ R&D Documentation for Developers for [autoEdit2](/www.autoEdit.io) `v1.0.6`  \(T
 
 **TL;DR **:This is meant to be a higher level overview of the structure, parts and components of the application. Focused more on how problem domain issue have been addressed, which options have been tried and considered and what is the current implementation strength and weaknesses. 
 
+The first part is structured a round the 5 higher level parts that make up the app. Each one following this structure:
+
+- Component/part description 
+- Related projects. Eg parts that look good, or previous implementations. But might not be considered for implementation options 
+- Implementations Options considered
+- Current implementation 
+- What needs refactoring 
+
+ 
+
+Then it also contains a [roadmap section](/roadmap.md), and a [QA section](/qa/qa-intro.md) to serve as a checklist before every deployment, as well as a series of appendix with more technical info and implementation details relevant to the project , such as for example the [db setup](/current-db-setup.md) and [prerequisite](/prerequisites.md) to mention a few.
+
 --- 
 
-## **High level Parts**
+## **Overview of High level Parts**
 
 <!-- TODO: add some kind of diagram -->
 
