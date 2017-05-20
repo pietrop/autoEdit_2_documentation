@@ -1,5 +1,18 @@
 # Transcriber - draft
 
+<!--
+- Component/part description 
+- Related projects. Eg parts that look good, or previous implementations. But might not be considered for implementation options 
+- Implementations Options considered
+- Current implementation 
+- What needs refactoring 
+--> 
+
+
+
+
+
+
 Initially prototyped as a standalone app to test quality of speech to text.
 
 <!--TODO: add link to transcriber ---> 

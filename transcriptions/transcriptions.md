@@ -18,7 +18,14 @@ autoEdit JSON Transcription schema at a high level it models the objects present
         - Speaker
 
 
-<!-- TODO: google drawings diagram of transcription components --> 
+<!-- TODO: google drawings diagram of transcription components 
+
+- Component/part description 
+- Related projects. Eg parts that look good, or previous implementations. But might not be considered for implementation options 
+- Implementations Options considered
+- Current implementation 
+- What needs refactoring 
+--> 
 
 
 
