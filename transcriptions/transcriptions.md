@@ -51,11 +51,13 @@ Connected to this is defining a schema for transcription, to make sure all compo
 
 ## Implementations Options considered
 
-
+<!-- 
 ### quickQuote transcription modelling 
 
-see dissertation chapter, perhaps add in appendix, or add that diss on gitbook.or just get relevant summary 
+see dissertation chapter, perhaps add in appendix, or add that diss on gitbook.or just get relevant summary.
 
+initially modelled the srt file, coz was parsing the srt file. saved that in db. however that was restrictive. ?
+-->
 
 ### Other
 
@@ -89,6 +91,8 @@ A list of speakers can also be kept separate, similarly to how IBM Watson stt AP
 <!-- TODO: add link to api reference/documetnation ibm spekaer diarization json --> 
 
 <!-- TODO: Link to appendix data structure autoEdit transcription json --> 
+
+See Appendix for autoEdit json schema example.
 
 ---
 

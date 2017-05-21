@@ -1,6 +1,6 @@
-# autoEdit 2 R&D Documentation for Developers -`1.0.6` - Working Draft.
-
-R&D Documentation for Developers for [autoEdit2](/www.autoEdit.io) `v1.0.6`  _That does paper-editing_.
+# autoEdit 2 R&D Documentation for Developers -`1.0.6` 
+ 
+Working Draft R&D Documentation for Developers for [autoEdit2](/www.autoEdit.io) `v1.0.6`  _That does paper-editing_.
 
 ## Outline the problem 
 <!-- Outline the problem you are working on, why it is interesting andwhat the challenges are. -->  

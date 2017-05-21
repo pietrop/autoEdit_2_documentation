@@ -4,7 +4,7 @@
 
 [](https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/#recognize_sessionless_nonmp12)
 
-[example in api reference](https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/#recognize_sessionless_nonmp12) under response.
+
 
 ```json
 {
@@ -161,3 +161,6 @@
   "result_index": 0
 }
 ```
+
+
+see also [example in api reference](https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/#recognize_sessionless_nonmp12) under response.
