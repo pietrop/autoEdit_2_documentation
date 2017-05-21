@@ -216,14 +216,9 @@ module.exports = {
 };
 ```
 
-To access this binaries in the app, we can then do, eg inside `lib/interactive_transcription_generator`
+To access this binaries in the app, we can then do, eg inside lib/interactive_transcription_generator.
 
-```js
-var ffmpegPath     = require("../../config.js").ffmpegPath;
-```
-
-
-### `lib/interactive_transcription_generator`
+d
 
 After the user uploads a video or audio file the backbone app override default [`backbone.sync`][backbonesync] and calls the `nwjs/db.js` which after saving the transcription model in db, triggers this module to get stt transcription, video preivew, and metadata info. 
  
