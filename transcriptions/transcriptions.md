@@ -90,9 +90,7 @@ A list of speakers can also be kept separate, similarly to how IBM Watson stt AP
 
 <!-- TODO: add link to api reference/documetnation ibm spekaer diarization json --> 
 
-<!-- TODO: Link to appendix data structure autoEdit transcription json --> 
-
-See Appendix for autoEdit json schema example.
+[See Appendix for autoEdit json schema example](/autoedit-transcription-json.md).
 
 ---
 

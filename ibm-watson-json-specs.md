@@ -1,9 +1,8 @@
 ## IBM Watson stt json specs
 
-[API reference](https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/)
-
-[](https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/#recognize_sessionless_nonmp12)
-
+- [API reference](https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/)
+- [IBM API reference](https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/#recognize_sessionless_nonmp12)
+- [IBM speech to text in documentation](https://www.ibm.com/watson/developercloud/doc/speech-to-text/output.html)
 
 
 ```json
