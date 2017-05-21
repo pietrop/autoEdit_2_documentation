@@ -1,5 +1,4 @@
 {
-    "gitbook": "1.0.0",
     "title" : "autoEdit 2 Documentation",
     "plugins": [ "theme-api" ],
     "pluginsConfig": {
