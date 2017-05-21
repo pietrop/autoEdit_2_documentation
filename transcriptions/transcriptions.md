@@ -12,33 +12,40 @@
 
 ## Component/part description 
 
-Transcription JSON schema. 
+In this section we are looking at the Transcription JSON schema used in autoEdit. 
 
 
 ---
 
 ## Related projects.
 
-Connected to this is defining a schema for transcription, to make sure all components that work with this have a defined interface/specification. 
-Eg  [BBC Transcript model](https://github.com/bbc/transcript-model)
+Connected to this is defining a schema for transcription, to make sure all components that work with this have a defined interface/specification. Eg  [BBC Transcript model](https://github.com/bbc/transcript-model)
  
 
-### starTime
 
-<!-- I used start time coz some other project was using htat-->
+
+<!--### starTime
+
+ I used start time coz some other project was using htat-->
 
 ### Gentle json 
+
+[See appendix for json](/gentle-json-transcription-specs.md) example.
 
 <!-- link to appendix -->
 
 
 ### IBM Json  
 
-<!-- link to appendix -->
+[See appendix for json](/ibm-watson-json-specs.md) example.
+
+<!-- TODO: update in appendix -->
 
 ### Video grep json 
 
-<!-- link to appendix -->
+See appendix for json example.
+
+<!-- TODO: link to appendix -->
 
 ---
 
@@ -52,10 +59,9 @@ Eg  [BBC Transcript model](https://github.com/bbc/transcript-model)
 
 ### Other
 
-<!-- array of words, nested array --> 
+An array of words object, to represent lines this could also be a nested array of word objects. 
 
-
-<!-- array of words, nested array --> 
+Where the word object at a minimum as a start, end time and text attribute.
 
 ---
 
