@@ -1,4 +1,6 @@
-# Paper-edit: Drag and Drop
+# Paper-edit: Drag and Drop - draft
+
+
 
 <!--
 - Component/part description 
@@ -148,6 +150,7 @@ Todo: find away to signal that in CSS.
 
 ### Current implementation 
 
+Not actually drag and drop but intermediate data structure implementation. 
 
 ---
 

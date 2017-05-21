@@ -1,5 +1,4 @@
-# Video preview converter
-
+# Video preview converter - draft
 
 ## Component/part description 
 

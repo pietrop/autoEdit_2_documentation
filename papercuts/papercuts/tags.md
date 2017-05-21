@@ -1,4 +1,4 @@
-# Transcriber: STT API: Gentle STT - draft
+# Papercuts: Tags - draft
 
 ## Component/part description 
 
@@ -13,6 +13,10 @@
 ---
 ## Current implementation
 
+Not implemented in current version
+
 
 ---
 ## What needs refactoring 
+
+NA

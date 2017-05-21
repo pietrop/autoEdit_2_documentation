@@ -1,4 +1,5 @@
-# Transcriber: STT API: Gentle STT - draft
+# Papercuts: Annotations - draft
+
 
 ## Component/part description 
 
@@ -12,6 +13,9 @@
 
 ---
 ## Current implementation
+Not implemented in current version
+
+
 
 
 ---

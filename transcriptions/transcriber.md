@@ -36,10 +36,12 @@ It was Initially prototyped as a standalone app to test quality of speech to tex
 ---
 ## Implementations Options considered
 
+NA
 
 ---
 ## Current implementation
 
+[See component](https://github.com/OpenNewsLabs/autoEdit_2/tree/master/lib/interactive_transcription_generator/transcriber) 
 
 
 ---

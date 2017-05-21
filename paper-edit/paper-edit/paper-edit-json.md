@@ -1,4 +1,6 @@
-# Paper-edit: json 
+# Paper-edit: json - draft
+
+
 
 #### Hypertranscript / autoEdit Json
 This is the autoEdit json for a transcription. It models the structure of a transciptions text.

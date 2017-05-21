@@ -25,6 +25,9 @@
 ## Papercuts
 
 * [Papercuts](papercuts/papercuts.md)
+  * [Selections](papercuts/papercuts/selections.md)
+  * [Annotations](papercuts/papercuts/annotations.md)
+  * [Tags](papercuts/papercuts/tags.md)
 
 ## Paper-edit
 
@@ -37,6 +40,8 @@
 ## Export
 
 * [Export](export/export.md)
+  * [EDL export](export/export/edl-export.md)
+  * [XML export](export/export/xml-export.md)
 
 ## Appendix
 
