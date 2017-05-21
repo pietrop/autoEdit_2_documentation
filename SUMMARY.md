@@ -53,9 +53,11 @@
     * [Interactive dev tool](roadmap/future-roadmap/interactive-dev-tool.md)
     * [Phone mms integration with twillio](roadmap/future-roadmap/phone-mms-integration-with-twillio.md)
     * [B-roll computational photography](roadmap/future-roadmap/b-roll-computational-photography.md)
+      * IBM watson Visual recognition in video
 * Paper-editing Roadmap
 * [Testing](testing.md)
 * [Updating automated documentation](updating-automated-documentation.md)
+* [History of autoEdit versions over time](history-of-autoedit-versions-over-time.md)
 
 ## Appendix - Data structures
 

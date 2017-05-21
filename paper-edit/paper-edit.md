@@ -99,6 +99,13 @@ JS fiddle example: https://jsfiddle.net/neochief/KWeMM/
 In previous version we used jqueryUI.
 https://github.com/pietrop/autoEdit_nwjs_alpha_RandD 
 
+[see vide demo of previous version](https://pietro-passarelli.wistia.com/medias/rmur7siumj)
+
+using express, jquery multisortable for D&D, bbc video compositor for preview. 
+issues: 
+- lack of data structure for selection to -> papercut->to paperedit made it hard to add text in a reliable way. 
+- jquery ui multisortable selection not natural, click then `shift` + `click` to select range of text.
+
 https://github.com/pietrop/autoEdit_nwjs_alpha_RandD/blob/master/views/template/paperedit.html 
 
 Abstracted example with jquery multi sortable  https://jsfiddle.net/pietrops/eo4najce/  
