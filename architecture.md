@@ -206,7 +206,7 @@ Packaged binaries of `ffmpeg` and `ffprobe` inside `lib/bin` so that the app doe
 `config.js` defined the path to where these binaries are stored. 
 
 ```js
-var path               = require("path");
+var path = require("path");
 
 module.exports = {
   serverUrl: '',
@@ -216,9 +216,20 @@ module.exports = {
 };
 ```
 
-To access this binaries in the app, we can then do, eg inside lib/interactive_transcription_generator.
+To access this binaries in the app, we can then do, eg inside `lib/interactive_transcription_generator`.
 
-d
+```js
+var ffmpegPath = require("../../config.js").ffmpegPath;
+```
+
+### `edl_composer` module
+
+See [EDL format](/edl-format.md), and [Export section](/export/export.md) as well as [EDL composer module](https://github.com/OpenNewsLabs/autoEdit_2/tree/master/lib/edl_composer).
+
+### `lib/interactive_transcription_generator`
+
+
+
 
 After the user uploads a video or audio file the backbone app override default [`backbone.sync`][backbonesync] and calls the `nwjs/db.js` which after saving the transcription model in db, triggers this module to get stt transcription, video preivew, and metadata info. 
  
@@ -275,8 +286,11 @@ The `transcriber` module used by `interactive_transcription_generator` can also 
 
 The `pocketsphinx` module was originally extracted from the Video grep project. 
 
-The implementation of this module is discussed in more details in subsequent sections
+The implementation of this module is discussed in more details in subsequent sections.
 
+### `srt`module
+
+[srt module](https://github.com/OpenNewsLabs/autoEdit_2/blob/master/lib/srt/index.js) is a simplified version of [srt parse composer module](https://github.com/pietrop/srtParserComposer) also [npm](https://www.npmjs.com/package/srt_parser_composer).
 
 [nwjs]: http://docs.nwjs.io/en/latest/For%20Users/Getting%20Started/
 [node]:https://nodejs.org/en/
