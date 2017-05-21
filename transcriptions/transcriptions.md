@@ -28,22 +28,22 @@ Connected to this is defining a schema for transcription, to make sure all compo
 
  I used start time coz some other project was using htat-->
 
-### Gentle json 
+### Gentle - json 
 
 [See appendix for json](/gentle-json-transcription-specs.md) example.
 
 <!-- link to appendix -->
 
 
-### IBM Json  
+### IBM - Json  
 
 [See appendix for json](/ibm-watson-json-specs.md) example. As well as their [stt api reference](https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/) and documentation.
 
 <!-- TODO: update in appendix -->
 
-### Video grep json 
+### Pocketsphinx  - plain text
 
-See appendix for json example.
+[See appendix for example](/pocketsphinx-results.md) pocketsphinx plain text.
 
 <!-- TODO: link to appendix -->
 
@@ -52,9 +52,11 @@ See appendix for json example.
 ## Implementations Options considered
 
 
-### quickQuote transcription modelling 
 
-<!-- see dissertation chapter, perhaps add in appendix, or add that diss on gitbook.or just get relevant summary -->
+
+<!-- ### quickQuote transcription modelling 
+
+see dissertation chapter, perhaps add in appendix, or add that diss on gitbook.or just get relevant summary -->
 
 
 ### Other
@@ -68,16 +70,17 @@ Where the word object at a minimum as a start, end time and text attribute.
 ## Current implementation 
 
 ### Transcription domain
-<!-- TODO: google drawings diagram of transcription components
+<!-- google drawings diagram of transcription components https://docs.google.com/drawings/d/1PzZw3Zu5BkT6Y-JM7Ox4OTBpaWxRvyjnh4UMxHIe8rs/edit
 -->
+
+![Transcription modelling diagram](/assets/Transcription modelling.png)
 
 autoEdit JSON Transcription schema at a high level it models the objects present in a transcription.
 
 - Transcription 
-  - Paragraph 
+  - Paragraph  <-- speaker
     - Line 
       - Word 
-        - Speaker
 
 
 
