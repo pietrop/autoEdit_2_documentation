@@ -40,8 +40,11 @@ As of v`1.0.6`:
 │   │   ├── demo_db.js
 │   │   ├── helpers.js
 │   │   ├── models
+// this is the router for transcriptions
 │   │   ├── router.js
+// separate router for paper-edits
 │   │   ├── router_paperedit.js
+//ejs templates
 │   │   ├── templates
 │   │   └── views
 // ffmpeg and ffprobe binaries 
@@ -105,7 +108,7 @@ While the [user manual has been moved on gitbooks](https://pietropassarelli.gitb
 
 
 ##### Documentaiton
-Was initially Using `jsdoc` and `docco`for automatic documentation generated.  See [updating documentation ](/updating-automated-documentation.md)section for more on how to update `jsdoc` and `docco`.  But have decided to [move the documentation gitbooks](https://pietropassarelli.gitbooks.io/autoedit-2-r-d-documentation-for-developers/content/) (which is what you are most likely reading now). And still need to decide what is the place, if any for automated generated documentation.
+Was initially Using [jsdoc][jsdoc] and [docco][docco] for automatic documentation generated.  See [updating documentation ](/updating-automated-documentation.md)section for more on how to update [jsdoc][jsdoc] and [docco][docco].  But have decided to [move the documentation gitbooks](https://pietropassarelli.gitbooks.io/autoedit-2-r-d-documentation-for-developers/content/) (which is what you are most likely reading now). And still need to decide what is the place, if any for automated generated documentation.
 
 
 ### `spec`
@@ -194,8 +197,33 @@ if (typeof window.DB !== 'undefined') {
 │       └── index.js
 ```
 
+### `lib/app` 
+backbone app. Setup using browserify, and ejs for templating.
 
-### `interactive_transcription_generator`
+### `lib/bin/ffmpeg` and `ffprobe` binaries
+Packaged binaries of `ffmpeg` and `ffprobe` inside `lib/bin` so that the app does not relies on this as a dependency when packaged inside nwjs. 
+
+`config.js` defined the path to where these binaries are stored. 
+
+```js
+var path               = require("path");
+
+module.exports = {
+  serverUrl: '',
+  appName: 'autoEdit 2',
+  ffmpegPath: path.join(process.cwd(),"lib/bin","ffmpeg"),
+  ffprobePath: path.join(process.cwd(),"lib/bin","ffprobe"),
+};
+```
+
+To access this binaries in the app, we can then do, eg inside `lib/interactive_transcription_generator`
+
+```js
+var ffmpegPath     = require("../../config.js").ffmpegPath;
+```
+
+
+### `lib/interactive_transcription_generator`
 
 After the user uploads a video or audio file the backbone app override default [`backbone.sync`][backbonesync] and calls the `nwjs/db.js` which after saving the transcription model in db, triggers this module to get stt transcription, video preivew, and metadata info. 
  
@@ -251,6 +279,8 @@ The `transcriber` module used by `interactive_transcription_generator` can also 
 ```
 
 The `pocketsphinx` module was originally extracted from the Video grep project. 
+
+The implementation of this module is discussed in more details in subsequent sections
 
 
 [nwjs]: http://docs.nwjs.io/en/latest/For%20Users/Getting%20Started/
