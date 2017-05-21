@@ -3,7 +3,7 @@
     "plugins": [ "theme-api" ],
     "pluginsConfig": {
         "theme-api": {
-            "theme": "default",
+            "theme": "light",
              "split": true,
             "languages": [
                 {
