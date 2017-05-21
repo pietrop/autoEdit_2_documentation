@@ -15,15 +15,15 @@ The aim of this project is to produce an application that can maximise not only 
 
 The approach was to look at the traditional paper-editing workflow from documentary production, and see how that could translate into a digital world. [For more on paper-editing and how this is used to craft compelling stories out of video interviews, check out the notes from this workshop](http://pietropassarelli.com/wip_london_july2016.html).
 
-## Area of Interest
+## Areas of Interest
 
-One reason why this project is interesting is because it utilises the new possibilities that have opened up with the node ecosystem, such as [NWJS][nwjs] introduction of the HTML5 video tag. As well as the opportunities that have arisen in combining this with the increasing quality of speech to text technologies.
+One reason why this project is interesting is because it utilises the new possibilities that have opened up with the node ecosystem, that allow for un unprecedented level of code reusability and the introduction of the HTML5 video tag. As well as the opportunities that have arisen in combining this with the increasing quality of speech to text technologies.
 
-<!-- NWJS web tech, for desktop app, max code reusability -->
+Projects such as [NWJS][nwjs] (formerly node-web-kit) allows to use web technology to build cross platform desktop applications that with minimal code change can be ported to a web app version. This also lower the barrier of entry for this type of development.
 
-Traditionally video and audio have been like black boxes on the web, often having to recur to flash to provide video capabilities to pages.With the introduction of the HTML5 video tag, Javascript libraries like videos make it easier to manipulate the video, treating it as a Javascript object. However this turns the video into “a ‘black box’ we can do something with, such as triggering events at defined timecodes. It does not allow us to directly obtain the content of the video in a programmatic way and to manipulate the result. An example would be to take from the video the content of the quote and then analyse this to identify keywords and key topics. Another example would be to search what has been said in the video, find the quote and trim the video segment accordingly.
+Traditionally video and audio have been like black boxes on the web, often having to recur to flash to provide video capabilities to pages. With the introduction of the HTML5 video tag, Javascript libraries like videos make it easier to manipulate the video, treating it as a Javascript object. However this turns the video into “a ‘black box’ we can do something with, such as triggering events at defined timecodes. It does not allow us to directly obtain the content of the video in a programmatic way and to manipulate the result. An example would be to take from the video the content of the quote and then analyse this to identify keywords and key topics. Another example would be to search what has been said in the video, find the quote and trim the video segment accordingly. For more of [a discussion of relevant projects that tackle this problem check out this article][beyonblackboxes]
 
-As explored by making [quickQuote](http://pietropassarelli.com/quickQuote.html) I believe it is by combining video with its corresponding timecoded transcription that we can provide a direct programmatic solution.
+As explored in a previous project, [quickQuote](http://pietropassarelli.com/quickQuote.html), I believe it is by combining video with its corresponding time-coded transcription that we can provide a direct programmatic solution.
 
 ## The Challenges
 
@@ -177,5 +177,8 @@ Github issues are used for bug handling.
 
 
 [nwjs]: https://nwjs.io
+[beyonblackboxes]: http://pietropassarelli.com/videoBox.html
+
+
 
 
