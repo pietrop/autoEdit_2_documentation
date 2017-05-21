@@ -158,100 +158,100 @@ if (typeof window.DB !== 'undefined') {
 `demo_paperedit.json` and`demo_transcription.json` provide the data for the demo when `index.html` is run in client side mode in the browser. and `lib/app/demo_db.js` provides the logic for the demo db. 
 
 ## `lib`
-`app` contains the backbone project. this is packaged for the client side with browserify 
+`app` contains the backbone project. this is packaged for the client side with browserify.
 
 ```
 .
-├── app
-│   ├── app.js
-│   ├── collections
-│   │   └── transcriptions.js
-│   ├── demo_db.js
-│   ├── helpers.js
-│   ├── models
-│   │   └── transcription.js
-│   ├── router.js
-│   ├── templates
-│   │   ├── 404.html.ejs
-│   │   ├── home_page.html.ejs
-│   │   ├── transcription_form_template.html.ejs
-│   │   ├── transcription_index.html.ejs
-│   │   ├── transcription_show.html.ejs
-│   │   └── welcome.html.ejs
-│   └── views
-│       ├── transcription_form_view.js
-│       ├── transcription_list_element_view.js
-│       ├── transcription_list_view.js
-│       ├── transcription_view.js
-│       └── utils.js
-├── edl_composer
-│   ├── README.md
-│   └── index.js
-├── interactive_transcription_generator
-│   ├── README.md
-│   ├── index.js
-│   ├── transcriber
+├── lib
+//backbone app
+│   ├── app
+│   │   ├── app.js
+│   │   ├── collections
+│   │   ├── demo_db.js
+│   │   ├── helpers.js
+│   │   ├── models
+│   │   ├── router.js
+│   │   ├── router_paperedit.js
+│   │   ├── templates
+│   │   └── views
+// ffmpeg and ffprobe binaries 
+│   ├── bin
+│   │   ├── ffmpeg
+│   │   └── ffprobe
+// module to generate an EDL
+│   ├── edl_composer
 │   │   ├── README.md
-│   │   ├── convert_to_audio.js
-│   │   ├── examples
-│   │   ├── gentle_stt_node
-│   │   ├── ibm_stt_node
-│   │   ├── index.js
-│   │   ├── split.js
-│   │   └── trimmer.js
-│   ├── video_metadata_reader
-│   │   ├── README.md
-│   │   ├── examples
 │   │   └── index.js
-│   └── video_to_html5_webm
+//these modules are run in node context in nwjs
+│   ├── interactive_transcription_generator
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   ├── transcriber
+│   │   ├── video_metadata_reader
+│   │   └── video_to_html5_webm
+// module to compose an srt
+│   └── srt
 │       └── index.js
-└── srt
-    └── index.js
 ```
 
 
 ### `interactive_transcription_generator`
 
-After the user uploads a video or audio file the backbone app uses `autoEdit2API.js` to override default [`backbone.sync`][backbonesync].
+After the user uploads a video or audio file the backbone app override default [`backbone.sync`][backbonesync] and calls the `nwjs/db.js` which after saving the transcription model in db, triggers this module to get stt transcription, video preivew, and metadata info. 
  
-- The app converts the file to an audio file meet the IBM Watson STT Specs
-- if greater then 5 min long it splits it into 5 min chunk 
-	- keeps tracks of the time offset of each clip 
-- sends audio files to IBM STT API
-- if submitted file was greater then 5 min
-	- when results starts to come back as json after about 5 min or less results are re-interpolated into one json file
-- json returned by IBM is converted into json meeting autoEdit2 specs and saved
-- user can now view interactive transcription
+At a hight level this module:
 
+ -  converts the file to an audio file meet the IBM Watson STT Specs, using the submodule `transcriber`. 
+ - if greater then 5 min long it splits it into 5 min chunk.
+ - It keeps tracks of the time offset of each clip. 
+ - It sends audio files to IBM STT API. 
+ - If submitted file was greater then 5 min.
+ - When results starts to come back as json after about 5 min or less results are re-interpolated into one json file. 
+ - The json returned by IBM is converted into json meeting autoEdit2 specs and saved in db. 
+ - User can now view interactive an transcription.
 
-As you might have guessed the module responsable for "post-processing" the audio and video file and get the transcription from IBM is called `interactive_transcription_generator`.
+`interactive_transcription_generator`. On top of prepping the audio or video file to get a transcription from IBM, it also generates a webm html5 video preview and reads the metadata, which is something needed make an [EDL][edl].
 
-On top of prepping the audio or video file to get a transcription from IBM, it also generates a webm html5 video preview and reads the metadata, which is something needed make an [EDL][edl].
+The `transcriber` module used by `interactive_transcription_generator` can also chose between using Gentle open source STT, Pocketsphinx or IBM to generate the transcription depending on what was specified by the user.
 
+`interactive_transcription_generator`:
 
+```js
+.
+├── README.md
+├── index.js
+├── transcriber
+│   ├── convert_to_audio.js
+│   ├── gentle_stt_node
+│   │   ├── gentle_stt.js
+│   │   ├── index.js
+│   │   └── parse_gentle_stt.js
+│   ├── ibm_stt_node
+│   │   ├── parse.js
+│   │   ├── sam_transcriber_json_convert.js
+│   │   ├── send_to_watson.js
+│   │   └── write_out.js
+│   ├── index.js
+│   ├── pocketsphinx
+│   │   ├── README.md
+│   │   ├── index.js
+// pocketsphinx binaries 
+│   │   ├── pocketsphinx
+│   │   ├── pocketsphinx.js
+│   │   ├── pocketsphinx_converter.js
+// pocketsphinx binaries 
+│   │   ├── sphinxbase
+│   │   └── video_to_audio_for_pocketsphinx.js
+│   ├── split.js
+│   └── trimmer.js
+├── video_metadata_reader
+│   └── index.js
+└── video_to_html5_webm
+    └── index.js
 ```
-├── interactive_transcription_generator
-	├── README.md
-	├── bin
-	│   ├── ffmpeg
-	│   └── ffprobe
-	├── index.js
-	├── transcriber
-	│   ├── README.md
-	│   ├── convert_to_audio.js
-	│   ├── examples
-	│   ├── gentle_stt_node
-	│   ├── ibm_stt_node
-	│   ├── index.js
-	│   ├── split.js
-	│   └── trimmer.js
-	├── video_metadata_reader
-	│   ├── README.md
-	│   ├── examples
-	│   └── index.js
-	└── video_to_html5_webm
-	    └── index.js
-```
+
+The `pocketsphinx` module was originally extracted from the Video grep project. 
+
 
 [nwjs]: http://docs.nwjs.io/en/latest/For%20Users/Getting%20Started/
 [node]:https://nodejs.org/en/
