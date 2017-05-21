@@ -24,7 +24,7 @@ It’s a view. It’s extensible. Eg need to be able to add other components, fo
 
 ### What is an `hypertranscript`?
 
-HyperTranscript representation (http://hyperaud.io/blog/hypertranscripts ) == Clickable transcript in sync with video. 
+[HyperTranscript representation as described in hyperaudio](http://hyperaud.io/blog/hypertranscripts) `==` Clickable transcript in sync with video. 
 
 
 --

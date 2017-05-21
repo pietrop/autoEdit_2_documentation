@@ -14,7 +14,7 @@
 * [Transcription json](transcriptions/transcriptions.md)
 * [Transcriber](transcriptions/transcriber.md)
   * [audio to video](transcriptions/transcriber/audio-to-video.md)
-  * [STT sdk](transcriptions/transcriber/stt-api.md)
+  * [STT sdks](transcriptions/transcriber/stt-api.md)
     * [IBM Watson STT](transcriptions/transcriber/stt-api/ibm-watson-stt.md)
     * [Gentle STT](transcriptions/transcriber/stt-api/gentle-stt.md)
     * [Pocketsphinx](transcriptions/transcriber/stt-api/pocketsphinx.md)
