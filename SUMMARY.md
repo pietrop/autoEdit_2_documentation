@@ -65,7 +65,6 @@
 * [IBM Watson json specs](ibm-watson-json-specs.md)
 * [Gentle Json transcription specs](gentle-json-transcription-specs.md)
 * [Pocketsphinx results](pocketsphinx-results.md)
-* Videogrep Json
 
 ## Other refactoring
 

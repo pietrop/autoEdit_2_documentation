@@ -37,7 +37,7 @@ Connected to this is defining a schema for transcription, to make sure all compo
 
 ### IBM Json  
 
-[See appendix for json](/ibm-watson-json-specs.md) example.
+[See appendix for json](/ibm-watson-json-specs.md) example. As well as their [stt api reference](https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/) and documentation.
 
 <!-- TODO: update in appendix -->
 
