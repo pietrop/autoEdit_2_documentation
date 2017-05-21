@@ -20,7 +20,8 @@ Transcription JSON schema.
 ## Related projects.
 
 Connected to this is defining a schema for transcription, to make sure all components that work with this have a defined interface/specification. 
-Eg review BBC Transcript model https://github.com/bbc/transcript-model 
+Eg  [BBC Transcript model](https://github.com/bbc/transcript-model)
+ 
 
 ### starTime
 

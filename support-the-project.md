@@ -32,7 +32,7 @@ Also looking for help making some of the [reusable components](/reusable-compone
 On that note I am organising an event, [textAV.tech](http://textav.tech) as a way to kickstart an ongoing conversation/collaboration a round the use of captions and transcriptions for video production and one of the topics is making an ecosystem of reusable components. 
 
 #### Testing
-I need to setup a better test strategy for the project and would love some inputs and ideas on this. 
+I need to setup a better test strategy for the project and would love some inputs and ideas on this. [See testing section](/testing.md). 
 
 
 ## Support the project

@@ -10,7 +10,7 @@
 
 ## Transcriptions
 
-* [Transcriptions](transcriptions/transcriptions.md)
+* [Transcription json](transcriptions/transcriptions.md)
 * [Transcriber](transcriptions/transcriber.md)
 * [Hypertranscript](transcriptions/hypertranscript.md)
 
@@ -21,6 +21,7 @@
 ## Paper-edit
 
 * [Paper-edit](paper-edit/paper-edit.md)
+  * [Paper-edit json](paper-edit/paper-edit/paper-edit-json.md)
   * [search-filter](paper-edit/paper-edit/paper-editsearch-filter.md)
   * [drag-and-drop](paper-edit/paper-edit/paper-editdrag-and-drop.md)
   * [video-preview](paper-edit/paper-edit/paper-editvideo-preview.md)
