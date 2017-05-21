@@ -2,7 +2,7 @@
 
 R&D Documentation for Developers for [autoEdit2](/www.autoEdit.io) `v1.0.6`  _That does paper-editing_.
 
-## Outline the problem
+## Outline the problem 
 <!-- Outline the problem you are working on, why it is interesting andwhat the challenges are. -->  
 
 For a video producer working on a factual/documentary production, editing video interviews is a time-consuming activity.
