@@ -25,4 +25,4 @@ how 0.190 0.340 0.070404
 first word is the text, then start time, end time, and accuracy. 
 
 
-Need to verify if pocketsphinx always exports like this or this is specific of videogrep.
+Need to verify if pocketsphinx always exports like this or this is specific of videogrep implementation.
