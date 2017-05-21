@@ -1,5 +1,4 @@
-#
-Transcriber - draft
+# Transcriber - draft
 
 <!--
 - Component/part description
@@ -11,82 +10,40 @@ Transcriber - draft
 
 
 ## Component/part description
+This is the module responsible for generating the transcription, generally using a third party service or API such as IBM Watson one.
 
-Initially prototyped as a standalone app to test quality of speech to text.
+It is composed of 3 components 
 
-<!--TODO: add link to transcriber --->
+- [**Audio converter**](/transcriptions/transcriber/audio-to-video.md) Convert audio or video to audio specs for stt API
+- [**Metadata reader** ](/transcriptions/transcriber/read-metadata.md) Read metadata from audio or video input for EDL
+- [**STT sdk**](/transcriptions/transcriber/stt-api.md) audio to STT API/Service, to receive time-coded transcription.
 
-[Transcriber](https://github.com/pietrop/Transcriber)
+With Extra: 
 
-<!--
-[](https://github.com/voxmedia/Transcriber/issues/4)
--->
+-  **Speaker diarization** can either happen at the STT API level or as a separate module to be interpolated with the transcription.
 
-### Module: STT
+And optional: 
 
-#### Module for speech to text
+- **Srt parsing**. Allow srt as input. In case transcription comes from elsewhere. Can use module [srtParserComposer to refactor](https://github.com/pietrop/srtParserComposer)
 
-* Module: Convert audio or video to audio specs for stt API
-* Module: Read metadata from audio or video input for EDL
-* Module: audio to STT API/Service
-
-#### Extra:
-
-* Speaker diarization can either happen at the STT API level or as a separate module to be interpolated with the transcription.
-
-#### Optional:
-
-* Srt parsing. Allow srt as input. In case transcription comes from elsewhere. Can use module srtParser Composer to refactor [https://github.com/pietrop/srtParserComposer](https://github.com/pietrop/srtParserComposer)
-* spin of module to make STT using gentle as self contained module that can run inside the app.
-
-### Module: Video preview conversion
-
-Convert input video into lower res video preview. For hypertranscript view.
-Uses ffmpeg. Fluent, ffmpeg.
-
-Eg using NWJS this needs to be webm coz mp4 not supported.
-Issue is making it cross browser compatible. Webm not supported by safari and iOS.
-
-### Module: Metadata info for EDL
-
-Read metadata info from input video or audio file, uses `ffprobe`, minimum required.
-
-* Card name
-* Timecode offset
-* File name
-
-Altho card name seems to be optional in Adobe Premiere.
-
-<!-- Added fps. to the mix, explain how this is calculated -->
-
-### In client side view
-
-<!-- TODO: Add balsamiq mockup from google doc -->
+- **Plain text as input**, if you already have the transcription, use something like Gentle to re-align and generate transcription json.
 
 ---
 ## Related projects
-NA
+
+It was Initially prototyped as a standalone app to test quality of speech to text. see [Transcriber](https://github.com/pietrop/Transcriber).
+
 
 ---
 ## Implementations Options considered
 
-Considered using threads but with node event loop no need.
-<!-- link to node js design patterns (paid) event loop pattern explained -->
 
 ---
-
 ## Current implementation
 
-<!-- descripe code of named in current version as interactive transcription generator...
 
-idea of having it as amodule that bring these togerethe is eg if you were working on an archive[link to future roadmap] this would be useful packaged this way to run against a batch of media.
--->
 
 ---
+## What needs refactoring 
 
-## What needs refactoring
-
-
-Use a design pattern to clean this up, perhaps factory or strategy. Also to make it easier to add new STT sdks.
-
-
+Perhaps look into compositor pattern to bring together the components of this module.

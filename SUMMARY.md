@@ -14,10 +14,11 @@
 * [Transcriber](transcriptions/transcriber.md)
   * [audio to video](transcriptions/transcriber/audio-to-video.md)
   * [Read metadata](transcriptions/transcriber/read-metadata.md)
-  * [STT ](transcriptions/transcriber/stt-api.md)
+  * [STT sdk](transcriptions/transcriber/stt-api.md)
     * [IBM Watson STT](transcriptions/transcriber/stt-api/ibm-watson-stt.md)
     * [Gentle STT](transcriptions/transcriber/stt-api/gentle-stt.md)
     * [Pocketsphinx](transcriptions/transcriber/stt-api/pocketsphinx.md)
+* [Video preview conversion](transcriptions/video-preview-conversion.md)
 * [Hypertranscript](transcriptions/hypertranscript.md)
 
 ## Papercuts
