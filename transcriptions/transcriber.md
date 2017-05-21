@@ -12,10 +12,9 @@
 ## Component/part description
 This is the module responsible for generating the transcription, generally using a third party service or API such as IBM Watson one.
 
-It is composed of 3 components 
+It is composed of 2 main components 
 
 - [**Audio converter**](/transcriptions/transcriber/audio-to-video.md) Convert audio or video to audio specs for stt API
-- [**Metadata reader** ](/transcriptions/transcriber/read-metadata.md) Read metadata from audio or video input for EDL
 - [**STT sdk**](/transcriptions/transcriber/stt-api.md) audio to STT API/Service, to receive time-coded transcription.
 
 With Extra: 
