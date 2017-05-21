@@ -3,6 +3,7 @@
     "plugins": [ "theme-api" ],
     "pluginsConfig": {
         "theme-api": {
+            "theme": "dark",
             "languages": [
                 {
                     "lang": "js",
@@ -12,7 +13,27 @@
                 {
                     "lang": "go",
                     "name": "Go"
-                }
+                },
+                {
+                    "lang": "bash",
+                    "name": "Bash"
+                },
+                {
+                    "lang": "json",
+                    "name": "JSON"
+                },
+               {
+                    "lang": "python",
+                    "name": "Python"
+                },
+                {
+                    "lang": "py",
+                    "name": "Python"
+                }, 
+                 {
+                    "lang": "ruby",
+                    "name": "Ruby"
+                }               
             ]
         }
     }
