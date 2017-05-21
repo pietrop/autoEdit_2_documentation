@@ -17,6 +17,9 @@ The approach was to look at the traditional paper-editing workflow from document
 
 For [an overview of how this has been implemented in autoEdit, from a user's point of view, check out the user manual](https://pietropassarelli.gitbooks.io/autoedit2-user-manual/content).
 
+For some [high fidelity sketches in HTML, Bootstrap and JS check this out](http://pietropassarelli.com/autoEdit_sketches/) as well as [this repo](https://github.com/pietrop/autoEdit_sketches)
+
+
 ## Areas of Interest
 
 One reason why this project is interesting is because it utilises the new possibilities that have opened up with the node ecosystem, that allow for un unprecedented level of code reusability and the introduction of the HTML5 video tag. As well as the opportunities that have arisen in combining this with the increasing quality of speech to text technologies.

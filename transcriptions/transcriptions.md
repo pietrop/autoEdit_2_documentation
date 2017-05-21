@@ -52,11 +52,9 @@ Connected to this is defining a schema for transcription, to make sure all compo
 ## Implementations Options considered
 
 
+### quickQuote transcription modelling 
 
-
-<!-- ### quickQuote transcription modelling 
-
-see dissertation chapter, perhaps add in appendix, or add that diss on gitbook.or just get relevant summary -->
+see dissertation chapter, perhaps add in appendix, or add that diss on gitbook.or just get relevant summary 
 
 
 ### Other
@@ -73,16 +71,22 @@ Where the word object at a minimum as a start, end time and text attribute.
 <!-- google drawings diagram of transcription components https://docs.google.com/drawings/d/1PzZw3Zu5BkT6Y-JM7Ox4OTBpaWxRvyjnh4UMxHIe8rs/edit
 -->
 
-![Transcription modelling diagram](/assets/Transcription modelling.png)
-
 autoEdit JSON Transcription schema at a high level it models the objects present in a transcription.
 
+![Transcription modelling diagram](/assets/Transcription modelling.png)
+
+In this representation:
+
 - Transcription 
-  - Paragraph  <-- speaker
-    - Line 
-      - Word 
+  - Paragraphs  ← speaker 
+    - Lines 
+      - Words 
 
+Speakers are associated to paragraphs. Paragraphs are treated as sections of lines.
 
+A list of speakers can also be kept separate, similarly to how IBM Watson stt API returns the results of speaker diarization.
+
+<!-- TODO: add link to api reference/documetnation ibm spekaer diarization json --> 
 
 <!-- TODO: Link to appendix data structure autoEdit transcription json --> 
 
