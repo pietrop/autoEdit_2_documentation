@@ -3,6 +3,7 @@
 ## Overview
 
 * [Intro](README.md)
+  * [High-level overview of the parts](high-level-overview-of-the-parts.md)
   * [from 1.0.5 to 1.0.6](from-105-to-106.md)
   * [Project folder structure](architecture.md)
 * [Support the project](support-the-project.md)
