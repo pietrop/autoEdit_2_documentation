@@ -1,7 +1,9 @@
-## Project folder structure. - Draft  
+## Project folder structure. 
 
 
 <!--TODO: update folder structure, focus more on main components --->
+
+Going onto subsequent version the project structure is likely to change a bit, but an overview can give you an idea of the the main parts, components and architecture of the application.
 
 As of v`1.0.6`: 
 
