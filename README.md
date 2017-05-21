@@ -1,6 +1,6 @@
 # autoEdit 2 R&D Documentation for Developers -`1.0.6` - Working Draft
 
-R&D Documentation for Developers for [autoEdit2](/www.autoEdit.io) `v1.0.6`  \(That does paper-editing\).
+R&D Documentation for Developers for [autoEdit2](/www.autoEdit.io) `v1.0.6`  _That does paper-editing_.
 
 ## Outline the problem
 <!-- Outline the problem you are working on, why it is interesting andwhat the challenges are. -->  
@@ -11,18 +11,20 @@ In the current work-flow, once the producer has the video file, they would have 
 
 In a fast paced newsroom often there is no time for such a time-consuming process.
 
-The aim of this project is to produce an application that can maximise not only the depth of content but also the speed in which the content is produced.
+The aim of the autoEdit project is to produce an application that can maximise not only the depth of content but also the speed in which the content is produced.
 
 The approach was to look at the traditional paper-editing workflow from documentary production, and see how that could translate into a digital world. [For more on paper-editing and how this is used to craft compelling stories out of video interviews, check out the notes from this workshop](http://pietropassarelli.com/wip_london_july2016.html).
 
-For [an overview of how this has been implemented in autoEdit, check out the user manual](https://pietropassarelli.gitbooks.io/autoedit2-user-manual/content).
+For [an overview of how this has been implemented in autoEdit, from a user's point of view, check out the user manual](https://pietropassarelli.gitbooks.io/autoedit2-user-manual/content).
 
 ## Areas of Interest
 
 One reason why this project is interesting is because it utilises the new possibilities that have opened up with the node ecosystem, that allow for un unprecedented level of code reusability and the introduction of the HTML5 video tag. As well as the opportunities that have arisen in combining this with the increasing quality of speech to text technologies.
 
 ### Reusable architecture and components
-Not only node coupled with npm and yarn package management system allows for a modular component based approach but also projects such as [NWJS][nwjs] (formerly node-web-kit) allows to use web technology to build cross platform desktop applications that with minimal code change can be ported to a web app version. 
+Not only node coupled with npm and yarn package management system allows for a modular component based approach but also projects such as [NWJS][nwjs] (formerly node-web-kit) allows to use web technology to build cross platform desktop applications that with minimal code change can be ported to an equivalent web app version. 
+
+Combined with a mobile first approach, this allows to develop desktop, web, mobile version of the same app without the traditional overhead that this would involve. 
 
 This also lower the barrier of entry for this type of development.
 
