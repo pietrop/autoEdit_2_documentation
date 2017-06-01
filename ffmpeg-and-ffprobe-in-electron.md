@@ -10,7 +10,7 @@ in production, we want to remove the versions we don't need.
 we use the files notation for electron-builder to specify in package.json 
 
 that all apps need to have these files. (this might not be needed tho as they are added by default?)
-Making use of ${os} and ${arch} var provided.
+Making use of `${os}` and `${arch}` var provided.
 
 ```json
 "node_modules/ffmpeg-static/bin/${os}/${arch}/ffmpeg",
