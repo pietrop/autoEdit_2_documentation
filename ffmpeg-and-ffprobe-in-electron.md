@@ -43,13 +43,14 @@ To make use of use of ${os} and ${arch} var provided by electron-builder, we mod
 
 Then  in index.js we adjust the output of `os` module to meet electron-builder needs
 
-```
+```js
 if(platform == "darwin"){
 	platform = "mac";
 }else if(platform == "win32"){
 	platform = "win";
 }
 ```
+
 and change rest of code accordingly.
 
 
