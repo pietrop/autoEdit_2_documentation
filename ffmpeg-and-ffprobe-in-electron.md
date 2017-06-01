@@ -1,4 +1,4 @@
-## packaging ffmpeg and ffprobe in autoEdit
+## packaging ffmpeg and ffprobe in autoEdit - draft
 
 using modified version of static ffmpeg /ffprobe lib.
 
@@ -35,13 +35,13 @@ then for each os specific settings, eg for mac we do this, remove the folders fo
     },
 ```
 
-To make use of use of ${os} and ${arch} var provided by electron-builder, we modified the ff github package
+To make use of use of `${os}` and `${arch}` var provided by electron-builder, we modified the ff github package
 
 - renames `win32` to `win`. win32 is how the `os` module detects it, but for the folder structure to be inferable programmaticly by electron-builder files settings, we need to change the name.
 - Similarly for os x, change folder to `mac` rather then `darwin`.
-- 
 
-Then  in index.js we adjust the output of `os` module to meet electron-builder needs
+
+Then  in `index.js` we adjust the output of `os` module to meet electron-builder needs
 
 ```js
 if(platform == "darwin"){
