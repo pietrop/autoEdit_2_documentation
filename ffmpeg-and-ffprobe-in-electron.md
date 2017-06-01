@@ -2,6 +2,10 @@
 
 using modified version of static ffmpeg /ffprobe lib.
 
+- github.com:pietrop/ffmpeg-static
+-github.com:pietrop/ffprobe-static
+
+
 require in config.js and make them avaible to rest of app from there.  eg require config to get the path.
 
 static ff has advantage that packages cross platform bin of ffmpeg. which means you could be developeing this app on mac, linux and windows, without ffmpeg on your machine and could still be developing for autoEdit. 
