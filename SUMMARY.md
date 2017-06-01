@@ -72,6 +72,7 @@
 * [Testing](testing.md)
 * [Updating automated documentation](updating-automated-documentation.md)
 * [History of autoEdit versions over time](history-of-autoedit-versions-over-time.md)
+* [ffmpeg and ffprobe in electron](ffmpeg-and-ffprobe-in-electron.md)
 
 ## Appendix - Data structures
 
