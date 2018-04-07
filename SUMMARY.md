@@ -47,6 +47,7 @@
 
 * [Dev configuration](dev-configuration.md)
 * [Deployment/build](deploymentbuild.md)
+  * [Deployment / Build for Linux](deploymentbuild/deployment-build-for-linux.md)
 * [Dependencies](dependencies.md)
 * [Current db setup](current-db-setup.md)
 * [EDL Format](edl-format.md)
