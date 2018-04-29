@@ -1,4 +1,4 @@
-# Deployment / Build Linux - draft.
+# Deployment / Build Windows - draft.
 
 From terminal from root of app, run the deployment script
 
