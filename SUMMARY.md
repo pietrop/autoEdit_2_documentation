@@ -47,7 +47,9 @@
 
 * [Dev configuration](dev-configuration.md)
 * [Deployment/build](deploymentbuild.md)
+  * [Deployment/build for Max OS X](deploymentbuild/deploymentbuild-for-max-os-x.md)
   * [Deployment / Build for Linux](deploymentbuild/deployment-build-for-linux.md)
+  * [Deployment / Build for Windows](deploymentbuild/deployment-build-for-windows.md)
 * [Dependencies](dependencies.md)
 * [Current db setup](current-db-setup.md)
 * [EDL Format](edl-format.md)
