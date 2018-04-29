@@ -55,7 +55,7 @@ npm run build:win
 
 
 
-
+### uninstalling `wine`
 if you ever need to uninstal wine
 
 ```
