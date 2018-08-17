@@ -98,3 +98,9 @@
 
 * [Example: Defining Methods](methods.md)
 
+## Adobe Panel
+
+* autoEdit Adobe CEP Panel dev setup 
+* autoEdit Adobe CEP Panel integration overview
+* Adobe CEP Jsx functions for autoEdit adobe Panel 
+
