@@ -6,9 +6,14 @@
 
 * [Intro](overview/readme/README.md)
   * [High-level overview of the parts](overview/readme/high-level-overview-of-the-parts.md)
+  * [Architecture Overview](overview/readme/architecture.md)
   * [from 1.0.5 to 1.0.6](overview/readme/from-105-to-106.md)
-* [Architecture Overview - draft](overview/architecture.md)
 * [Support the project](overview/support-the-project.md)
+* [documentation section template](overview/documentation-section-template.md)
+* [Build / Deployment](overview/deploymentbuild/README.md)
+  * [Deployment/build for Max OS X](overview/deploymentbuild/deploymentbuild-for-max-os-x.md)
+  * [Deployment / Build for Linux](overview/deploymentbuild/deployment-build-for-linux.md)
+  * [Deployment / Build for Windows](overview/deploymentbuild/deployment-build-for-windows.md)
 
 ## Transcriptions
 
@@ -44,14 +49,11 @@
 * [Export](export/export/README.md)
   * [EDL export](export/export/edl-export.md)
   * [XML export](export/export/xml-export.md)
+  * [mp4 export](export/export/mp4-export.md)
 
 ## Appendix
 
 * [Dev configuration](appendix/dev-configuration.md)
-* [Deployment/build](appendix/deploymentbuild/README.md)
-  * [Deployment/build for Max OS X](appendix/deploymentbuild/deploymentbuild-for-max-os-x.md)
-  * [Deployment / Build for Linux](appendix/deploymentbuild/deployment-build-for-linux.md)
-  * [Deployment / Build for Windows](appendix/deploymentbuild/deployment-build-for-windows.md)
 * [Current db setup](appendix/current-db-setup.md)
 * [EDL Format](appendix/edl-format.md)
 * [Reusable components](appendix/reusable-components.md)

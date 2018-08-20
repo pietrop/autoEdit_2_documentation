@@ -67,7 +67,7 @@ As opposed to when importing an EDL the clips are offline and need to be reconne
 
 This documentation is meant to be a higher level overview of the structure, parts and components of the application. Focused more on how problem domain issue have been addressed, which options have been tried and considered and what is the current implementation strength and weaknesses.
 
-The first part is structured a round the 5 higher level parts that make up the app. Each one following this structure:
+The first part is structured a round the 5 higher level parts that make up the app. Each one following this [template structure](../documentation-section-template.md):
 
 * Component/part description 
 * Related projects. Eg parts that look good, or previous implementations. But have been used for current implementation options. 

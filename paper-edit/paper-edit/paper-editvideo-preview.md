@@ -2,6 +2,8 @@
 
 ### Component/part description
 
+{% embed data="{\"url\":\"https://trello.com/c/3FmrMbQm\",\"type\":\"rich\",\"title\":\"Trello\",\"description\":\"Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what\'s being worked on, who\'s working on what, and where something is in a process.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://a.trellocdn.com/prgb/dist/images/ios/apple-touch-icon-152x152-precomposed.0307bc39ec6c9ff499c8.png\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"embed\":{\"type\":\"app\",\"html\":\"<blockquote class= trello-card><a href=\\\"https://trello.com/c/3FmrMbQm\\\">Trello</a></blockquote><script src=\\\"https://p.trellocdn.com/embed.min.js\\\"></script>\",\"aspectRatio\":0}}" %}
+
 ### Related projects.
 
 ### Implementations Options considered
@@ -94,6 +96,8 @@ Media source:
 
 However this is now deprecated in favour of BBC video context.
 
+{% embed data="{\"url\":\"https://trello.com/c/hdM0kWd0\",\"type\":\"rich\",\"title\":\"Trello\",\"description\":\"Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what\'s being worked on, who\'s working on what, and where something is in a process.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://a.trellocdn.com/prgb/dist/images/ios/apple-touch-icon-152x152-precomposed.0307bc39ec6c9ff499c8.png\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"embed\":{\"type\":\"app\",\"html\":\"<blockquote class= trello-card><a href=\\\"https://trello.com/c/hdM0kWd0\\\">Trello</a></blockquote><script src=\\\"https://p.trellocdn.com/embed.min.js\\\"></script>\",\"aspectRatio\":0}}" %}
+
 ## Option: BBC Video Context
 
 [https://github.com/bbc/videocontext](https://github.com/bbc/videocontext)
@@ -103,6 +107,8 @@ Some more research has been done
 [https://github.com/bbc/VideoContext/issues/42\#issuecomment-296155545](https://github.com/bbc/VideoContext/issues/42#issuecomment-296155545)
 
 To try and add as script tag while figure out how to include in browserify. Add it in nwjs folder and reference from there. With just `/`
+
+{% embed data="{\"url\":\"https://trello.com/c/N6vkTaUw\",\"type\":\"rich\",\"title\":\"Trello\",\"description\":\"Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what\'s being worked on, who\'s working on what, and where something is in a process.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://a.trellocdn.com/prgb/dist/images/ios/apple-touch-icon-152x152-precomposed.0307bc39ec6c9ff499c8.png\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"embed\":{\"type\":\"app\",\"html\":\"<blockquote class= trello-card><a href=\\\"https://trello.com/c/N6vkTaUw\\\">Trello</a></blockquote><script src=\\\"https://p.trellocdn.com/embed.min.js\\\"></script>\",\"aspectRatio\":0}}" %}
 
 ### Current implementation
 
