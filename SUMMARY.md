@@ -101,3 +101,8 @@
 * [autoEdit Adobe CEP Panel integration overview](adobe-panel/autoedit-adobe-cep-panel-integration-overview.md)
 * [Adobe CEP Jsx functions for autoEdit adobe Panel](adobe-panel/adobe-cep-jsx-functions-for-autoedit-adobe-panel.md)
 
+## Project Page
+
+* [Build project page](project-page/build-project-page.md)
+* [Build/update demo front end page](project-page/build-update-demo-front-end-page.md)
+
