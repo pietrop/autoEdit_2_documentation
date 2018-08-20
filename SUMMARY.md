@@ -13,8 +13,8 @@
 * [Build / Deployment](overview/deploymentbuild/README.md)
   * [Deployment/build for Max OS X](overview/deploymentbuild/deploymentbuild-for-max-os-x.md)
   * [Deployment / Build for Linux](overview/deploymentbuild/deployment-build-for-linux.md)
-  * [Deployment / Build for Windows](overview/deploymentbuild/deployment-build-for-windows.md)
-* [Travis CI continuous build](overview/travis-ci-continuous-build.md)
+  * [Deployment / Build for Windows](overview/deploymentbuild/deployment-build-for-windows/README.md)
+    * [Travis CI continuous build](overview/deploymentbuild/deployment-build-for-windows/travis-ci-continuous-build.md)
 
 ## Transcriptions
 
