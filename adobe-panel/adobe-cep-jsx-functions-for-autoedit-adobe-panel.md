@@ -223,93 +223,177 @@ From sample app, here is how to create a sequence
 
 {% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L441\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
-  
-****
+```javascript
+createSequence : function(name) {
+		var someID	= "xyz123";
+		var seqName = prompt('Name of sequence?',	 'Some Descriptive Name', 'Sequence Naming Prompt');
+		app.project.createNewSequence(seqName, someID);
+},
+```
 
-**Get active sequence**  
+Get active sequence
 
+```javascript
+getActiveSequenceName : function() {
+	if (app.project.activeSequence) {
+		return app.project.activeSequence.name;
+	} else {
+		return "No active sequence.";
+	}
+},
+```
 
-| **getActiveSequenceName : function\(\) {  if \(app.project.activeSequence\) {  return app.project.activeSequence.name;  } else {  return "No active sequence.";  }  },** |
-| :--- |
+From sample app
 
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L100\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
-**From sample app**
+See autoEdit jsx file \`create\_sequence\_from\_paper\_edit\` for how to iterate over a sequence as described in the autoEdit edl composer component.
 
-[**https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L100**](https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx#L100)  
-  
-****
-
-**See autoEdit jsx file \`create\_sequence\_from\_paper\_edit\` for how to iterate over a sequence as described in the autoEdit edl composer component.**
-
-**Below how you’d add one clip, then, you’d need to iterate and change the insert timecode.**
+Below how you’d add one clip, then, you’d need to iterate and change the insert timecode.
 
 ## **✅ Sequence: Import clip from source monitor into sequence**
 
-| **// get the active sequence var seq = app.project.activeSequence;  // or create a new one // var seq = app.project.createNewSequence\(sequenceName, someID\);  // get the track in the sequence var vTrack1 = seq.videoTracks\[0\];  // find the clip in project panel, it returns a list of matches var arrayOfProjectItemsReferencingSomePath = app.project.rootItem.findItemsMatchingMediaPath\( 'someFileName.mov', 1\);// get the clip var clipInProjectPanel = arrayOfProjectItemsReferencingSomePath\[0\];  // set in and out point in seconds clipInProjectPanel.setInPoint\(300\); clipInProjectPanel.setOutPoint\(600\);  // add to track , can be timeocde ; separate notation or seconds. vTrack1.insertClip\(clipInProjectPanel, '00;00;00;00'\);** |
-| :--- |
+```javascript
+// get the active sequence 
+var seq = app.project.activeSequence;
 
+// or create a new one 
+// var seq = app.project.createNewSequence(sequenceName, someID);
+
+// get the track in the sequence
+var vTrack1 = seq.videoTracks[0];
+
+// find the clip in project panel, it returns a list of matches
+var arrayOfProjectItemsReferencingSomePath = app.project.rootItem.findItemsMatchingMediaPath( 'someFileName.mov', 1);
+// get the clip
+var clipInProjectPanel = arrayOfProjectItemsReferencingSomePath[0];
+
+// set in and out point in seconds
+clipInProjectPanel.setInPoint(300); 
+clipInProjectPanel.setOutPoint(600);
+
+// add to track , can be timeocde ; separate notation or seconds.
+vTrack1.insertClip(clipInProjectPanel, '00;00;00;00');
+```
 
 ## **✅sequence: Adjust timings of clips in sequence**
 
-**From** [**https://forums.adobe.com/thread/2313445**](https://forums.adobe.com/thread/2313445) **this seems to trim clips in the sequence;**
+From Adobe's Forum this seems to trim clips in the sequence;
 
-**But not sure exactly what the code does.**  
+{% embed data="{\"url\":\"https://forums.adobe.com/thread/2313445\",\"type\":\"link\",\"title\":\"Editing clips with ExtendScript \| Adobe Community\",\"description\":\"hello, you hardworking, knowledgeable people!  I desperately need to automate a big part of the editing process in Premiere. For the next project we will\",\"icon\":{\"type\":\"icon\",\"url\":\"https://forums.adobe.com/themes/adobe-global/images/favicon.ico\",\"aspectRatio\":0}}" %}
 
+But not sure exactly what the code does.
 
-| **var clip1 = app.project.activeSequence.videoTracks\[0\].clips\[0\]; var endTime = clip1.end; endTime.seconds = 50; var startTime = clip1.start; startTime.seconds = 10; clip1.start = startTime; clip1.end = endTime;** |
-| :--- |
-
+```javascript
+var clip1 = app.project.activeSequence.videoTracks[0].clips[0];
+var endTime = clip1.end;
+endTime.seconds = 50;
+var startTime = clip1.start;
+startTime.seconds = 10;
+clip1.start = startTime;
+clip1.end = endTime;
+```
 
 ## **✅Sequence: Replace media for sequence clip**
 
-**Exists in pond5 panel -- can be used to replace low quality footage with higher quality or replace placeholders with real footage**  
+Exists in pond5 panel -- can be used to replace low quality footage with higher quality or replace placeholders with real footage  
+****[**https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L351**](https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx#L351)\*\*\*\*
 
+[ ****](https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx#L351%20)\*\*\*\*
 
-[**https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L351**](https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx#L351)
+\*\*\*\*
+
+\*\*\*\*
 
 ## **✅Source monitor: scrub to position and play**
 
-| **var pos = '10.5'; // pos is in the format of seconds.frames \(e.g. 10.5 is 10 seconds, 5 frames\) or in timecode \('00;00;10;05'\) // This might be a useful reference: https://forums.adobe.com/thread/2420603  // enable the undocumented QE DOM which is necessary to control program monitor playback app.enableQE\(\); qe.source.player.startScrubbing\(\); qe.source.player.scrubTo\(String\(pos\)\); qe.source.player.endScrubbing\(\); app.sourceMonitor.play\(1.0\)** |
-| :--- |
+```javascript
+var pos = '10.5';
+// pos is in the format of seconds.frames (e.g. 10.5 is 10 seconds, 5 frames) or in timecode ('00;00;10;05')
+// This might be a useful reference: https://forums.adobe.com/thread/2420603 
 
+// enable the undocumented QE DOM which is necessary to control program monitor playback
+app.enableQE();
+qe.source.player.startScrubbing();
+qe.source.player.scrubTo(String(pos));
+qe.source.player.endScrubbing();
+app.sourceMonitor.play(1.0)
+```
 
-**We are using a  js function to convert from seconds to seconds.frames format:**
+We are using a  js function to convert from seconds to seconds.frames format:
 
-| **function secondsToFrames\(time\){     var buffer = 3 // amount of frames to jump before the start of the word to make it a little less abrupt     let fps = 25;     var base = Math.floor\(time\)     var fraction = time - base     var frames = Math.floor\(fps \* fraction\) - buffer     if \(frames &lt; 1\){         frames = fps + frames         base -= 1;     }     return String\(base\) + '.' + String\(frames\) }** |
-| :--- |
-
+```javascript
+function secondsToFrames(time){
+    var buffer = 3 // amount of frames to jump before the start of the word to make it a little less abrupt
+    let fps = 25;
+    var base = Math.floor(time)
+    var fraction = time - base
+    var frames = Math.floor(fps * fraction) - buffer
+    if (frames < 1){
+        frames = fps + frames 
+        base -= 1; 
+    }
+    return String(base) + '.' + String(frames)
+}
+```
 
 ## **✅Active Sequence/Program: scrub to position**
 
-| **var activeSequence = qe.project.getActiveSequence\(\);  // note: make sure a sequence is active in PPro UI if \(activeSequence\) {   activeSequence.player.startScrubbing\(\);   activeSequence.player.scrubTo\(String\(pos\)\);   activeSequence.player.endScrubbing\(\); }  // Alternate// would not be able to use the same pos without parsing as this will assume its a float vs the seconds.frames format app.project.activeSequence.setPlayerPosition\(pos \* 254016000000\)** |
-| :--- |
-|  **** |
+```javascript
+var activeSequence = qe.project.getActiveSequence(); 
+	
+// note: make sure a sequence is active in PPro UI
+if (activeSequence) {
+  activeSequence.player.startScrubbing();
+
+  activeSequence.player.scrubTo(String(pos));
+  activeSequence.player.endScrubbing();
+}
+
+// Alternate
+// would not be able to use the same pos without parsing as this will assume its a float vs the seconds.frames format
+app.project.activeSequence.setPlayerPosition(pos * 254016000000) 
+```
 
 ## **✅Import files into bin**
 
-|  **importFiles : function\(\) {  if \(app.project\) {  var fileOrFilesToImport = File.openDialog \("Choose files to import", // title  0, // filter available files? true\);// allow multiple?  if \(fileOrFilesToImport\) { // We have an array of File objects; importFiles\(\) takes an array of paths.   var importThese = \[\];   if \(importThese\){  for \(var i = 0; i &lt; fileOrFilesToImport.length; i++\) {  importThese\[i\] = fileOrFilesToImport\[i\].fsName;  }  // this is the function  app.project.importFiles\(importThese,  1,// suppress warnings  app.project.getInsertionBin\(\),  0\); // import as numbered stills  }  } else {  $.\_PPP\_.updateEventPanel\("No files to import."\);  }  }  },** |
-| :--- |
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L278\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
+
+```javascript
+importFiles : function() {
+	if (app.project) {
+		var fileOrFilesToImport	= File.openDialog ("Choose files to import", // title
+		0, // filter available files? 							true);// allow multiple?
+		if (fileOrFilesToImport) {
+			// We have an array of File objects; importFiles() takes an array of paths.
+		 	var importThese = [];
+		 	if (importThese){
+				for (var i = 0; i < fileOrFilesToImport.length; i++) {
+					importThese[i] = fileOrFilesToImport[i].fsName;
+				}
+			 	// this is the function 
+				app.project.importFiles(importThese, 
+				1,// suppress warnings 
+				app.project.getInsertionBin(),
+				0); // import as numbered stills
+			}
+		}
+	}
+}
+```
 
 
-[**https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L278**](https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx#L278)
 
 ## **✅Export as FCP XML**
 
 **From sample app:**
 
-[**https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L234**](https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx#L234)  
-  
-****
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L234\\n\\n\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
-| **// completeOutputPath == path to save fcp xmlapp.project.activeSequence.exportAsFinalCutProXML\(completeOutputPath, 1\); // 1 == suppress UI**  |
-| :--- |
+```javascript
+// completeOutputPath == path to save fcp xml
+// 1 == suppress UI 
+app.project.activeSequence.exportAsFinalCutProXML(completeOutputPath, 1); 
 
-
-[**Syntax highlight done using code block add-on**](https://chrome.google.com/webstore/detail/code-blocks/ebieibfdjgmmimpldgengceekpfefmfd?hl=en-US) **- theme: agate**  
-
-
-**How to Create Your First Adobe Panel in 6 Easy Steps**
-
-[**https://medium.com/adobetech/how-to-create-your-first-adobe-panel-in-6-easy-steps-f8bd4ed5778**](https://medium.com/adobetech/how-to-create-your-first-adobe-panel-in-6-easy-steps-f8bd4ed5778)  
-
+```
 
