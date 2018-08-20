@@ -1,3 +1,9 @@
+---
+description: >-
+  Adobe CEP panels documentation is not up to date, this section gathers some of
+  the adobe CEP API functions that are useful for the autoEdit integration.
+---
+
 # Adobe CEP Jsx functions for autoEdit adobe Panel
 
 _Can use the_ [_Property explorer_](https://www.adobeexchange.com/creativecloud.details.1170.html#.WRQJd-V96bg) _extension to figure out what methods and properties are available. Installing with creative clouds, it becomes available under window, extensions, in Premiere._
@@ -6,14 +12,10 @@ _Can use the_ [_Property explorer_](https://www.adobeexchange.com/creativecloud.
 
 As explained here
 
-| \*\*\*\* |  |
-| :--- | :--- |
-
-
 {% embed data="{\"url\":\"https://forums.adobe.com/thread/2387875\",\"type\":\"link\",\"title\":\"Moving from CEP7 to CEP8 will require changes t... \| Adobe Community\",\"description\":\"\[Apologies for broad distribution.\]  Hello, potential CEP panel developers!   Changes to CEP\'s Node.js handling are required, between CEP7 and CEP8; this\",\"icon\":{\"type\":\"icon\",\"url\":\"https://forums.adobe.com/themes/adobe-global/images/favicon.ico\",\"aspectRatio\":0}}" %}
 
   
-****It’s required absolute path for nodejs, this is a problem when requiring modules, as you can no longer use relative path eg
+****Adobe CEP  requires absolute path for nodejs, this is a problem when requiring modules, as you can no longer use relative path eg
 
 ```javascript
 require( "./js/lib/jquery.js");
@@ -44,9 +46,11 @@ catch (err) {
 However need to test if this works on windows, or if need to use the path node module to adjust for osx vs win path slashes differences.  
 ****
 
+## Adobe Functions
+
 ![Adobe Premiere Parts diagram for integration with CEP panel.](https://docs.google.com/drawings/d/sTNVABxrqA__jPP4mnfyCgA/image?w=624&h=411&rev=150&ac=1&parent=1PCivPisinsoIOh7NnceuXgh0ks5h_vwLLFX6gKRW0LM)
 
-## **✅Project Panel: Get information of selected media in premiere project panel**
+### **✅Project Panel: Get information of selected media in premiere project panel**
 
 Returns project item object \(?\) with information of what file you have selected -- useful for automatic transcription or any other functionality where you want to operate on premiere clip source files.
 
@@ -70,7 +74,7 @@ also relevant thread
 Only available in Premiere `12.1`  
 ****
 
-## **✅Source monitor: Load external file into source monitor**
+### **✅Source monitor: Load external file into source monitor**
 
 A function to load a media file into the source viewer programmatically.  
   
@@ -96,7 +100,7 @@ openInSource : function() {
 },
 ```
 
-## **✅Project Panel: Search/find clip using file name or path in project panel**
+### **✅Project Panel: Search/find clip using file name or path in project panel**
 
 a function to be able to find clip using file name or path in project panel eg to see if they have been added to the project
 
@@ -114,7 +118,7 @@ var first = app.project.rootItem.children[0];
 
 ```
 
-## **✅Source Monitor: Load media into source monitor**
+### **✅Source Monitor: Load media into source monitor**
 
 a function to be able to load media into source monitor viewer programmatically.
 
@@ -130,7 +134,7 @@ app.sourceMonitor.openFilePath(selectionFilePath);
 // this means you can open clips in the source monitor even if they are not in adobe project panel as long as you have the path to them
 ```
 
-## **❓Source Monitor: Get information of current clip in monitor**
+### **❓Source Monitor: Get information of current clip in monitor**
 
 Seems like this might not be possible?
 
@@ -146,14 +150,13 @@ app.sourceMonitor.closeClip()
 app.sourceMonitor.closeAllClips(); 
 ```
 
-## **✅Source Monitor: Set in and out points**
+### **✅Source Monitor: Set in and out points**
 
 Set in and out point for clip in source monitor programmatically  
 Seems like you set the in and out on the clip in project panel and then that is also show in the source monitor\(?\)  
-See below.  
-****
+See below.
 
-## **✅Project panel: Set in and out point of file**
+### **✅Project panel: Set in and out point of file**
 
 I.e. set in points on a particular project item that is only in the project panel, not in the source monitor. I think in the end what we will have to do is set the in and out here \(as I think that is possible but it is not in the source as far as I can tell\). So the workflow would be you open the transcript in autoedit -- it opens the correct file in the source monitor, when you make an edit it finds the clip with the same path in the project panel, sets in and out points, and then brings it into the sequence.  
 ****
@@ -171,10 +174,9 @@ vTrack1.insertClip(first, '00;00;00;00');
 ```
 
 inPoint and outPoint seems to set them in ource monitor!  
-Unclear whether setStartTime changes the timecode metadata for the clip. Eg instead of starting at zero, you can add an offset. Think rec un, freerun, time of the day timecodes for timecodes generates by camcorders.  
+Unclear whether setStartTime changes the timecode metadata for the clip. Eg instead of starting at zero, you can add an offset. Think rec un, freerun, time of the day timecodes for timecodes generates by camcorders.
 
-
-## **✅ Project panel: Import clip from Project Panel into sequence**
+### **✅ Project panel: Import clip from Project Panel into sequence**
 
 Code for bringing into sequence can be found in the sample panel JSX under the insert or append and overwrite functions
 
@@ -212,7 +214,7 @@ var now = seq.getPlayerPosition();
 vTrack1.overwriteClip(first, now.seconds);
 ```
 
-## **✅create sequence programmatically from list of clips**
+### **✅create sequence programmatically from list of clips**
 
 Provided a list of clips, with in and out points for each segment, would want to create a sequence from it.
 
@@ -251,7 +253,7 @@ See autoEdit jsx file \`create\_sequence\_from\_paper\_edit\` for how to iterate
 
 Below how you’d add one clip, then, you’d need to iterate and change the insert timecode.
 
-## **✅ Sequence: Import clip from source monitor into sequence**
+### **✅ Sequence: Import clip from source monitor into sequence**
 
 ```javascript
 // get the active sequence 
@@ -276,7 +278,7 @@ clipInProjectPanel.setOutPoint(600);
 vTrack1.insertClip(clipInProjectPanel, '00;00;00;00');
 ```
 
-## **✅sequence: Adjust timings of clips in sequence**
+### **✅sequence: Adjust timings of clips in sequence**
 
 From Adobe's Forum this seems to trim clips in the sequence;
 
@@ -294,18 +296,13 @@ clip1.start = startTime;
 clip1.end = endTime;
 ```
 
-## **✅Sequence: Replace media for sequence clip**
+### **✅Sequence: Replace media for sequence clip**
 
-Exists in pond5 panel -- can be used to replace low quality footage with higher quality or replace placeholders with real footage  
-****[**https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L351**](https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx#L351)\*\*\*\*
+Exists in pond5 panel -- can be used to replace low quality footage with higher quality or replace placeholders with real footage
 
-[ ****](https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx#L351%20)\*\*\*\*
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L351\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
-\*\*\*\*
-
-\*\*\*\*
-
-## **✅Source monitor: scrub to position and play**
+### **✅Source monitor: scrub to position and play**
 
 ```javascript
 var pos = '10.5';
@@ -337,7 +334,7 @@ function secondsToFrames(time){
 }
 ```
 
-## **✅Active Sequence/Program: scrub to position**
+### **✅Active Sequence/Program: scrub to position**
 
 ```javascript
 var activeSequence = qe.project.getActiveSequence(); 
@@ -355,7 +352,7 @@ if (activeSequence) {
 app.project.activeSequence.setPlayerPosition(pos * 254016000000) 
 ```
 
-## **✅Import files into bin**
+### **✅Import files into bin**
 
 {% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L278\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
@@ -382,11 +379,9 @@ importFiles : function() {
 }
 ```
 
+### **✅Export as FCP XML**
 
-
-## **✅Export as FCP XML**
-
-**From sample app:**
+From sample app:
 
 {% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L234\\n\\n\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
