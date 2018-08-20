@@ -6,17 +6,13 @@ A list of some things used in this project that is good to have some working kno
 
 If you don't know it already might be good to recap and/or learn node a bit. This might be easier coming from another OO language. Safari book online node intro video + blog post on learning node js.
 
-## [nwjs](http://docs.nwjs.io/en/latest/For%20Users/Getting%20Started/)
+## Electron
 
-[Nwjs](http://docs.nwjs.io/en/latest/For%20Users/Getting%20Started/)\(formerly known as node web kit\) is like [electron](http://electron.atom.io/), which is what powers the [atom code editor](https://atom.io/). It's a way to make apps for the desktop in node. It creates a chrome v8 environment that allows your app to run independently of the browser.
+[electron](http://electron.atom.io/),  is what powers the [atom code editor](https://atom.io/). It's a way to make apps for the desktop in node. It creates a chrome v8 environment that allows your app to run independently of the browser.
 
-Read about [mixed context mode in nwjs](http://docs.nwjs.io/en/latest/For%20Users/Advanced/JavaScript%20Contexts%20in%20NW.js/).
+### 
 
-### Nwjs boilerplate repo
-
-From this project app initial iteration this [nwjs boilerplate](https://github.com/pietrop/nwjs_boilerplate) as been extrapolated. If you need/want to familiarize yourself with core nwjs setup choices check it out.
-
-### Why `nwjs` and not `electron`?
+### Why `Electron` and not `nwjs`?
 
 1. I personally found nwjs documentation easier to follow wants you get a round the different contexts.
 2. In nwjs you can easily hand a front end that could be moved to work as standalone "static site" or be a part of a web app. Allowing for max decoupling 

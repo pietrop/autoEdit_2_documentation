@@ -5,9 +5,8 @@
 ## Overview
 
 * [Intro](overview/readme/README.md)
-  * [High-level overview of the parts](overview/readme/high-level-overview-of-the-parts.md)
-  * [Architecture Overview](overview/readme/architecture.md)
   * [from 1.0.5 to 1.0.6](overview/readme/from-105-to-106.md)
+* [Architecture Overview](overview/architecture.md)
 * [Support the project](overview/support-the-project.md)
 * [documentation section template](overview/documentation-section-template.md)
 * [Build / Deployment](overview/deploymentbuild/README.md)
@@ -59,7 +58,6 @@
 * [EDL Format](appendix/edl-format.md)
 * [Reusable components](appendix/reusable-components.md)
 * [Prerequisites](appendix/prerequisites.md)
-* [JQuery and NWJS Packaging](appendix/jquery-and-nwjs-packaging.md)
 * [Testing](appendix/testing.md)
 * [Updating automated documentation](appendix/updating-automated-documentation.md)
 * [ffmpeg and ffprobe in electron](appendix/ffmpeg-and-ffprobe-in-electron.md)

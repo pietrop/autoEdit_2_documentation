@@ -8,6 +8,45 @@
 
 See [See user manual ](https://autoedit.gitbook.io/user-manual) for more details. And project [README](https://github.com/OpenNewsLabs/autoEdit_2) on github.
 
+## High level overview of the parts
+
+It's helpful to discuss the implementation of autoEdit by looking at the parts that make up the whole as stand alone overarching components, that are built of other smaller components and modules.
+
+Tick \(✔\) for features implemented in `1.0.12`    
+****
+
+1. [x] **Transcriptions** 
+   1. [x] Transcriber 
+      1. [x] STT
+         1. [x] IBM Watson
+         2. [x] Speechmatics
+         3. [x] Rev
+         4. [x] Pocketsphinx
+         5. [x] Gentle 
+         6. [x] BBC Kaldi \(for BBC employee only\)
+         7. [ ] Google
+   2. [x] Video preview conversion 
+   3. [x] Metadata info for EDL
+   4. [x] Hyper-Transcript 
+      1. [x] Representation video + transcript in sync 
+2. [x] **Papercuts Selections** 
+3. [x] **Annotations Tags**
+4. [x] **Paper-edit** 
+   1. [ ] Search and filter paper-cuts and transcriptions
+   2. [x] "D&D" papercut in paper-edit 
+   3. [x] Preview paper-edit 
+5. [x] **Export**
+   1. [x] Paper-edit export to EDL
+   2. [x] Paper-edit export mp4 video
+
+## Data structures
+
+Main data structures in the project
+
+* Transcription json 
+* paper-cuts json 
+* paper-edit json 
+
 ## Stack
 
 It is built using `node` `electron` and `backbone`.
@@ -24,7 +63,7 @@ The backbone app is in `lib/app` folder. For troubleshooting you can use `cmd`+ 
 
 Is designed so that the front end in backbone can be used as standalone static site. Which is how [the demo](https://opennewslabs.github.io/autoEdit_2/demo/index.html) is run, with an hard coded sample data in `backbone.sync`.
 
-`db.js` overrides `backbone.sync` method to provide a backend for the app and persistent storage using linvodb3, which uses `medeadown` to storing db on the user file system. [See current db setup tutorial for more info](../../appendix/current-db-setup.md).
+`db.js` overrides `backbone.sync` method to provide a backend for the app and persistent storage using linvodb3, which uses `medeadown` to storing db on the user file system. [See current db setup tutorial for more info](../appendix/current-db-setup.md).
 
 in `index.html` the window object is used to provide an interface between the electron client side code code packaged with browserify and the 'backend' that can make the file system calls in node.
 
@@ -118,7 +157,7 @@ The `pocketsphinx` module was originally extracted from the [electron version of
 
 ### `edl_composer` module
 
-See [EDL format](../../appendix/edl-format.md), and [Export section](../../export/export/) as well as [EDL composer module](https://github.com/OpenNewsLabs/autoEdit_2/tree/master/lib/edl_composer).
+See [EDL format](../appendix/edl-format.md), and [Export section](../export/export/) as well as [EDL composer module](https://github.com/OpenNewsLabs/autoEdit_2/tree/master/lib/edl_composer).
 
 This module as also been abstracted as separate [npm module](https://www.npmjs.com/package/edl_composer) and [github repository](https://github.com/pietrop/edl_composer#readme)
 
@@ -150,7 +189,7 @@ The module used to export transcriptions as captions file [srt module](https://g
 
 ## Tests folder
 
-Tests are in the `spec` folder, to run the test suite `npm run test`. [Uses jasmine for testing](https://jasmine.github.io/). Testes are setup to be all in one place rather then divided with their respective components, for ease of use. Altho test coverage is far from complete and could do with some attention, s[ee supporting the project](../support-the-project.md) if that's something you'd be interested getting involved with.
+Tests are in the `spec` folder, to run the test suite `npm run test`. [Uses jasmine for testing](https://jasmine.github.io/). Testes are setup to be all in one place rather then divided with their respective components, for ease of use. Altho test coverage is far from complete and could do with some attention, s[ee supporting the project](support-the-project.md) if that's something you'd be interested getting involved with.
 
 Future plans include refactoring, and separate tests to be closer to their components, as well as migrate from jasmine to jest.
 
