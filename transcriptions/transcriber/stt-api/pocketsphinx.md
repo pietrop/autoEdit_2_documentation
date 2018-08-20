@@ -1,19 +1,12 @@
-# Transcriber: STT API: Pocketsphinx -draft
+# Pocketsphinx
 
+## Component/part description
 
-## Component/part description 
-
----
 ## Related projects
 
-
----
 ## Implementations Options considered
 
-
----
 ## Current implementation
 
+## What needs refactoring
 
----
-## What needs refactoring 
