@@ -2,9 +2,12 @@
 
 using modified version of static ffmpeg /ffprobe lib.
 
-* github.com:pietrop/ffmpeg-static
+autoEdit uses `ffmpeg` under the hood, and getting `ffmpeg` and `electron` to work can sometimes be problematic when setting up a new app, so [I wrote here](http://pietropassarelli.com/ffmpeg-electron.html) about how this setup works in autoEdit, with simplified example.
 
-  -github.com:pietrop/ffprobe-static
+I've since abstracted and published these two forks as npm packages
+
+* [ffmpeg-static-electron](https://www.npmjs.com/package/ffmpeg-static-electron)
+* [ffprobe-static-electron](https://www.npmjs.com/package/ffprobe-static-electron)
 
 require in config.js and make them avaible to rest of app from there. eg require config to get the path.
 

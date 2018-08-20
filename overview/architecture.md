@@ -170,6 +170,8 @@ I've since abstracted and published these two forks as npm packages
 * [ffmpeg-static-electron](https://www.npmjs.com/package/ffmpeg-static-electron)
 * [ffprobe-static-electron](https://www.npmjs.com/package/ffprobe-static-electron)
 
+See[ this section](../appendix/ffmpeg-and-ffprobe-in-electron.md) for more details.
+
 ### STT
 
 The app uses the following Speech To Text systems to generate transcription
