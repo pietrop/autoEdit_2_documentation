@@ -1,18 +1,12 @@
-# Transcriber: STT API: Gentle STT - draft
+# Gentle STT
 
-## Component/part description 
+## Component/part description
 
----
 ## Related projects
 
-
----
 ## Implementations Options considered
 
-
----
 ## Current implementation
 
+## What needs refactoring
 
----
-## What needs refactoring 
