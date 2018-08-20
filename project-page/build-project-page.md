@@ -4,17 +4,17 @@ The project page is visible at [autoedit.io](http://www.autoedit.io).To edit the
 
 To update the project page run
 
-```
+```text
 npm run make_page
 ```
 
-This copyies from the `./project_page` folder (that also contains the demo front end) to [the `/docs` folder](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) in this repo used to publish with [github page](https://pages.github.com/).
+This copyies from the `./project_page` folder \(that also contains the demo front end\) to [the `/docs` folder](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) in this repo used to publish with [github page](https://pages.github.com/).
 
-This comand also updates the demo front end ([autoedit.io/demo](http://www.autoedit.io/demo)). To update project page without updating demo front end code `npm run preview_page_no_demo_reload`.
+This comand also updates the demo front end \([autoedit.io/demo](http://www.autoedit.io/demo)\). To update project page without updating demo front end code `npm run preview_page_no_demo_reload`.
 
 The project page is a jeckyll site, and can be previewed locally using
 
-```
+```text
 npm run preview_page
 ```
 

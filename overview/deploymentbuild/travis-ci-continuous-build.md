@@ -1,7 +1,3 @@
----
-description: How to deploy the code/app into test/staging/production
----
-
 # Travis CI continuous build
 
   

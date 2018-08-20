@@ -22,7 +22,7 @@ If you have been using autoEdit, or parts of it, or are working on something sim
 
 ### Roadmap
 
-If you are a developer, check out the [roadmap](../appendix/roadmap/) and see if there's anything that it's of interest you'd like to discuss or get involved with or have any insight into any of those areas. Always happy to have a chat.
+If you are a developer, check out the [roadmap](../roadmap/roadmap/) and see if there's anything that it's of interest you'd like to discuss or get involved with or have any insight into any of those areas. Always happy to have a chat.
 
 ### Reusable components
 

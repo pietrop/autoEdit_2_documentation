@@ -1,7 +1,3 @@
----
-description: How to run build
----
-
 # Build / Deployment
 
 The app uses `electron-builder`to package the app for the Mac, Windows and Linux.

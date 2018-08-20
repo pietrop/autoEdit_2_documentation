@@ -60,22 +60,6 @@
 * [Reusable components](appendix/reusable-components.md)
 * [Prerequisites](appendix/prerequisites.md)
 * [JQuery and NWJS Packaging](appendix/jquery-and-nwjs-packaging.md)
-* [Roadmap](appendix/roadmap/README.md)
-  * [Paper-editing Roadmap](appendix/roadmap/paper-editing-roadmap.md)
-  * [Extra Features Roadmap](appendix/roadmap/extra-features-roadmap.md)
-  * [Future Roadmap](appendix/roadmap/future-roadmap/README.md)
-    * [Live video editing](appendix/roadmap/future-roadmap/live-video-editing.md)
-    * [Social Media Export](appendix/roadmap/future-roadmap/social-media-export.md)
-    * [Translate transcriptions](appendix/roadmap/future-roadmap/translate-transcriptions.md)
-    * [Web app](appendix/roadmap/future-roadmap/web-app/README.md)
-      * [Multi-user collaboration](appendix/roadmap/future-roadmap/web-app/multi-user-collaboration.md)
-    * [Searchable Editable Archive](appendix/roadmap/future-roadmap/searchable-editable-archive.md)
-    * [NLP insights](appendix/roadmap/future-roadmap/nlp-insights.md)
-    * [Slack/Chat bot integration](appendix/roadmap/future-roadmap/slack-chat-bot-integration.md)
-    * [Interactive dev tool](appendix/roadmap/future-roadmap/interactive-dev-tool.md)
-    * [Phone mms integration with twillio](appendix/roadmap/future-roadmap/phone-mms-integration-with-twillio.md)
-    * [B-roll computational photography](appendix/roadmap/future-roadmap/b-roll-computational-photography.md)
-* [Paper-editing Roadmap](appendix/paper-editing-roadmap.md)
 * [Testing](appendix/testing.md)
 * [Updating automated documentation](appendix/updating-automated-documentation.md)
 * [ffmpeg and ffprobe in electron](appendix/ffmpeg-and-ffprobe-in-electron.md)
@@ -97,7 +81,7 @@
 
 ## Adobe Panel
 
-* [autoEdit Adobe CEP Panel dev setup](adobe-panel/autoedit-adobe-cep-panel-dev-setup.md)
+* [autoEdit Adobe CEP Panel dev setup 🚧](adobe-panel/autoedit-adobe-cep-panel-dev-setup.md)
 * [autoEdit Adobe CEP Panel integration overview](adobe-panel/autoedit-adobe-cep-panel-integration-overview.md)
 * [Adobe CEP Jsx functions for autoEdit adobe Panel](adobe-panel/adobe-cep-jsx-functions-for-autoedit-adobe-panel.md)
 
@@ -105,4 +89,23 @@
 
 * [Build project page](project-page/build-project-page.md)
 * [Build/update demo front end page](project-page/build-update-demo-front-end-page.md)
+
+## Roadmap
+
+* [Improvements](roadmap/roadmap-features-improvements-next-up.md)
+* [Roadmap](roadmap/roadmap/README.md)
+  * [Paper-editing Roadmap](roadmap/roadmap/paper-editing-roadmap.md)
+  * [Extra Features Roadmap](roadmap/roadmap/extra-features-roadmap.md)
+  * [Future Roadmap](roadmap/roadmap/future-roadmap/README.md)
+    * [Live video editing](roadmap/roadmap/future-roadmap/live-video-editing.md)
+    * [Social Media Export](roadmap/roadmap/future-roadmap/social-media-export.md)
+    * [Translate transcriptions](roadmap/roadmap/future-roadmap/translate-transcriptions.md)
+    * [Web app](roadmap/roadmap/future-roadmap/web-app/README.md)
+      * [Multi-user collaboration](roadmap/roadmap/future-roadmap/web-app/multi-user-collaboration.md)
+    * [Searchable Editable Archive](roadmap/roadmap/future-roadmap/searchable-editable-archive.md)
+    * [NLP insights](roadmap/roadmap/future-roadmap/nlp-insights.md)
+    * [Slack/Chat bot integration](roadmap/roadmap/future-roadmap/slack-chat-bot-integration.md)
+    * [Interactive dev tool](roadmap/roadmap/future-roadmap/interactive-dev-tool.md)
+    * [Phone mms integration with twillio](roadmap/roadmap/future-roadmap/phone-mms-integration-with-twillio.md)
+    * [B-roll computational photography](roadmap/roadmap/future-roadmap/b-roll-computational-photography.md)
 

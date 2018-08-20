@@ -77,7 +77,7 @@ The first part is structured a round the 5 higher level parts that make up the a
 
 Check out the [High level overview of the parts](high-level-overview-of-the-parts.md) for more on this.
 
-Then it also contains a [roadmap section](../../appendix/roadmap/), and a [QA section](../../qa-list/qa-intro.md) to serve as a checklist before every deployment, as well as a series of appendix with more technical info and implementation details relevant to the project , such as for example the [db setup](../../appendix/current-db-setup.md) and [prerequisite](../../appendix/prerequisites.md) to mention a few.
+Then it also contains a [roadmap section](../../roadmap/roadmap/), and a [QA section](../../qa-list/qa-intro.md) to serve as a checklist before every deployment, as well as a series of appendix with more technical info and implementation details relevant to the project , such as for example the [db setup](../../appendix/current-db-setup.md) and [prerequisite](../../appendix/prerequisites.md) to mention a few.
 
 ## The Stack
 
