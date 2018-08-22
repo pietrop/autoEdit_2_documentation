@@ -17,7 +17,9 @@ It’s a view. It’s extensible. Eg need to be able to add other components, fo
 
 [HyperTranscript representation as described in hyperaudio](http://hyperaud.io/blog/hypertranscripts) `==` Clickable transcript in sync with video.
 
---
+
+
+![img/sketches/Transcription%20Show.png](https://lh6.googleusercontent.com/x9jyk1lD1ilUFmtdNWWFwUkoypJBPzI7NecDnHY0oQbdVlQta54rvew9hMvqoaaOrPvKmsJ7XyKxRKEJlDcGuJPQXcv7WZhr6yokp_anSUNUDT2Zov4FWe3QhB3fgV3Zz4AwIk3S)
 
 ## Implementations Options considered
 

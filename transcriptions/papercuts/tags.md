@@ -2,6 +2,8 @@
 
 ## Component/part description
 
+Tags to group annotations.
+
 ## Related projects
 
 ## Implementations Options considered

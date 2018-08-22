@@ -4,6 +4,13 @@
 
 Semanticly papercuts can be selections, hilights, annotations when found in a transcription but is only as the building block of a paper-edit that we refer to them as paper-cuts.
 
+Connected to this is defining a schema for paper-edit, to make sure all components that work with this have a defined interface/specification.
+
+Same as EDL papercut/”event” object in “EDL JSON: schema  from EDL composer component module from autoEdit2.  
+
+
+![img/sketches/Transcription%20Show%20Annotate.png](https://lh5.googleusercontent.com/y0N4t1uKFgicA73JOoMyR6U4iicJU0rqq8EGAvzMvKfOlMTVIIAtsK7HOIbkMoURp7NgCiaN1SyD6B09GWsPa202-m_pWX24uO8wdkOgdct4LiD9iFBbczH-fJgxVNK8-f0-N_Tj)
+
 ### Selections component
 
 A component that can make a selection of word objects from a transcription/hypertranscript.
