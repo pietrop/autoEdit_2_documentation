@@ -47,6 +47,8 @@ Main data structures in the project
 * paper-cuts json 
 * paper-edit json 
 
+
+
 ## Stack
 
 It is built using `node` `electron` and `backbone`.
@@ -63,7 +65,7 @@ The backbone app is in `lib/app` folder. For troubleshooting you can use `cmd`+ 
 
 Is designed so that the front end in backbone can be used as standalone static site. Which is how [the demo](https://opennewslabs.github.io/autoEdit_2/demo/index.html) is run, with an hard coded sample data in `backbone.sync`.
 
-`db.js` overrides `backbone.sync` method to provide a backend for the app and persistent storage using linvodb3, which uses `medeadown` to storing db on the user file system. [See current db setup tutorial for more info](../appendix/current-db-setup.md).
+`db.js` overrides `backbone.sync` method to provide a backend for the app and persistent storage using linvodb3, which uses `medeadown` to storing db on the user file system. [See current db setup tutorial for more info](../../appendix/current-db-setup.md).
 
 in `index.html` the window object is used to provide an interface between the electron client side code code packaged with browserify and the 'backend' that can make the file system calls in node.
 
@@ -157,7 +159,7 @@ The `pocketsphinx` module was originally extracted from the [electron version of
 
 ### `edl_composer` module
 
-See [EDL format](../appendix/edl-format.md), and [Export section](../export/export/) as well as [EDL composer module](https://github.com/OpenNewsLabs/autoEdit_2/tree/master/lib/edl_composer).
+See [EDL format](../../appendix/edl-format.md), and [Export section](../../export/export/) as well as [EDL composer module](https://github.com/OpenNewsLabs/autoEdit_2/tree/master/lib/edl_composer).
 
 This module as also been abstracted as separate [npm module](https://www.npmjs.com/package/edl_composer) and [github repository](https://github.com/pietrop/edl_composer#readme)
 
@@ -170,7 +172,7 @@ I've since abstracted and published these two forks as npm packages
 * [ffmpeg-static-electron](https://www.npmjs.com/package/ffmpeg-static-electron)
 * [ffprobe-static-electron](https://www.npmjs.com/package/ffprobe-static-electron)
 
-See[ this section](../appendix/ffmpeg-and-ffprobe-in-electron.md) for more details.
+See[ this section](../../appendix/ffmpeg-and-ffprobe-in-electron.md) for more details.
 
 ### STT
 
@@ -191,7 +193,7 @@ The module used to export transcriptions as captions file [srt module](https://g
 
 ## Tests folder
 
-Tests are in the `spec` folder, to run the test suite `npm run test`. [Uses jasmine for testing](https://jasmine.github.io/). Testes are setup to be all in one place rather then divided with their respective components, for ease of use. Altho test coverage is far from complete and could do with some attention, s[ee supporting the project](support-the-project.md) if that's something you'd be interested getting involved with.
+Tests are in the `spec` folder, to run the test suite `npm run test`. [Uses jasmine for testing](https://jasmine.github.io/). Testes are setup to be all in one place rather then divided with their respective components, for ease of use. Altho test coverage is far from complete and could do with some attention, s[ee supporting the project](../support-the-project.md) if that's something you'd be interested getting involved with.
 
 Future plans include refactoring, and separate tests to be closer to their components, as well as migrate from jasmine to jest.
 

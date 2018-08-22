@@ -12,11 +12,13 @@ In a fast paced newsroom often there is no time for such a time-consuming proces
 
 The aim of the autoEdit project is to produce an application that can maximise not only the depth of content but also the speed in which the content is produced.
 
-The approach was to look at the traditional paper-editing workflow from documentary production, and see how that could translate into a digital world. [For more on paper-editing and how this is used to craft compelling stories out of video interviews, check out the notes from this workshop](http://pietropassarelli.com/wip_london_july2016.html).
+The approach was to look at the traditional paper-editing workflow from documentary production, and see how that could translate into a digital world. 
+
+[For more on paper-editing and how this is used to craft compelling stories out of video interviews, check out the notes from this workshop](http://pietropassarelli.com/wip_london_july2016.html).
 
 For [an overview of how this has been implemented in autoEdit, from a user's point of view, check out the user manual](https://pietropassarelli.gitbooks.io/autoedit2-user-manual/content).
 
-For some [high fidelity sketches in HTML, Bootstrap and JS check this out](http://pietropassarelli.com/autoEdit_sketches/) as well as [this repo](https://github.com/pietrop/autoEdit_sketches)
+
 
 ## Areas of Interest
 
@@ -24,7 +26,7 @@ One reason why this project is interesting is because it utilises the new possib
 
 ### Reusable architecture and components
 
-Not only node coupled with npm and yarn package management system allows for a modular component based approach but also projects such as [NWJS](https://nwjs.io) \(formerly node-web-kit\) allows to use web technology to build cross platform desktop applications that with minimal code change can be ported to an equivalent web app version.
+Not only node coupled with npm and yarn package management system allows for a modular component based approach but also projects such as [NWJS](https://nwjs.io) \(formerly node-web-kit\) and [Electron](https://electronjs.org) allows to use web technology to build cross platform desktop applications that with minimal code change can be ported to an equivalent web app version.
 
 Combined with a mobile first approach, this allows to develop desktop, web, mobile version of the same app without the traditional overhead that this would involve.
 
@@ -66,7 +68,7 @@ The first part is structured a round the 5 higher level parts that make up the a
 * Current implementation 
 * What needs refactoring 
 
-Check out the [High level overview of the parts](overview/architecture.md#high-level-overview-of-the-parts) for more on this.
+Check out the [High level overview of the parts](overview/architecture/#high-level-overview-of-the-parts) for more on this.
 
 Then it also contains a [roadmap section](roadmap/roadmap/), and a [QA section](qa-list/qa-intro.md) to serve as a checklist before every deployment, as well as a series of appendix with more technical info and implementation details relevant to the project , such as for example the [db setup](appendix/current-db-setup.md) and [prerequisite](appendix/prerequisites.md) to mention a few.
 

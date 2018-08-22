@@ -6,7 +6,8 @@
 
 * [Intro](overview/readme/README.md)
   * [from 1.0.5 to 1.0.6](overview/readme/from-105-to-106.md)
-* [Architecture Overview](overview/architecture.md)
+* [Architecture Overview](overview/architecture/README.md)
+  * [High fidelity sketches in HTML](overview/architecture/high-fidelity-sketches-in-html.md)
 * [Support the project](overview/support-the-project.md)
 * [documentation section template](overview/documentation-section-template.md)
 * [Build / Deployment](overview/deploymentbuild/README.md)
