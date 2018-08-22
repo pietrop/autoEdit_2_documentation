@@ -24,6 +24,10 @@ If using the npm tool it also signs the extension so can skip next step about si
 
 {% embed data="{\"url\":\"https://www.adobe.com/exchange/em\_download/\",\"type\":\"link\",\"title\":\"Adobe - Exchange : Download the Adobe Extension Manager\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.adobe.com/favicon.ico\",\"aspectRatio\":0}}" %}
 
+## Getting a certificate
+
+{% embed data="{\"url\":\"https://www.thesslstore.com/knowledgebase/code-signing-collecting-export/download-export-firefox/\",\"type\":\"link\",\"title\":\"How to Download or Export a Code Signing Certificate in Firefox - The SSL Store™\",\"description\":\"A complete step-by-step guide to downloading or exporting a Code Signing Certificate in Firefox.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.thesslstore.com/knowledgebase/wp-content/uploads/2017/02/cropped-favicon-192x192.png?x65967\",\"width\":192,\"height\":192,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.thesslstore.com/knowledgebase/wp-content/uploads/2017/03/firefox-step2.png\",\"width\":309,\"height\":565,\"aspectRatio\":1.8284789644012944}}" %}
+
 ## Sign the extension 
 
 {% hint style="info" %}
