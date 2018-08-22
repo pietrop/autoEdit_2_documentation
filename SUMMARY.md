@@ -8,6 +8,7 @@
   * [Development approach](overview/readme/development-approach.md)
   * [from 1.0.5 to 1.0.6](overview/readme/from-105-to-106.md)
 * [Architecture Overview](overview/architecture/README.md)
+  * [Lo fi Design Sketches](overview/architecture/lo-fi-design-sketches.md)
   * [High fidelity sketches in HTML](overview/architecture/high-fidelity-sketches-in-html.md)
 * [Support the project](overview/support-the-project.md)
 * [documentation section template](overview/documentation-section-template.md)

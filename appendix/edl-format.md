@@ -4,6 +4,10 @@
 
 Example EDL. For more on how to read an edl and understand the specs [check this out](https://documentation.apple.com/en/finalcutpro/usermanual/index.html#chapter=96%26section=1%26tasks=true).
 
+
+
+![](https://lh6.googleusercontent.com/p2hTr_exrVmYroPEPnqoTS2-fWT6S-mdVb9f3YSCTmTMknV_SO1jYnFmBRHys8kVuSOw6jb_hgcczSWxze_PGpZZhyxPdYleCS3sUmIP6Xmc8tsJPQQeoD2rY61j6KQqQxRR9QwnrQo3OXUIdw)
+
 ### Example EDL from camcorder
 
 ```javascript
