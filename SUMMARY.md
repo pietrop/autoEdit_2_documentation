@@ -19,6 +19,7 @@
 
 ## R&D Doc
 
+* [About R&D doc section](transcriptions/about-r-and-d-doc-section.md)
 * [Transcription & Media Processing](transcriptions/transcriptions-intro/README.md)
   * [Transcription json](transcriptions/transcriptions-intro/transcriptions.md)
   * [Transcriber](transcriptions/transcriptions-intro/transcriber/README.md)
@@ -43,7 +44,6 @@
   * [EDL export](transcriptions/export/edl-export.md)
   * [XML export](transcriptions/export/xml-export.md)
   * [mp4 export](transcriptions/export/mp4-export.md)
-* [About R&D doc section](transcriptions/about-r-and-d-doc-section.md)
 
 ## Appendix
 
