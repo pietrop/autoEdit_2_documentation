@@ -1,6 +1,6 @@
 # Intro
 
-Working Draft R&D Documentation for Developers for [autoEdit2](https://github.com/pietrop/autoEdit_2_documentation/tree/6a02a8d72f177e127c3fe0b3c3959dbc6f737f13/www.autoEdit.io) `v1.0.12` 
+Working Draft R&D Documentation for Developers for [autoEdit2](https://github.com/pietrop/autoEdit_2_documentation/tree/6a02a8d72f177e127c3fe0b3c3959dbc6f737f13/www.autoEdit.io) `1.0.13` 
 
 ## Outline the problem
 
@@ -20,7 +20,13 @@ For [an overview of how this has been implemented in autoEdit, from a user's poi
 
 {% embed data="{\"url\":\"https://autoedit.gitbook.io/how-to-tell-compelling-stories-out-of-interviews\",\"type\":\"link\",\"title\":\"Introduction - How to tell compelling stories out of video interviews\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LKEX2pgEboHMhySJ5EJ%2Favatar.png?generation=1534637655291617&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LKEX2pgEboHMhySJ5EJ.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
-For some [high fidelity sketches in HTML, Bootstrap and JS check this out](http://pietropassarelli.com/autoEdit_sketches/) as well as [this repo](https://github.com/pietrop/autoEdit_sketches)
+
+
+Presentation at [textAV](www.textAV.tech) '17 NYC, about 10 min
+
+{% embed data="{\"url\":\"https://youtu.be/8SzqXMu0Sz0\",\"type\":\"video\",\"title\":\"2017 07 20 11 48 14\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/8SzqXMu0Sz0/maxresdefault.jpg\",\"width\":1280,\"height\":720,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/8SzqXMu0Sz0?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\\"><iframe src=\\\"https://www.youtube.com/embed/8SzqXMu0Sz0?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
+
+{% embed data="{\"url\":\"https://textav.gitbook.io/textav-event/projects/autoedit\",\"type\":\"link\",\"title\":\"autoEdit - textav-event\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LKMeulnkyJTHTxeqP6K%2Favatar.png?generation=1534774194631198&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LKMeulnkyJTHTxeqP6K.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 ## Areas of Interest
 
