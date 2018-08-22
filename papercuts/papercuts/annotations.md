@@ -1,22 +1,14 @@
-# Papercuts: Annotations - draft
+# Annotations
 
+## Component/part description
 
-## Component/part description 
-
----
 ## Related projects
 
-
----
 ## Implementations Options considered
 
-
----
 ## Current implementation
+
 Not implemented in current version
 
+## What needs refactoring
 
-
-
----
-## What needs refactoring 

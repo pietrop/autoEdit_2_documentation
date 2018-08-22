@@ -1,12 +1,10 @@
-# Paper-edit: json - draft
+# Paper-edit json
 
+### Hypertranscript / autoEdit Json
 
+This is the autoEdit json for a transcription. It models the structure of a transciptions text. With paragraphs, lines, and words.
 
-#### Hypertranscript / autoEdit Json
-This is the autoEdit json for a transcription. It models the structure of a transciptions text.
-With paragraphs, lines, and words.
-
-```js
+```javascript
 "text": [
 {
 "id": 0,
@@ -22,14 +20,11 @@ With paragraphs, lines, and words.
 },
 ```
 
-#### Papercuts
-This is a papercut json extracted from the dom view.
-Inside events. Contains either headings / titles or actual “papercuts” video segments.
-Events is sinonimum with papercuts. In edl format they are called events.
-It is missing words and text. So it’s hard to parse it back into the view once that is saved into the model/db.
-→ ideally would want to change this to accomodate words, and have one papercut template for both scenarios.
+### Papercuts
 
-```js
+This is a papercut json extracted from the dom view. Inside events. Contains either headings / titles or actual “papercuts” video segments. Events is sinonimum with papercuts. In edl format they are called events. It is missing words and text. So it’s hard to parse it back into the view once that is saved into the model/db. → ideally would want to change this to accomodate words, and have one papercut template for both scenarios.
+
+```javascript
 {
 "title": "Paperedit 2",
 "events": [
@@ -52,11 +47,11 @@ It is missing words and text. So it’s hard to parse it back into the view once
 },
 ```
 
-### Papercut in view
-Data structure used in `papercut.html.ejs` to make a paper-edit when selecting words in transcription side. (hypertranscript).
-It is an array of words, and It has redundant informations. To make it easier for the extraction.
+## Papercut in view
 
-```js
+Data structure used in `papercut.html.ejs` to make a paper-edit when selecting words in transcription side. \(hypertranscript\). It is an array of words, and It has redundant informations. To make it easier for the extraction.
+
+```javascript
 {
 "papercut": [
 {
@@ -89,10 +84,11 @@ It is an array of words, and It has redundant informations. To make it easier fo
 }
 ```
 
-#### ejs
+### ejs
+
 This is done so that there can be an interactive transcript this side as well using ejs
 
-```
+```text
 <dl class="dl-horizontal">
 <dt><%= papercut[0].speaker %></dt>
 <dt>
@@ -116,10 +112,11 @@ data-end-time="<%= papercut[i].endTime %>"><%= papercut[i].text %> </span>
 </dl>
 ```
 
-#### EDL JSON/EDL export module - transcription
+### EDL JSON/EDL export module - transcription
+
 At the moment as as the papercut EDL json in autoEdit but with fields less, as it doesn’t need a lot of the once in the autoEdit one, to be able to make an .edl file.
 
-```
+```text
 var edlSqDemo = {
 "title": "Demo Title of project",
 //offset is optional default is "00:00:00:00"
@@ -149,12 +146,9 @@ var edlSqDemo = {
 }
 ```
 
-#### EDL JSON/EDL export module - paper-edit
+### EDL JSON/EDL export module - paper-edit
 
-<!-- TODO: export paperedit and put json here as example, is the below one correct? -->
-
-```js
-
+```javascript
 {
 "title": "Paperedit 2",
 "events": [
@@ -196,3 +190,4 @@ var edlSqDemo = {
 ]
 }
 ```
+
