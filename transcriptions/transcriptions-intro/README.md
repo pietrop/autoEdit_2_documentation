@@ -1,6 +1,6 @@
 # Transcription & Media Processing
 
-In this section we look at [the json spec for a transcription in autoEdit](transcriptions/). As well as a few backend modules
+In this section we look at [the json spec for a transcription in autoEdit](transcriptions.md). As well as a few backend modules
 
 * The transcriber module
   * video to audio 

@@ -2,7 +2,7 @@
 
 ## Current roadmap
 
-1. [Transcriber](../../transcriptions/transcriptions-intro/transcriptions/transcriber/) 
+1. [Transcriber](../../transcriptions/transcriptions-intro/transcriber/) 
    1. **Video/Audio** → plain text
    2. **Video/Audio** → Text + Timecodes
 2. [Papercuts](../../transcriptions/papercuts/)

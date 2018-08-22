@@ -1,4 +1,4 @@
-# Papercuts
+# Selections, Annotations, Papercuts
 
 ## Component/part description
 
