@@ -1,4 +1,4 @@
-# Adobe CEP Jsx functions for autoEdit adobe Panel
+# Jsx functions for Adobe CEP autoEdit adobe Panel
 
 _Can use the_ [_Property explorer_](https://www.adobeexchange.com/creativecloud.details.1170.html#.WRQJd-V96bg) _extension to figure out what methods and properties are available. Installing with creative clouds, it becomes available under window, extensions, in Premiere._
 
