@@ -18,15 +18,21 @@ There is also an npm tool [https://www.npmjs.com/package/create-zxp](https://www
 
 If using the npm tool it also signs the extension so can skip next step about signing and go straight to upload to marketplace 
 
+## Adobe Extension Manager
+
+
+
+{% embed data="{\"url\":\"https://www.adobe.com/exchange/em\_download/\",\"type\":\"link\",\"title\":\"Adobe - Exchange : Download the Adobe Extension Manager\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.adobe.com/favicon.ico\",\"aspectRatio\":0}}" %}
+
 ## Sign the extension 
+
+{% hint style="info" %}
+You need a certificate 
+{% endhint %}
 
 Packaging and signing, more details in adobe's docs  [http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/creativesuite/pdfs/SigningTechNote\_CC.pdf](http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/creativesuite/pdfs/SigningTechNote_CC.pdf)
 
 There's also a command line utility for signing. 
-
-{% hint style="info" %}
-But you need a certificate 
-{% endhint %}
 
 ## Upload to exchange marketplace 
 

@@ -8,6 +8,8 @@ Symbols legend: ✅done,  𝥷 todo , 𐄂 out of scope for this version
 
 Also [see autoEdit Adobe Panel user manual](https://autoedit.gitbook.io/user-manual/autoedit-adobe-panel/transcription-to-source-monitor) for user facing functionalities implemented so far.
 
+{% embed data="{\"url\":\"https://autoedit.gitbook.io/user-manual/autoedit-adobe-panel/transcription-to-source-monitor\",\"type\":\"link\",\"title\":\"Transcription to source monitor - autoEdit 2 User Manual\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LKETZisqiBNpYXfFMzt%2Favatar.png?generation=1534636740751094&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LKETZisqiBNpYXfFMzt.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+
 This is more of planning document to reason around best strategy and functionality for the integration.
 
 ## **View: New Transcript**
