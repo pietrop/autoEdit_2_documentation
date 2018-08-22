@@ -142,6 +142,10 @@ Tutorial for deployment
 
 {% embed data="{\"url\":\"http://www.davidebarranca.com/2014/05/html-panels-tips-10-packaging-zxp-installers/\",\"type\":\"link\",\"title\":\"HTML Panels Tips: \#10 Packaging / ZXP Installers \| Photoshop, etc.\",\"description\":\"How to build customized ZXP installers for CC HTML Extensions \(standard, flash-compatible, hybrid\) using ZXPSignCmd, ucf.jar and MXI files.\",\"icon\":{\"type\":\"icon\",\"url\":\"http://www.davidebarranca.com/wp-content/uploads/2013/01/144.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"http://www.davidebarranca.com/wp-content/uploads/2014/05/mxi.png\",\"width\":150,\"height\":150,\"aspectRatio\":1}}" %}
 
+{% embed data="{\"url\":\"http://aphall.com/2014/09/cep-5-distribution-en/\",\"type\":\"link\",\"title\":\"CEP Guide Part 7: Packaging and Distribution \| aphall.com\",\"description\":\"Andy Hall is a developer in Tokyo, working on a game.\",\"icon\":{\"type\":\"icon\",\"url\":\"http://aphall.com/haha/how/about/no.png\",\"aspectRatio\":0}}" %}
+
+{% embed data="{\"url\":\"http://aphall.com/2014/08/cep-mega-guide-en/\",\"type\":\"link\",\"title\":\"CEP 5 Super mega guide: Extending Adobe apps with HTML5+Node.js \| aphall.com\",\"description\":\"Andy Hall is a developer in Tokyo, working on a game.\"}" %}
+
 [6. Package and deploy your panel](https://github.com/Adobe-CEP/Samples/tree/master/PProPanel#6-package-and-deploy-your-panel)
 
 on mac [ZXPSignCmd.dmg](https://github.com/Adobe-CEP/CEP-Resources/blob/master/ZXPSignCMD/4.0.7/osx10/ZXPSignCmd.dmg)
