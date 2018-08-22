@@ -11,46 +11,37 @@
 * [Support the project](overview/support-the-project.md)
 * [documentation section template](overview/documentation-section-template.md)
 * [Build / Deployment](overview/deploymentbuild/README.md)
-  * [Deployment/build for Max OS X](overview/deploymentbuild/deploymentbuild-for-max-os-x.md)
+  * [Deployment/build for Mac OS X](overview/deploymentbuild/deploymentbuild-for-max-os-x.md)
   * [Deployment / Build for Linux](overview/deploymentbuild/deployment-build-for-linux.md)
   * [Deployment / Build for Windows](overview/deploymentbuild/deployment-build-for-windows.md)
   * [Travis CI continuous build](overview/deploymentbuild/travis-ci-continuous-build.md)
 
-## Transcriptions
+## R&D Doc
 
-* [Transcriptions intro](transcriptions/transcriptions-intro/README.md)
-  * [Transcription json](transcriptions/transcriptions-intro/transcriptions.md)
-* [Transcriber](transcriptions/transcriber/README.md)
-  * [audio to video](transcriptions/transcriber/audio-to-video.md)
-  * [STT sdks](transcriptions/transcriber/stt-api/README.md)
-    * [IBM Watson STT](transcriptions/transcriber/stt-api/ibm-watson-stt.md)
-    * [Gentle STT](transcriptions/transcriber/stt-api/gentle-stt.md)
-    * [Pocketsphinx](transcriptions/transcriber/stt-api/pocketsphinx.md)
-* [Read metadata](transcriptions/read-metadata.md)
+* [Transcription & Media Processing](transcriptions/transcriptions-intro/README.md)
+  * [Transcription json](transcriptions/transcriptions-intro/transcriptions/README.md)
+    * [Transcriber](transcriptions/transcriptions-intro/transcriptions/transcriber/README.md)
+      * [audio to video](transcriptions/transcriptions-intro/transcriptions/transcriber/audio-to-video.md)
+      * [STT sdks](transcriptions/transcriptions-intro/transcriptions/transcriber/stt-api/README.md)
+        * [IBM Watson STT](transcriptions/transcriptions-intro/transcriptions/transcriber/stt-api/ibm-watson-stt.md)
+        * [Gentle STT](transcriptions/transcriptions-intro/transcriptions/transcriber/stt-api/gentle-stt.md)
+        * [Pocketsphinx](transcriptions/transcriptions-intro/transcriptions/transcriber/stt-api/pocketsphinx.md)
+  * [Read metadata](transcriptions/transcriptions-intro/read-metadata.md)
 * [Video preview conversion](transcriptions/video-preview-conversion.md)
 * [Hypertranscript](transcriptions/hypertranscript.md)
-
-## Papercuts
-
-* [Papercuts](papercuts/papercuts/README.md)
-  * [Selections](papercuts/papercuts/selections.md)
-  * [Annotations](papercuts/papercuts/annotations.md)
-  * [Tags](papercuts/papercuts/tags.md)
-
-## Paper-edit
-
-* [Paper-edit](paper-edit/paper-edit/README.md)
-  * [Paper-edit json](paper-edit/paper-edit/paper-edit-json.md)
-  * [search-filter](paper-edit/paper-edit/paper-editsearch-filter.md)
-  * [drag-and-drop](paper-edit/paper-edit/paper-editdrag-and-drop.md)
-  * [video-preview](paper-edit/paper-edit/paper-editvideo-preview.md)
-
-## Export
-
-* [Export](export/export/README.md)
-  * [EDL export](export/export/edl-export.md)
-  * [XML export](export/export/xml-export.md)
-  * [mp4 export](export/export/mp4-export.md)
+* [Papercuts](transcriptions/papercuts/README.md)
+  * [Selections](transcriptions/papercuts/selections.md)
+  * [Annotations](transcriptions/papercuts/annotations.md)
+  * [Tags](transcriptions/papercuts/tags.md)
+* [Paper-edit](transcriptions/paper-edit/README.md)
+  * [Paper-edit json](transcriptions/paper-edit/paper-edit-json.md)
+  * [search-filter](transcriptions/paper-edit/paper-editsearch-filter.md)
+  * [drag-and-drop](transcriptions/paper-edit/paper-editdrag-and-drop.md)
+  * [video-preview](transcriptions/paper-edit/paper-editvideo-preview.md)
+* [Export](transcriptions/export/README.md)
+  * [EDL export](transcriptions/export/edl-export.md)
+  * [XML export](transcriptions/export/xml-export.md)
+  * [mp4 export](transcriptions/export/mp4-export.md)
 
 ## Appendix
 

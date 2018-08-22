@@ -10,15 +10,15 @@ Connected to this is defining a schema for transcription, to make sure all compo
 
 ### Gentle - json
 
-[See appendix for json](../../appendix-data-structures/gentle-json-transcription-specs.md) example.
+[See appendix for json](../../../appendix-data-structures/gentle-json-transcription-specs.md) example.
 
 ### IBM - Json
 
-[See appendix for json](../../appendix-data-structures/ibm-watson-json-specs.md) example. As well as their [stt api reference](https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/) and documentation.
+[See appendix for json](../../../appendix-data-structures/ibm-watson-json-specs.md) example. As well as their [stt api reference](https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/) and documentation.
 
 ### Pocketsphinx  - plain text
 
-[See appendix for example](../../appendix-data-structures/pocketsphinx-results.md) pocketsphinx plain text.
+[See appendix for example](../../../appendix-data-structures/pocketsphinx-results.md) pocketsphinx plain text.
 
 ## Implementations Options considered
 
@@ -44,7 +44,7 @@ However  the blocker for now is that changing the data structure for transcripti
 
 autoEdit JSON Transcription schema at a high level it models the objects present in a transcription.
 
-![Transcription modelling diagram](../../.gitbook/assets/transcription-modelling.png)
+![Transcription modelling diagram](../../../.gitbook/assets/transcription-modelling.png)
 
 In this representation:
 
@@ -57,7 +57,7 @@ Speakers are associated to paragraphs. Paragraphs are treated as sections of lin
 
 A list of speakers can also be kept separate, similarly to how IBM Watson stt API returns the results of speaker diarization.
 
-[See Appendix for autoEdit json schema example](../../appendix-data-structures/autoedit-transcription-json.md).
+[See Appendix for autoEdit json schema example](../../../appendix-data-structures/autoedit-transcription-json.md).
 
 ## What needs refactoring
 

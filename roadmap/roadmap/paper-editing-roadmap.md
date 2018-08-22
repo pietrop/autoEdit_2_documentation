@@ -2,16 +2,16 @@
 
 ## Current roadmap
 
-1. [Transcriber](../../transcriptions/transcriber/) 
+1. [Transcriber](../../transcriptions/transcriptions-intro/transcriptions/transcriber/) 
    1. **Video/Audio** → plain text
    2. **Video/Audio** → Text + Timecodes
-2. [Papercuts](../../papercuts/papercuts/)
+2. [Papercuts](../../transcriptions/papercuts/)
    1. **Highlights + EDL export** 
    2. Annotations ←  TODO
    3. Search and filter ←  TODO
    4. Speaker names ← TODO
    5. Projects ← TODO
-3. [Paper-edit](../../paper-edit/paper-edit/)  ← current version
+3. [Paper-edit](../../transcriptions/paper-edit/)  ← current version
    1. **Paper-edit view** 
    2. **Outline**
    3. **Video preview** ← beta

@@ -1,4 +1,4 @@
-# Deployment/build for Max OS X
+# Deployment/build for Mac OS X
 
 From terminal from root of app, run the deployment script
 

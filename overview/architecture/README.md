@@ -159,7 +159,7 @@ The `pocketsphinx` module was originally extracted from the [electron version of
 
 ### `edl_composer` module
 
-See [EDL format](../../appendix/edl-format.md), and [Export section](../../export/export/) as well as [EDL composer module](https://github.com/OpenNewsLabs/autoEdit_2/tree/master/lib/edl_composer).
+See [EDL format](../../appendix/edl-format.md), and [Export section](../../transcriptions/export/) as well as [EDL composer module](https://github.com/OpenNewsLabs/autoEdit_2/tree/master/lib/edl_composer).
 
 This module as also been abstracted as separate [npm module](https://www.npmjs.com/package/edl_composer) and [github repository](https://github.com/pietrop/edl_composer#readme)
 
