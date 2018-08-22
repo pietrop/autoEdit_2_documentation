@@ -1,4 +1,4 @@
-# Packaging and distributing Adobe CEP Extensions 🚧
+# Packaging and distributing Adobe CEP Extensions
 
 ## build the app in one folder
 
