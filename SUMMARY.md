@@ -19,7 +19,6 @@
 ## R&D Doc
 
 * [Transcription & Media Processing](transcriptions/transcriptions-intro/README.md)
-  * [Read metadata](transcriptions/transcriptions-intro/read-metadata.md)
   * [Transcription json](transcriptions/transcriptions-intro/transcriptions.md)
   * [Transcriber](transcriptions/transcriptions-intro/transcriber/README.md)
     * [audio to video](transcriptions/transcriptions-intro/transcriber/audio-to-video.md)
@@ -27,7 +26,8 @@
       * [IBM Watson STT](transcriptions/transcriptions-intro/transcriber/stt-api/ibm-watson-stt.md)
       * [Gentle STT](transcriptions/transcriptions-intro/transcriber/stt-api/gentle-stt.md)
       * [Pocketsphinx](transcriptions/transcriptions-intro/transcriber/stt-api/pocketsphinx.md)
-    * [Video preview conversion](transcriptions/transcriptions-intro/transcriber/video-preview-conversion.md)
+  * [Read metadata](transcriptions/transcriptions-intro/read-metadata.md)
+  * [Video preview conversion](transcriptions/transcriptions-intro/video-preview-conversion.md)
 * [Hypertranscript](transcriptions/hypertranscript.md)
 * [Selections, Annotations, Papercuts](transcriptions/papercuts/README.md)
   * [Selections](transcriptions/papercuts/selections.md)
