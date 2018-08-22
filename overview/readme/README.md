@@ -12,17 +12,19 @@ In a fast paced newsroom often there is no time for such a time-consuming proces
 
 The aim of the autoEdit project is to produce an application that can maximise not only the depth of content but also the speed in which the content is produced.
 
-The approach was to look at the traditional paper-editing workflow from documentary production, and see how that could translate into a digital world. [For more on paper-editing and how this is used to craft compelling stories out of video interviews, check out the notes from this workshop](http://pietropassarelli.com/wip_london_july2016.html).
+The approach was to look at the traditional paper-editing workflow from documentary production, and see how that could translate into a digital world. [For more on paper-editing and how this is used to craft compelling stories out of video interviews, check out the slides from this workshop](http://pietropassarelli.com/wip_london_july2016.html).
 
 {% embed data="{\"url\":\"http://pietropassarelli.com/wip\_london\_july2016.html\",\"type\":\"link\",\"title\":\"Workshop: How to craft compelling stories out of video interviews? · Pietro\",\"icon\":{\"type\":\"icon\",\"url\":\"http://pietropassarelli.com/public/favicon.ico/favicon-192.png\",\"width\":192,\"height\":192,\"aspectRatio\":1}}" %}
 
-For [an overview of how this has been implemented in autoEdit, from a user's point of view, check out the user manual](https://autoedit.gitbook.io/how-to-tell-compelling-stories-out-of-interviews).
+And/or[ gitbook version of the talk](https://autoedit.gitbook.io/how-to-tell-compelling-stories-out-of-interviews), and in particular the [section on digital paper-editing](https://autoedit.gitbook.io/how-to-tell-compelling-stories-out-of-interviews/digital-paper-editing/autoedit-2-digital-paper-editing-software).
 
-{% embed data="{\"url\":\"https://autoedit.gitbook.io/how-to-tell-compelling-stories-out-of-interviews\",\"type\":\"link\",\"title\":\"Introduction - How to tell compelling stories out of video interviews\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LKEX2pgEboHMhySJ5EJ%2Favatar.png?generation=1534637655291617&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LKEX2pgEboHMhySJ5EJ.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+{% embed data="{\"url\":\"https://autoedit.gitbook.io/how-to-tell-compelling-stories-out-of-interviews/\",\"type\":\"link\",\"title\":\"Introduction - How to tell compelling stories out of video interviews\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LKEX2pgEboHMhySJ5EJ%2Favatar.png?generation=1534637655291617&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LKEX2pgEboHMhySJ5EJ.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
+For [an overview of how this has been implemented in autoEdit, from a user's perspecitve, check out the user manual](https://autoedit.gitbook.io/how-to-tell-compelling-stories-out-of-interviews).
 
+{% embed data="{\"url\":\"https://autoedit.gitbook.io/user-manual\",\"type\":\"link\",\"title\":\"Introduction - autoEdit 2 User Manual\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LKETZisqiBNpYXfFMzt%2Favatar.png?generation=1534636740751094&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LKETZisqiBNpYXfFMzt.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
-Presentation at [textAV](www.textAV.tech) '17 NYC, about 10 min
+There's also a quick 10 min presentation at [textAV](www.textAV.tech) '17 NYC \(covers version `1.0.7`\)
 
 {% embed data="{\"url\":\"https://youtu.be/8SzqXMu0Sz0\",\"type\":\"video\",\"title\":\"2017 07 20 11 48 14\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/8SzqXMu0Sz0/maxresdefault.jpg\",\"width\":1280,\"height\":720,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/8SzqXMu0Sz0?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\\"><iframe src=\\\"https://www.youtube.com/embed/8SzqXMu0Sz0?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
 
