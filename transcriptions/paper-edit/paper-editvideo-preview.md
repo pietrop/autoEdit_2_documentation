@@ -1,4 +1,4 @@
-# video-preview
+# Preview Paper-edit video
 
 ### Component/part description
 
@@ -58,7 +58,18 @@ More on media fragments: [https://youtu.be/LfRRYp6mnu0](https://youtu.be/LfRRYp6
 
 Webm example for nwjs \(nwjs does not support mp4\)
 
-var videoSequence = \[{"src": "[http://dl1.webmfiles.org/big-buck-bunny\_trailer.webm](http://dl1.webmfiles.org/big-buck-bunny_trailer.webm)", "inPoint":3.2 , "outPoint":6},{"src": "[http://dl1.webmfiles.org/elephants-dream.webm](http://dl1.webmfiles.org/elephants-dream.webm)", "inPoint": 1, "outPoint":3},{"src": "[http://dl1.webmfiles.org/big-buck-bunny\_trailer.webm](http://dl1.webmfiles.org/big-buck-bunny_trailer.webm)", "inPoint": 10, "outPoint":15}\] Issue: flicker white in between videos
+```javascript
+var videoSequence = [{"src": "http://dl1.webmfiles.org/big-buck-bunny_trailer.webm
+", "inPoint":3.2 , "outPoint":6},
+{"src": "http://dl1.webmfiles.org/elephants-dream.webm
+", "inPoint": 1, "outPoint":3},
+{"src": "http://dl1.webmfiles.org/big-buck-bunny_trailer.webm
+", "inPoint": 10, "outPoint":15}] 
+```
+
+
+
+Issue: flicker white in between videos
 
 [https://stackoverflow.com/questions/26670048/video-flicker-once-upon-change-of-source](https://stackoverflow.com/questions/26670048/video-flicker-once-upon-change-of-source)
 
@@ -88,11 +99,31 @@ It’s in angular tho [http://www.moviemasher.com/](http://www.moviemasher.com/)
 
 EDL Json / playlist:
 
-var playlist = { "tracks":\[ \[{type:"image", src:"assets/aston.png", start:0, duration:10, id:"aston"}\], \[{type:"video", src:"assets/title.mp4", start:0, duration:2, id:"title"},{type:"video", src:"assets/title.mp4", start:2, duration:8, id:"clip1"}\] \] }
+```javascript
+var playlist = { "tracks":[ 
+[
+{type:"image", src:"assets/aston.png", start:0, duration:10, id:"aston"}
+], 
+[
+{type:"video", src:"assets/title.mp4", start:0, duration:2, id:"title"},
+{type:"video", src:"assets/title.mp4", start:2, duration:8, id:"clip1"}
+]
+]
+ }
+```
 
 Media source:
 
-{ id:"title", //A unique ID used to identify the created MediaSource type:"video", //A type can be either 'canvas', 'video', or 'image' src:"assets/title.mp4", //A URL to load the media from, only works for 'image' and 'video' types. \(See Element vs Source below\) start:0, //The time at which to start playing the created MediaSource sourceStart: 10 //Only applicable to type 'video', the time from within the source file to start playing. duration:2 //How long to display the created MediaSource for. }
+```javascript
+{
+    id:"title",             //A unique ID used to identify the created MediaSource
+    type:"video",           //A type can be either 'canvas', 'video', or 'image'
+    src:"assets/title.mp4", //A URL to load the media from, only works for 'image' and 'video' types.  (See Element vs Source below) 
+    start:0,                //The time at which to start playing the created MediaSource 
+    sourceStart: 10         //Only applicable to type 'video', the time from within the source file to start playing.
+    duration:2              //How long to display the created MediaSource for.
+}
+```
 
 However this is now deprecated in favour of BBC video context.
 

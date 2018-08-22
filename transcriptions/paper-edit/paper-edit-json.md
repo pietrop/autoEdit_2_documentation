@@ -88,7 +88,7 @@ Data structure used in `papercut.html.ejs` to make a paper-edit when selecting w
 
 This is done so that there can be an interactive transcript this side as well using ejs
 
-```text
+```javascript
 <dl class="dl-horizontal">
 <dt><%= papercut[0].speaker %></dt>
 <dt>
@@ -116,7 +116,7 @@ data-end-time="<%= papercut[i].endTime %>"><%= papercut[i].text %> </span>
 
 At the moment as as the papercut EDL json in autoEdit but with fields less, as it doesn’t need a lot of the once in the autoEdit one, to be able to make an .edl file.
 
-```text
+```javascript
 var edlSqDemo = {
 "title": "Demo Title of project",
 //offset is optional default is "00:00:00:00"

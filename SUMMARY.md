@@ -37,7 +37,7 @@
   * [Paper-edit json](transcriptions/paper-edit/paper-edit-json.md)
   * [search-filter](transcriptions/paper-edit/paper-editsearch-filter.md)
   * [drag-and-drop](transcriptions/paper-edit/paper-editdrag-and-drop.md)
-  * [video-preview](transcriptions/paper-edit/paper-editvideo-preview.md)
+  * [Preview Paper-edit video](transcriptions/paper-edit/paper-editvideo-preview.md)
 * [Export](transcriptions/export/README.md)
   * [EDL export](transcriptions/export/edl-export.md)
   * [XML export](transcriptions/export/xml-export.md)

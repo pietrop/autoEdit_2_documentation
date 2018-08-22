@@ -28,6 +28,12 @@ It be good to figure this out as a component.
 
 JSffidle high fidelity mockup example: [https://jsfiddle.net/pietrops/Lufaerr2/1/](https://jsfiddle.net/pietrops/Lufaerr2/1/) For simplicity the words are plain text and not wrapped in span tag, as they would be in an proper hyper transcript.
 
+![Screen Shot 2017-04-19 at 15.12.04.png](https://lh6.googleusercontent.com/VI0mT7f6yiTz_DRbEhcDppEmq3qRQfN5XEelu3lxHXZVhiRww44FRrbWdn_6lFFWIoCvDLbPa2qWyO-phE4DvheeXeaOVFViMjHdbhKU-QhNQNRBMMgVW0GsnfOMZXlEJqC9ovqa)
+
+{% embed data="{\"url\":\"https://jsfiddle.net/pietrops/Lufaerr2/1/\",\"type\":\"rich\",\"title\":\"Paperedit - dragula - JSFiddle\",\"description\":\"Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://jsfiddle.net/img/favicon.png\",\"aspectRatio\":0},\"embed\":{\"type\":\"app\",\"url\":\"https://jsfiddle.net/pietrops/Lufaerr2/embedded/\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\\\"><iframe src=\\\"https://jsfiddle.net/pietrops/Lufaerr2/embedded/\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":0}}" %}
+
+
+
 This makes the whole line / paragraph draggable.
 
 Making words as draggable and having multi selection is outside of the scope of dragula \(read that in the issues section of github repo\).
@@ -51,11 +57,21 @@ using express, jquery multisortable for D&D, bbc video compositor for preview. i
 
 [https://github.com/pietrop/autoEdit\_nwjs\_alpha\_RandD/blob/master/views/template/paperedit.html](https://github.com/pietrop/autoEdit_nwjs_alpha_RandD/blob/master/views/template/paperedit.html)
 
+![Screen Shot 2017-04-19 at 19.17.07.png](https://lh3.googleusercontent.com/AByDvF7-eci9joyF3-OkNM_j40OBpdefk1xeJ4alcXpFRLdlxX0gpso1Op6Ac59AeOUOBfMc5I_CyvO2Sl4LryYy_4Md8bT5EFJuALVEHShp3ZknZbzJQzcAcQOgH0Zb_rYU1HFW)
+
 Abstracted example with jquery multi sortable [https://jsfiddle.net/pietrops/eo4najce/](https://jsfiddle.net/pietrops/eo4najce/)
+
+{% embed data="{\"url\":\"https://jsfiddle.net/pietrops/eo4najce/\",\"type\":\"rich\",\"title\":\"jquery.multisortable - Working - JSFiddle\",\"description\":\"Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://jsfiddle.net/img/favicon.png\",\"aspectRatio\":0},\"embed\":{\"type\":\"app\",\"url\":\"https://jsfiddle.net/pietrops/eo4najce/embedded/\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\\\"><iframe src=\\\"https://jsfiddle.net/pietrops/eo4najce/embedded/\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":0}}" %}
 
 Main issue with this is that you need to click to select. And do click shift to select from one word to the other.
 
 An option could be to add slected class to words span contigues to clicked selected?
+
+
+
+### **Option: Sortable**
+
+Another option is to use sortable [https://rubaxa.github.io/Sortable/](https://rubaxa.github.io/Sortable/)
 
 ### Jquery Sortable
 
@@ -71,7 +87,9 @@ From Laurian:
 
 > the drag and drop was made with rangy and tether.js \([http://tether.io/](http://tether.io/)\) , basically using tether to replicate the selection and have it html5 draggable
 
-[http://popcorn.gridinoc.com/](http://popcorn.gridinoc.com/)
+{% embed data="{\"url\":\"http://popcorn.gridinoc.com/\",\"type\":\"link\",\"title\":\"Hyperaudio Experimental\",\"icon\":{\"type\":\"icon\",\"url\":\"http://popcorn.gridinoc.com/media/favicon.ico\",\"aspectRatio\":0}}" %}
+
+![Screen Shot 2017-04-10 at 19.23.59.png](https://lh4.googleusercontent.com/pCA-mdvlWqcdKdgTLJ7kNq0QOuDZf-7Yk22EXscnbkbVjPSIPUoe5TN_zFPW7IazAQgAxBM4CxyE7_TYhTyl0rgu9MpfxB6ww-R7oIqwzUgW40hZhQaM16DrcYCs4xgexvghCSs1)
 
 ### listener + data layer // Andrea's option &lt;-- current implemtation
 
@@ -85,7 +103,7 @@ Spec of the EDL sequence. [http://www.autoedit.io/jsdoc\_docs/module-edl\_compos
 
 [https://github.com/andrixb/texthighliter](https://github.com/andrixb/texthighliter)
 
-[https://jsfiddle.net/andrixb/9cnp4rgL/56/](https://jsfiddle.net/andrixb/9cnp4rgL/56/)
+{% embed data="{\"url\":\"https://jsfiddle.net/andrixb/9cnp4rgL/56/\",\"type\":\"rich\",\"title\":\"Edit fiddle - JSFiddle\",\"description\":\"Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://jsfiddle.net/img/favicon.png\",\"aspectRatio\":0},\"embed\":{\"type\":\"app\",\"url\":\"https://jsfiddle.net/andrixb/9cnp4rgL/embedded/\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\\\"><iframe src=\\\"https://jsfiddle.net/andrixb/9cnp4rgL/embedded/\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":0}}" %}
 
 [http://farhadi.ir/projects/html5sortable/](http://farhadi.ir/projects/html5sortable/)
 
