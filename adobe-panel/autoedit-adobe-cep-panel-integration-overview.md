@@ -1,9 +1,3 @@
----
-description: >-
-  Describe the desired behaviour for the integration of autoEdit as a CEP panel
-  with adobe.
----
-
 # autoEdit Adobe CEP Panel integration overview
 
 Organised by main autoEdit views.
@@ -12,7 +6,9 @@ Symbols legend: ✅done,  𝥷 todo , 𐄂 out of scope for this version
 
 ![diagram showing naming of various parts of adobe premiere that integrate with the autoEdit CEP panel.](https://docs.google.com/drawings/d/snAH8rGwT5UU_JN-0RAfOTQ/image?w=624&h=411&rev=1&ac=1&parent=1NTQvPj6UOD6QLPQUworz0JN4vH31tCvT6ML1Ne6BLfE)
 
+Also [see autoEdit Adobe Panel user manual](https://autoedit.gitbook.io/user-manual/autoedit-adobe-panel/transcription-to-source-monitor) for user facing functionalities implemented so far.
 
+This is more of planning document to reason around best strategy and functionality for the integration.
 
 ## **View: New Transcript**
 

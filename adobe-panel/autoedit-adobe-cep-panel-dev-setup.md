@@ -6,11 +6,11 @@ description: "work in progress \U0001F6A7"
 
 Thanks to [@bfasenfest](https://github.com/bfasenfest) help in figuring out adobe CEP there is now support for an adobe panel version of autoEdit under development.
 
-
-
 CEP stands for [`Common Extensibility Platform`](https://www.adobe.io/apis/creativecloud/cep.html) and it's an SDK by Adobe to create panels for the Adobe suite.
 
 It is now possible to run autoEdit as an Adobe panel. The idea is that when run inside of adobe as a CEP panel, autoEdit, will have access to same local databse as the desktop application, to allow maximum portability, and have extra acess to features to integrate with adobe premiere, such as sync play with clips in source monitor from transcriptions etc..
+
+Also [see autoEdit Adobe Panel user manual](https://autoedit.gitbook.io/user-manual/autoedit-adobe-panel/transcription-to-source-monitor) for user facing functionalities.
 
 ![Example autoEdit CEP](https://pbs.twimg.com/media/Dkg0waTW4AALCCM.jpg)
 
@@ -115,15 +115,24 @@ Everytime you want to update changes in the panel you need to close and reopen i
 
 Local server for adobe panel is at [http://localhost:8099/](http://localhost:8099/), there you can see the dev tools inspector and console."
 
+### autoEdit adobe JSX integration
+
+* [List of features here organised by autoEdit views](autoedit-adobe-cep-panel-integration-overview.md).
+* [See this section for adobe JSX functions useful for autoEdit Panel](adobe-cep-jsx-functions-for-autoedit-adobe-panel.md).
+
+### Packaging and distributing extension
+
+* [see this section for more details on packaging, signing and distributing Adobe CEP extensions.](packaging-and-distributing-adobe-cep-extensions.md)
+
 ### some more docs for Adobe dev documentation
 
 * [Official Adobe Sample Panel](https://github.com/Adobe-CEP/Samples/tree/master/PProPanel)
 * [Semi Official API Docs](http://ppro.aenhancers.com/)
 * [Non Official but very nice API Docs](http://www.brysonmichael.com/premiereapi-home)
 
-### autoEdit adobe JSX integration
 
-List of featues here organised by autoEdit views. [See this google doc, 'adobe JSX functions for autoEdit Panel' for more details](https://docs.google.com/document/d/1PCivPisinsoIOh7NnceuXgh0ks5h_vwLLFX6gKRW0LM/edit?usp=sharing)
+
+### Other links
 
 Submitting extensions to [Adobe Exchange website](https://helpx.adobe.com/extension-manager/using/packaging-submitting-extensions.html) and[Adobe exchange program\]](https://partners.adobe.com/exchangeprogram/creativecloud.html) and [Adobe extension manager](https://www.adobe.com/exchange/em_download/) needed to package app.
 

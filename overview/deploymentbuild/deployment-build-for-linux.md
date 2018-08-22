@@ -34,3 +34,45 @@ It packages the app as a [`AppImages`](https://appimage.org) that works across l
 >
 > ./exampleName.AppImage
 
+## What is an AppImage
+
+AppImages can be downloaded and run without installation or the need for root rights.
+
+### Making it executable
+
+You can make the appImage executable as follows:
+
+`chmod a+x` exampleName.AppImage
+
+Or [see also how to make an AppImage executable for easier users instructions using GUI](https://discourse.appimage.org/t/how-to-make-an-appimage-executable/80)
+
+### Executing it
+
+You can execute an appImage as follows:
+
+`./exampleName.AppImage`
+
+### AppImage advantages
+
+Providing an [AppImage](http://appimage.org/) would have, among others, these advantages:
+
+* Applications packaged as an AppImage can run on many distributions \(including Ubuntu, Fedora, openSUSE, CentOS, elementaryOS, Linux Mint, and others\)
+* One app = one file = super simple for users: just download one AppImage file, [make it executable](http://discourse.appimage.org/t/how-to-make-an-appimage-executable/80), and run
+* No unpacking or installation necessary
+* No root needed
+* No system libraries changed
+* Works out of the box, no installation of runtimes needed
+* Optional desktop integration with `appimaged`
+* Optional binary delta updates, e.g., for continuous builds \(only download the binary diff\) using AppImageUpdate
+* Can optionally GPG2-sign your AppImages \(inside the file\)
+* Works on Live ISOs
+* Can use the same AppImages when dual-booting multiple distributions
+* Can be listed in the [AppImageHub](https://appimage.github.io/apps) central directory of available AppImages
+* Can double as a self-extracting compressed archive with the `--appimage-extract` parameter
+
+[Here is an overview](https://appimage.github.io/apps) of projects that are already distributing upstream-provided, official AppImages.
+
+If you have questions, AppImage developers are on \#AppImage on irc.freenode.net.
+
+## 
+

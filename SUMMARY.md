@@ -82,6 +82,7 @@
 * [autoEdit Adobe CEP Panel dev setup 🚧](adobe-panel/autoedit-adobe-cep-panel-dev-setup.md)
 * [autoEdit Adobe CEP Panel integration overview](adobe-panel/autoedit-adobe-cep-panel-integration-overview.md)
 * [Adobe CEP Jsx functions for autoEdit adobe Panel](adobe-panel/adobe-cep-jsx-functions-for-autoedit-adobe-panel.md)
+* [Packaging and distributing Adobe CEP Extensions 🚧](adobe-panel/packaging-and-distributing-adobe-cep-extensions.md)
 
 ## Project Page
 
