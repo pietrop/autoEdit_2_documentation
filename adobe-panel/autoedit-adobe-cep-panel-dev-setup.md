@@ -2,7 +2,7 @@
 description: "work in progress \U0001F6A7"
 ---
 
-# autoEdit Adobe CEP Panel dev setup 🚧
+# autoEdit Adobe CEP Panel dev setup
 
 Thanks to [@bfasenfest](https://github.com/bfasenfest) help in figuring out adobe CEP there is now support for an adobe panel version of autoEdit under development.
 
@@ -130,32 +130,11 @@ Local server for adobe panel is at [http://localhost:8099/](http://localhost:809
 * [Semi Official API Docs](http://ppro.aenhancers.com/)
 * [Non Official but very nice API Docs](http://www.brysonmichael.com/premiereapi-home)
 
-
-
-### Other links
-
-Submitting extensions to [Adobe Exchange website](https://helpx.adobe.com/extension-manager/using/packaging-submitting-extensions.html) and[Adobe exchange program\]](https://partners.adobe.com/exchangeprogram/creativecloud.html) and [Adobe extension manager](https://www.adobe.com/exchange/em_download/) needed to package app.
-
-or might need to use more recent[creative suite SDK](https://www.adobe.com/devnet/creativesuite/sdk.html) 
-
-Tutorial for deployment 
-
-{% embed data="{\"url\":\"http://www.davidebarranca.com/2014/05/html-panels-tips-10-packaging-zxp-installers/\",\"type\":\"link\",\"title\":\"HTML Panels Tips: \#10 Packaging / ZXP Installers \| Photoshop, etc.\",\"description\":\"How to build customized ZXP installers for CC HTML Extensions \(standard, flash-compatible, hybrid\) using ZXPSignCmd, ucf.jar and MXI files.\",\"icon\":{\"type\":\"icon\",\"url\":\"http://www.davidebarranca.com/wp-content/uploads/2013/01/144.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"http://www.davidebarranca.com/wp-content/uploads/2014/05/mxi.png\",\"width\":150,\"height\":150,\"aspectRatio\":1}}" %}
-
-{% embed data="{\"url\":\"http://aphall.com/2014/09/cep-5-distribution-en/\",\"type\":\"link\",\"title\":\"CEP Guide Part 7: Packaging and Distribution \| aphall.com\",\"description\":\"Andy Hall is a developer in Tokyo, working on a game.\",\"icon\":{\"type\":\"icon\",\"url\":\"http://aphall.com/haha/how/about/no.png\",\"aspectRatio\":0}}" %}
+For a more comprehensive unofficial guide of Adobe CEP see this series of blog posts, highly recommended if you want to understand the overall setup and inner workings.
 
 {% embed data="{\"url\":\"http://aphall.com/2014/08/cep-mega-guide-en/\",\"type\":\"link\",\"title\":\"CEP 5 Super mega guide: Extending Adobe apps with HTML5+Node.js \| aphall.com\",\"description\":\"Andy Hall is a developer in Tokyo, working on a game.\"}" %}
 
-[6. Package and deploy your panel](https://github.com/Adobe-CEP/Samples/tree/master/PProPanel#6-package-and-deploy-your-panel)
 
-on mac [ZXPSignCmd.dmg](https://github.com/Adobe-CEP/CEP-Resources/blob/master/ZXPSignCMD/4.0.7/osx10/ZXPSignCmd.dmg)
 
-[Exchange extensions installation error codes and description ](https://helpx.adobe.com/exchange/kb/error-codes.html)
-
-[https://helpx.adobe.com/extension-manager/using/command-line.html](https://helpx.adobe.com/extension-manager/using/command-line.html)
-
-[ExtendScript Toolkit CC](https://www.adobe.com/cy_en/products/extendscript-toolkit.html)
-
-* [https://www.adobe.io/apis/creativecloud/overview.html](https://www.adobe.io/apis/creativecloud/overview.html)
-* [https://partners.adobe.com/exchangeprogram/creativecloud/app-posting.html](https://partners.adobe.com/exchangeprogram/creativecloud/app-posting.html)
+### 
 
