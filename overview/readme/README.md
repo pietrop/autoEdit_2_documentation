@@ -73,19 +73,23 @@ As opposed to when importing an EDL the clips are offline and need to be reconne
 
 ## Structure of the documentation
 
-This documentation is meant to be a higher level overview of the structure, parts and components of the application. Focused more on how problem domain issue have been addressed, which options have been tried and considered and what is the current implementation strength and weaknesses.
+This documentation is meant to serve as resource for the development of autoEdit. With the higher level overview of the structure, parts and components of the application. 
 
-The first part is structured a round the 5 higher level parts that make up the app. Each one following this [template structure](../documentation-section-template.md):
+Check out the [High level overview of the parts](../architecture/#high-level-overview-of-the-parts) for more on this.
+
+Then it also contains a [roadmap section](../../roadmap/roadmap/), and a [QA section](../../qa-list/qa-intro.md) to serve as a checklist before every deployment, as well as a series of appendix to collect  technical info and implementation details relevant to the project , such as for example the [db setup](../../appendix/current-db-setup.md), [prerequisite](../../appendix/prerequisites.md), [ffmpeg & ffprobe packaging in electron](../../appendix/ffmpeg-and-ffprobe-in-electron.md),  to mention a few.
+
+### R&D Doc
+
+The R&D Doc section, contains the notes used to keep a record of how problem domain issue have been addressed, which options have been tried and considered and what is the current implementation strength and weaknesses.
+
+The  part is structured a round the 5 higher level parts that make up the app. Each one following this [template structure](../documentation-section-template.md):
 
 * Component/part description 
 * Related projects. Eg parts that look good, or previous implementations. But have been used for current implementation options. 
 * Implementations Options considered
 * Current implementation 
 * What needs refactoring 
-
-Check out the [High level overview of the parts]() for more on this.
-
-Then it also contains a [roadmap section](../../roadmap/roadmap/), and a [QA section](../../qa-list/qa-intro.md) to serve as a checklist before every deployment, as well as a series of appendix with more technical info and implementation details relevant to the project , such as for example the [db setup](../../appendix/current-db-setup.md) and [prerequisite](../../appendix/prerequisites.md) to mention a few.
 
 ## The Stack
 
