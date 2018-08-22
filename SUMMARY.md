@@ -5,6 +5,7 @@
 ## Overview
 
 * [Intro](overview/readme/README.md)
+  * [Development approach](overview/readme/development-approach.md)
   * [from 1.0.5 to 1.0.6](overview/readme/from-105-to-106.md)
 * [Architecture Overview](overview/architecture/README.md)
   * [High fidelity sketches in HTML](overview/architecture/high-fidelity-sketches-in-html.md)
