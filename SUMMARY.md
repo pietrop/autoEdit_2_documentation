@@ -67,10 +67,6 @@
 ## QA List
 
 * [QA Intro](qa-list/qa-intro.md)
-* [QA Launch App](qa-list/qa-launch-app.md)
-* [QA Transcriptions](qa-list/qa-transcriptions.md)
-* [QA Paperedits](qa-list/qa-paperedits.md)
-* [QA Export](qa-list/qa-export.md)
 
 ## Adobe Panel
 
