@@ -28,6 +28,10 @@ download the binary for `ZXPSignCmd`from the[ Adobe CEP Resources github repo](h
 
 ## Creating a self signing certificate certificate
 
+{% hint style="info" %}
+You need to use the `ZXPSignCmd` to generate your self signed certificate. See below for how
+{% endhint %}
+
 > So: fire the Terminal \(or the Win Command line\), get to the directory where you’ve moved the ZXPSignCmd file \(if you don’t know how to do this, just type “cd ” – mind you there’s a space – in the terminal and drag and drop the folder, then hit Enter\) and create a certificate using this pattern:
 
 from 
@@ -80,7 +84,13 @@ Once you have a packaged and sign a Adobe CEP extension you can upload it to the
 
 Submit to[ **adobe exchange program**](https://partners.adobe.com/exchangeprogram/creativecloud/appslist.html)**,** click **create listing**.
 
+## Notes
 
+{% hint style="warning" %}
+at the moment in packaging, ffmpeg and ffprobe static binaries, for the extension all binaries for all operating systems, linux, windows and mac are packaged within the app. 
+
+The extension size is currently 275 MB . But by using [same logic as for the cross platform development with Electron](../appendix/ffmpeg-and-ffprobe-in-electron.md) it could be shrink down to 106 MB or so.
+{% endhint %}
 
 ## Other links
 
