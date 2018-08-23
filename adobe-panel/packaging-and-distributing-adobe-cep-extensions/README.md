@@ -5,7 +5,8 @@ description: Simple automated route
 # Packaging and distributing Adobe CEP Extensions
 
 {% hint style="info" %}
-There is a more [in depth explanation of the steps involved here](packaging-signing-adobe-cep-panel-in-details.md). If you just want to run the script
+There is a more [in depth explanation of the steps involved here](packaging-signing-adobe-cep-panel-in-details.md).  
+Otherwise if you just want to run the automated script continue on this page.
 {% endhint %}
 
 ## Build, package and sign the app
