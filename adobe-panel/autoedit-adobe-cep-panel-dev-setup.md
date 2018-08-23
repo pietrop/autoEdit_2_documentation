@@ -122,7 +122,7 @@ Local server for adobe panel is at [http://localhost:8099/](http://localhost:809
 
 ### Packaging and distributing extension
 
-* [see this section for more details on packaging, signing and distributing Adobe CEP extensions.](packaging-and-distributing-adobe-cep-extensions.md)
+* [see this section for more details on packaging, signing and distributing Adobe CEP extensions.](packaging-and-distributing-adobe-cep-extensions/)
 
 ### some more docs for Adobe dev documentation
 

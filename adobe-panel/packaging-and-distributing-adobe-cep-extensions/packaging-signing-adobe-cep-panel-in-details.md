@@ -1,6 +1,16 @@
-# Packaging and distributing Adobe CEP Extensions
+---
+description: In more details
+---
 
-## build the app in one folder
+# Packaging signing Adobe CEP Panel in details
+
+{% hint style="info" %}
+[simplified automated steps see here](./)
+{% endhint %}
+
+## Build the app in one folder
+
+if you only want to build the app without packaging as `zxp` or signing then use this command.
 
 ```bash
 npm run adobe-panel-build
@@ -78,19 +88,7 @@ from
 
 {% embed data="{\"url\":\"http://www.davidebarranca.com/2014/05/html-panels-tips-10-packaging-zxp-installers/\",\"type\":\"link\",\"title\":\"HTML Panels Tips: \#10 Packaging / ZXP Installers \| Photoshop, etc.\",\"description\":\"How to build customized ZXP installers for CC HTML Extensions \(standard, flash-compatible, hybrid\) using ZXPSignCmd, ucf.jar and MXI files.\",\"icon\":{\"type\":\"icon\",\"url\":\"http://www.davidebarranca.com/wp-content/uploads/2013/01/144.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"http://www.davidebarranca.com/wp-content/uploads/2014/05/mxi.png\",\"width\":150,\"height\":150,\"aspectRatio\":1}}" %}
 
-## Submit to adobe 
 
-Once you have a packaged and sign a Adobe CEP extension you can upload it to the Adobe Exchange marketplace.
-
-Submit to[ **adobe exchange program**](https://partners.adobe.com/exchangeprogram/creativecloud/appslist.html)**,** click **create listing**.
-
-## Notes
-
-{% hint style="warning" %}
-at the moment in packaging, ffmpeg and ffprobe static binaries, for the extension all binaries for all operating systems, linux, windows and mac are packaged within the app. 
-
-The extension size is currently 275 MB . But by using [same logic as for the cross platform development with Electron](../appendix/ffmpeg-and-ffprobe-in-electron.md) it could be shrink down to 106 MB or so.
-{% endhint %}
 
 ## Other links
 
@@ -107,6 +105,8 @@ The extension size is currently 275 MB . But by using [same logic as for the cro
 {% embed data="{\"url\":\"https://partners.adobe.com/exchangeprogram/creativecloud.html\",\"type\":\"link\",\"title\":\"Exchange Program\",\"icon\":{\"type\":\"icon\",\"url\":\"https://partners.adobe.com/content/dam/adobeexchange/favicon.ico\",\"aspectRatio\":0}}" %}
 
 {% embed data="{\"url\":\"https://helpx.adobe.com/extension-manager/using/packaging-submitting-extensions.html\",\"type\":\"link\",\"title\":\"Submitting extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://helpx.adobe.com/include/img/favicon.ico\",\"aspectRatio\":0}}" %}
+
+{% embed data="{\"url\":\"https://www.adobe.com/cy\_en/products/extendscript-toolkit.html\",\"type\":\"link\",\"title\":\"JavaScript development toolkit \| Download Adobe ExtendScript Toolkit CC\",\"description\":\"Download Adobe ExtendScript Toolkit CC to use directly with scriptable Adobe Creative Cloud desktop apps.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://wwwimages2.adobe.com/favicon.ico\",\"aspectRatio\":0}}" %}
 
 {% embed data="{\"url\":\"https://www.adobe.com/cy\_en/products/extendscript-toolkit.html\",\"type\":\"link\",\"title\":\"JavaScript development toolkit \| Download Adobe ExtendScript Toolkit CC\",\"description\":\"Download Adobe ExtendScript Toolkit CC to use directly with scriptable Adobe Creative Cloud desktop apps.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://wwwimages2.adobe.com/favicon.ico\",\"aspectRatio\":0}}" %}
 
