@@ -15,7 +15,7 @@ search at sentence level.Hilight words that match a search string  eg [https://m
 [http://fusejs.io/](http://fusejs.io/)  
 ****
 
-## **𝥷 Improve readability in transcription \(for speechmatics\)**
+## ✅ **Improve readability in transcription \(for speechmatics\)**
 
 * speechmatics breaking words into lines for formatting for readability
 * as well as break paragraphs into different speakers speechmatics json 
