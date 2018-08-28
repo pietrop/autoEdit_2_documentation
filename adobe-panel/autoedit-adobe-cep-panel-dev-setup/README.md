@@ -117,12 +117,12 @@ Local server for adobe panel is at [http://localhost:8099/](http://localhost:809
 
 ### autoEdit adobe JSX integration
 
-* [List of features here organised by autoEdit views](autoedit-adobe-cep-panel-integration-overview.md).
-* [See this section for adobe JSX functions useful for autoEdit Panel](adobe-cep-jsx-functions-for-autoedit-adobe-panel.md).
+* [List of features here organised by autoEdit views](../autoedit-adobe-cep-panel-integration-overview.md).
+* [See this section for adobe JSX functions useful for autoEdit Panel](../adobe-cep-jsx-functions-for-autoedit-adobe-panel.md).
 
 ### Packaging and distributing extension
 
-* [see this section for more details on packaging, signing and distributing Adobe CEP extensions.](packaging-and-distributing-adobe-cep-extensions/)
+* [see this section for more details on packaging, signing and distributing Adobe CEP extensions.](../packaging-and-distributing-adobe-cep-extensions/)
 
 ### some more docs for Adobe dev documentation
 
