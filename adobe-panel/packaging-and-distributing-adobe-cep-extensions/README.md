@@ -11,7 +11,7 @@ Otherwise if you just want to run the automated script continue on this page.
 
 ## Build, package and sign the app
 
-### Addd a config gile
+### Addd a config file
 
 Create a `.env` file in the root of the repository, here's an example
 
