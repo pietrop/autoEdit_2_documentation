@@ -16,7 +16,8 @@
   * [Deployment/build for Mac OS X](overview/deploymentbuild/deploymentbuild-for-max-os-x.md)
   * [Deployment / Build for Linux](overview/deploymentbuild/deployment-build-for-linux.md)
   * [Deployment / Build for Windows](overview/deploymentbuild/deployment-build-for-windows.md)
-  * [Travis CI continuous build](overview/deploymentbuild/travis-ci-continuous-build.md)
+  * [Travis CI continuous build](overview/deploymentbuild/travis-ci-continuous-build/README.md)
+    * [previous travis setup](overview/deploymentbuild/travis-ci-continuous-build/previous-travis-setup.md)
 
 ## R&D Doc
 

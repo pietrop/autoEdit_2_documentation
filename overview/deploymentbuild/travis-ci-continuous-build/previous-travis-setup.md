@@ -1,4 +1,8 @@
-# Travis CI continuous build
+---
+description: 'Previous travis setup, kept for record'
+---
+
+# previous travis setup
 
 There is no deployment as such as it's electron app, so the build described above serves as a packaging of the app for release.
 
@@ -14,6 +18,8 @@ Continuous integration service for
 More info on the implementation of this setup see the info in the [PR](https://github.com/OpenNewsLabs/autoEdit_2/issues/36) and `.travis.yml`
 
 {% embed data="{\"url\":\"https://github.com/OpenNewsLabs/autoEdit\_2/blob/master/.travis.yml\",\"type\":\"link\",\"title\":\"OpenNewsLabs/autoEdit\_2\",\"description\":\"autoEdit\_2 - Fast text based video editing, node Electron Os X desktop app, with Backbone front end.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars1.githubusercontent.com/u/1502863?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+
+
 
 This is an attempt to capture some notes on the steps of setting up travis CI integration.
 
