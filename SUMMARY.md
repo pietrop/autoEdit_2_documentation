@@ -57,6 +57,7 @@
 * [Testing](appendix/testing.md)
 * [Updating automated documentation](appendix/updating-automated-documentation.md)
 * [ffmpeg and ffprobe in electron](appendix/ffmpeg-and-ffprobe-in-electron.md)
+* [Adding STT services](appendix/adding-stt-services.md)
 
 ## Appendix - Data structures
 
