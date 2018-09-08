@@ -1,6 +1,6 @@
 # Introduction
 
-Working Draft R&D Documentation for Developers for [autoEdit2](https://github.com/pietrop/autoEdit_2_documentation/tree/6a02a8d72f177e127c3fe0b3c3959dbc6f737f13/www.autoEdit.io)  `1.0.13` _That does paper-editing_.
+Working Draft R&D Documentation for Developers for [autoEdit2](https://github.com/pietrop/autoEdit_2_documentation/tree/6a02a8d72f177e127c3fe0b3c3959dbc6f737f13/www.autoEdit.io) .
 
 ## Outline the problem
 
