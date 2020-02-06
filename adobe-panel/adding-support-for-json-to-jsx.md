@@ -9,7 +9,7 @@ description: >-
 
 Adobe jsx does not come with native support for json  [🤷‍♂️](https://emojipedia.org/man-shrugging/)
 
-So in `jsx/Premiere.jsx` you need to add  
+So in `jsx/Premiere.jsx` you need to add   
 
 ```javascript
 // from https://community.adobe.com/t5/premiere-pro/jsx-intermittently-getting-json-is-undefined-alert/td-p/9500726

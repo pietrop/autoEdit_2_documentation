@@ -14,21 +14,21 @@ The aim of the autoEdit project is to produce an application that can maximise n
 
 The approach was to look at the traditional paper-editing workflow from documentary production, and see how that could translate into a digital world. [For more on paper-editing and how this is used to craft compelling stories out of video interviews, check out the slides from this workshop](http://pietropassarelli.com/wip_london_july2016.html).
 
-{% embed url="http://pietropassarelli.com/wip\_london\_july2016.html" %}
+{% embed data="{\"url\":\"http://pietropassarelli.com/wip\_london\_july2016.html\",\"type\":\"link\",\"title\":\"Workshop: How to craft compelling stories out of video interviews? · Pietro\",\"icon\":{\"type\":\"icon\",\"url\":\"http://pietropassarelli.com/public/favicon.ico/favicon-192.png\",\"width\":192,\"height\":192,\"aspectRatio\":1}}" %}
 
 And/or[ gitbook version of the talk](https://autoedit.gitbook.io/how-to-tell-compelling-stories-out-of-interviews), and in particular the [section on digital paper-editing](https://autoedit.gitbook.io/how-to-tell-compelling-stories-out-of-interviews/digital-paper-editing/autoedit-2-digital-paper-editing-software).
 
-{% embed url="https://autoedit.gitbook.io/how-to-tell-compelling-stories-out-of-interviews/" %}
+{% embed data="{\"url\":\"https://autoedit.gitbook.io/how-to-tell-compelling-stories-out-of-interviews/\",\"type\":\"link\",\"title\":\"Introduction - How to tell compelling stories out of video interviews\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LKEX2pgEboHMhySJ5EJ%2Favatar.png?generation=1534637655291617&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LKEX2pgEboHMhySJ5EJ.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 For [an overview of how this has been implemented in autoEdit, from a user's perspecitve, check out the user manual](https://autoedit.gitbook.io/how-to-tell-compelling-stories-out-of-interviews).
 
-{% embed url="https://autoedit.gitbook.io/user-manual" %}
+{% embed data="{\"url\":\"https://autoedit.gitbook.io/user-manual\",\"type\":\"link\",\"title\":\"Introduction - autoEdit 2 User Manual\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LKETZisqiBNpYXfFMzt%2Favatar.png?generation=1534636740751094&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LKETZisqiBNpYXfFMzt.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 There's also a quick 10 min presentation at [textAV](www.textAV.tech) '17 NYC \(covers version `1.0.7`\)
 
-{% embed url="https://youtu.be/8SzqXMu0Sz0" %}
+{% embed data="{\"url\":\"https://youtu.be/8SzqXMu0Sz0\",\"type\":\"video\",\"title\":\"2017 07 20 11 48 14\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/8SzqXMu0Sz0/maxresdefault.jpg\",\"width\":1280,\"height\":720,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/8SzqXMu0Sz0?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\\"><iframe src=\\\"https://www.youtube.com/embed/8SzqXMu0Sz0?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
 
-{% embed url="https://textav.gitbook.io/textav-event/projects/autoedit" %}
+{% embed data="{\"url\":\"https://textav.gitbook.io/textav-event/projects/autoedit\",\"type\":\"link\",\"title\":\"autoEdit - textav-event\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LKMeulnkyJTHTxeqP6K%2Favatar.png?generation=1534774194631198&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LKMeulnkyJTHTxeqP6K.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 ## Areas of Interest
 
@@ -99,7 +99,7 @@ If you are not familiar with [Node](https://nodejs.org/en/), [Electron](https://
 
 Each release has it's own trello baord that gets duplicated/cloned to move on for subsequent releases. [For instance this the trello board for v1.0.6](https://trello.com/b/8LP7y3EI/autoedit-v2-1-0-6-release-paperedit) which will be kept for record, and there is [one to keep track for the next release v`1.0.13`](https://trello.com/b/Md913hIA).
 
-{% embed url="https://trello.com/b/Md913hIA" %}
+{% embed data="{\"url\":\"https://trello.com/b/Md913hIA\",\"type\":\"rich\",\"title\":\"Trello\",\"description\":\"Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what\'s being worked on, who\'s working on what, and where something is in a process.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://a.trellocdn.com/prgb/dist/images/ios/apple-touch-icon-152x152-precomposed.0307bc39ec6c9ff499c8.png\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"embed\":{\"type\":\"app\",\"html\":\"<blockquote class= trello-board-compact><a href=\\\"https://trello.com/b/Md913hIA\\\">Trello</a></blockquote><script src=\\\"https://p.trellocdn.com/embed.min.js\\\"></script>\",\"aspectRatio\":0}}" %}
 
 Trello board is used for planning and project management. \(Altho at the moment needs cleaning up and it's mostly gathering notes for feature ideas\) [Github issues](https://github.com/OpenNewsLabs/autoEdit_2/issues) are used for bug handling. There is also a [waffle dashboard](https://waffle.io/OpenNewsLabs/autoEdit_2) that provides a trello like view of the github issues to help with organisation.
 

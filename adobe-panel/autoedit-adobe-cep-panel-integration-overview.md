@@ -8,7 +8,7 @@ Symbols legend: ✅done,  𝥷 todo , 𐄂 out of scope for this version
 
 Also [see autoEdit Adobe Panel user manual](https://autoedit.gitbook.io/user-manual/autoedit-adobe-panel/transcription-to-source-monitor) for user facing functionalities implemented so far.
 
-{% embed url="https://autoedit.gitbook.io/user-manual/autoedit-adobe-panel/transcription-to-source-monitor" %}
+{% embed data="{\"url\":\"https://autoedit.gitbook.io/user-manual/autoedit-adobe-panel/transcription-to-source-monitor\",\"type\":\"link\",\"title\":\"Transcription to source monitor - autoEdit 2 User Manual\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LKETZisqiBNpYXfFMzt%2Favatar.png?generation=1534636740751094&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LKETZisqiBNpYXfFMzt.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 This is more of planning document to reason around best strategy and functionality for the integration.
 
@@ -16,7 +16,7 @@ This is more of planning document to reason around best strategy and functionali
 
 See user manual for refresher of what this view looks like
 
-{% embed url="https://autoedit.gitbook.io/user-manual/transcribing" %}
+{% embed data="{\"url\":\"https://autoedit.gitbook.io/user-manual/transcribing\",\"type\":\"link\",\"title\":\"Transcriptions - autoEdit 2 User Manual\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LKETZisqiBNpYXfFMzt%2Favatar.png?generation=1534636740751094&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LKETZisqiBNpYXfFMzt.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 Or even the interactive demo [http://www.autoedit.io/demo/\#transcriptions/new](http://www.autoedit.io/demo/#transcriptions/new)
 
@@ -42,7 +42,7 @@ For importing captions
 
 **See user manual for refresher od what this view looks like**  
 
-{% embed url="https://autoedit.gitbook.io/user-manual/transcribing\#selecting-text-from-a-transcription" %}
+{% embed data="{\"url\":\"https://autoedit.gitbook.io/user-manual/transcribing\#selecting-text-from-a-transcription\",\"type\":\"link\",\"title\":\"Transcriptions - autoEdit 2 User Manual\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LKETZisqiBNpYXfFMzt%2Favatar.png?generation=1534636740751094&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LKETZisqiBNpYXfFMzt.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 
 
@@ -76,7 +76,7 @@ or as a workaround for now can use  add highlights selection from autoEdit to pr
 
 See user manual for refresher of what this view looks like   ****
 
-{% embed url="https://autoedit.gitbook.io/user-manual/paperediting" %}
+{% embed data="{\"url\":\"https://autoedit.gitbook.io/user-manual/paperediting\",\"type\":\"link\",\"title\":\"Paperediting - autoEdit 2 User Manual\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LKETZisqiBNpYXfFMzt%2Favatar.png?generation=1534636740751094&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LKETZisqiBNpYXfFMzt.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 ### **✅Export paper-edit as premiere sequence**
 

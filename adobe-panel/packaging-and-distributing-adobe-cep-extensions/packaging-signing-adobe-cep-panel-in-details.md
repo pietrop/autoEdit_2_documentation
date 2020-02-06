@@ -34,7 +34,7 @@ _From_ [_Adobe docs_ ](https://github.com/Adobe-CEP/CEP-Resources/blob/master/RE
 
 download the binary for `ZXPSignCmd`from the[ Adobe CEP Resources github repo](https://github.com/Adobe-CEP/CEP-Resources) see bewlo for direct. Downlaod as dmg and then move the binary where most suited in the project.
 
-{% embed url="https://github.com/Adobe-CEP/CEP-Resources/blob/master/ZXPSignCMD/4.0.7/osx10/ZXPSignCmd.dmg" %}
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/CEP-Resources/blob/master/ZXPSignCMD/4.0.7/osx10/ZXPSignCmd.dmg\",\"type\":\"link\",\"title\":\"Adobe-CEP/CEP-Resources\",\"description\":\"CEP-Resources - Tools and documentation for building Creative Cloud app extensions with CEP\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
 ## Creating a self signing certificate certificate
 
@@ -68,7 +68,7 @@ Packaging and signing the extension happens in one step
 
 from 
 
-{% embed url="http://www.davidebarranca.com/2014/05/html-panels-tips-10-packaging-zxp-installers/" %}
+{% embed data="{\"url\":\"http://www.davidebarranca.com/2014/05/html-panels-tips-10-packaging-zxp-installers/\",\"type\":\"link\",\"title\":\"HTML Panels Tips: \#10 Packaging / ZXP Installers \| Photoshop, etc.\",\"description\":\"How to build customized ZXP installers for CC HTML Extensions \(standard, flash-compatible, hybrid\) using ZXPSignCmd, ucf.jar and MXI files.\",\"icon\":{\"type\":\"icon\",\"url\":\"http://www.davidebarranca.com/wp-content/uploads/2013/01/144.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"http://www.davidebarranca.com/wp-content/uploads/2014/05/mxi.png\",\"width\":150,\"height\":150,\"aspectRatio\":1}}" %}
 
 eg in our case eg `com.autoedit2.it` as indicated in the adobe CEP manifest xml file
 
@@ -86,7 +86,7 @@ code example with dummy
 
 from 
 
-{% embed url="http://www.davidebarranca.com/2014/05/html-panels-tips-10-packaging-zxp-installers/" %}
+{% embed data="{\"url\":\"http://www.davidebarranca.com/2014/05/html-panels-tips-10-packaging-zxp-installers/\",\"type\":\"link\",\"title\":\"HTML Panels Tips: \#10 Packaging / ZXP Installers \| Photoshop, etc.\",\"description\":\"How to build customized ZXP installers for CC HTML Extensions \(standard, flash-compatible, hybrid\) using ZXPSignCmd, ucf.jar and MXI files.\",\"icon\":{\"type\":\"icon\",\"url\":\"http://www.davidebarranca.com/wp-content/uploads/2013/01/144.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"http://www.davidebarranca.com/wp-content/uploads/2014/05/mxi.png\",\"width\":150,\"height\":150,\"aspectRatio\":1}}" %}
 
 
 
@@ -102,11 +102,11 @@ from
 
 
 
-{% embed url="https://partners.adobe.com/exchangeprogram/creativecloud.html" %}
+{% embed data="{\"url\":\"https://partners.adobe.com/exchangeprogram/creativecloud.html\",\"type\":\"link\",\"title\":\"Exchange Program\",\"icon\":{\"type\":\"icon\",\"url\":\"https://partners.adobe.com/content/dam/adobeexchange/favicon.ico\",\"aspectRatio\":0}}" %}
 
-{% embed url="https://helpx.adobe.com/extension-manager/using/packaging-submitting-extensions.html" %}
+{% embed data="{\"url\":\"https://helpx.adobe.com/extension-manager/using/packaging-submitting-extensions.html\",\"type\":\"link\",\"title\":\"Submitting extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://helpx.adobe.com/include/img/favicon.ico\",\"aspectRatio\":0}}" %}
 
-{% embed url="https://www.adobe.com/cy\_en/products/extendscript-toolkit.html" %}
+{% embed data="{\"url\":\"https://www.adobe.com/cy\_en/products/extendscript-toolkit.html\",\"type\":\"link\",\"title\":\"JavaScript development toolkit \| Download Adobe ExtendScript Toolkit CC\",\"description\":\"Download Adobe ExtendScript Toolkit CC to use directly with scriptable Adobe Creative Cloud desktop apps.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://wwwimages2.adobe.com/favicon.ico\",\"aspectRatio\":0}}" %}
 
-{% embed url="https://www.adobe.com/cy\_en/products/extendscript-toolkit.html" %}
+{% embed data="{\"url\":\"https://www.adobe.com/cy\_en/products/extendscript-toolkit.html\",\"type\":\"link\",\"title\":\"JavaScript development toolkit \| Download Adobe ExtendScript Toolkit CC\",\"description\":\"Download Adobe ExtendScript Toolkit CC to use directly with scriptable Adobe Creative Cloud desktop apps.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://wwwimages2.adobe.com/favicon.ico\",\"aspectRatio\":0}}" %}
 

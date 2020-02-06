@@ -14,7 +14,7 @@ See [user manual](https://pietropassarelli.gitbooks.io/autoedit2-user-manual/con
 
 [Google doc: **QA Test Plan autoEdit 2,** 29th March 2017 ](https://docs.google.com/document/d/18hqjb5K7owSV6HJ-uqgeFwxicRUvf-nYsdpJiBkF-BU/edit?usp=sharing)
 
-{% embed url="https://docs.google.com/document/d/18hqjb5K7owSV6HJ-uqgeFwxicRUvf-nYsdpJiBkF-BU/edit?usp=sharing" %}
+{% embed data="{\"url\":\"https://docs.google.com/document/d/18hqjb5K7owSV6HJ-uqgeFwxicRUvf-nYsdpJiBkF-BU/edit?usp=sharing\",\"type\":\"rich\",\"title\":\"autoEdit2 QA test plan\",\"description\":\"QA Test Plan autoEdit 2 29th March 2017 Overview I’ve built a video editing desktop application, autoEdit 2. It’s made using NWJS backbone and node. Please see video in the Github README page, as well as the project page for an overview of what the app does and how it works \(www.autoedit.io\).  ...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://ssl.gstatic.com/docs/documents/images/kix-favicon6.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://lh5.googleusercontent.com/QnEM5eWrcNbFM4mQBb79caB3wBApt47TXAeCM9yzZnrqjhZPVamjn\_JEYWr\_O3Be5KQNZw=w1200-h630-p\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525},\"embed\":{\"type\":\"reader\",\"url\":\"https://docs.google.com/document/d/18hqjb5K7owSV6HJ-uqgeFwxicRUvf-nYsdpJiBkF-BU/preview?usp=embed\_googleplus\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 141.4227%;\\\"><iframe src=\\\"https://docs.google.com/document/d/18hqjb5K7owSV6HJ-uqgeFwxicRUvf-nYsdpJiBkF-BU/preview?usp=embed\_googleplus\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":0.7071}}" %}
 
 ## 
 
