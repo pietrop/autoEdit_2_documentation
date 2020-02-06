@@ -19,7 +19,7 @@
   * [Travis CI continuous build](overview/deploymentbuild/travis-ci-continuous-build/README.md)
     * [previous travis setup](overview/deploymentbuild/travis-ci-continuous-build/previous-travis-setup.md)
 
-## R&D Doc
+## R&D Doc <a id="transcriptions"></a>
 
 * [About R&D doc section](transcriptions/about-r-and-d-doc-section.md)
 * [Transcription & Media Processing](transcriptions/transcriptions-intro/README.md)
@@ -76,9 +76,12 @@
   * [Adobe Extensions HostList codes](adobe-panel/autoedit-adobe-cep-panel-dev-setup/adobe-extensions-hostlist-codes.md)
 * [autoEdit Adobe CEP Panel integration overview](adobe-panel/autoedit-adobe-cep-panel-integration-overview.md)
 * [Jsx functions for Adobe CEP autoEdit adobe Panel](adobe-panel/adobe-cep-jsx-functions-for-autoedit-adobe-panel.md)
-* [Packaging and distributing Adobe CEP Extensions](adobe-panel/packaging-and-distributing-adobe-cep-extensions/README.md)
-  * [Packaging signing Adobe CEP Panel in details](adobe-panel/packaging-and-distributing-adobe-cep-extensions/packaging-signing-adobe-cep-panel-in-details.md)
-  * [Submit to Adobe](adobe-panel/packaging-and-distributing-adobe-cep-extensions/submit-to-adobe.md)
+* [Adding support for json to jsx](adobe-panel/adding-support-for-json-to-jsx.md)
+* [Packaging Adobe CEP Extensions](adobe-panel/packaging-adobe-cep-extensions/README.md)
+  * [Packaging signing Adobe CEP Panel in details](adobe-panel/packaging-adobe-cep-extensions/packaging-signing-adobe-cep-panel-in-details.md)
+* [Distributing Adobe CEP Extensions](distributing-adobe-cep-extensions/README.md)
+  * [Submit to Adobe](distributing-adobe-cep-extensions/submit-to-adobe.md)
+  * [Distribute as a zxp file](distributing-adobe-cep-extensions/distribute-as-a-zxp-file.md)
 
 ## Project Page
 

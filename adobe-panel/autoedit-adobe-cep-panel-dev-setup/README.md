@@ -70,11 +70,19 @@ defaults write com.adobe.CSXS.7 PlayerDebugMode 1
 defaults write com.adobe.CSXS.8 PlayerDebugMode 1
 ```
 
+```text
+defaults write com.adobe.CSXS.9 PlayerDebugMode 1
+```
+
+{% hint style="info" %}
+See [CEP 9.0 HTML Extension Cookbook](https://github.com/Adobe-CEP/CEP-Resources/blob/master/CEP_9.x/Documentation/CEP%209.0%20HTML%20Extension%20Cookbook.md) for more info.
+{% endhint %}
+
 You might need to re-start your computer
 
 #### 2. CEP development in autoEdit
 
-[Fork branch `autoedit-panel-refactor`](https://github.com/OpenNewsLabs/autoEdit_2/tree/autoedit-panel-refactor)
+[autoEdit github repo ](https://github.com/OpenNewsLabs/autoEdit_2)
 
 git clone locally, so that you are setup to do a PR with any changes.
 
@@ -122,7 +130,7 @@ Local server for adobe panel is at [http://localhost:8099/](http://localhost:809
 
 ### Packaging and distributing extension
 
-* [see this section for more details on packaging, signing and distributing Adobe CEP extensions.](../packaging-and-distributing-adobe-cep-extensions/)
+* [see this section for more details on packaging, signing and distributing Adobe CEP extensions.](../packaging-adobe-cep-extensions/)
 
 ### some more docs for Adobe dev documentation
 
@@ -132,7 +140,7 @@ Local server for adobe panel is at [http://localhost:8099/](http://localhost:809
 
 For a more comprehensive unofficial guide of Adobe CEP see this series of blog posts, highly recommended if you want to understand the overall setup and inner workings.
 
-{% embed data="{\"url\":\"http://aphall.com/2014/08/cep-mega-guide-en/\",\"type\":\"link\",\"title\":\"CEP 5 Super mega guide: Extending Adobe apps with HTML5+Node.js \| aphall.com\",\"description\":\"Andy Hall is a developer in Tokyo, working on a game.\"}" %}
+{% embed url="http://aphall.com/2014/08/cep-mega-guide-en/" %}
 
 
 

@@ -34,9 +34,9 @@ NA
 
 ### **Preview/ BBC Video compositor**
 
-{% embed data="{\"url\":\"https://trello.com/c/hdM0kWd0\",\"type\":\"rich\",\"title\":\"Trello\",\"description\":\"Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what\'s being worked on, who\'s working on what, and where something is in a process.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://a.trellocdn.com/prgb/dist/images/ios/apple-touch-icon-152x152-precomposed.0307bc39ec6c9ff499c8.png\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"embed\":{\"type\":\"app\",\"html\":\"<blockquote class= trello-card><a href=\\\"https://trello.com/c/hdM0kWd0\\\">Trello</a></blockquote><script src=\\\"https://p.trellocdn.com/embed.min.js\\\"></script>\",\"aspectRatio\":0}}" %}
+{% embed url="https://trello.com/c/hdM0kWd0" %}
 
-{% embed data="{\"url\":\"https://github.com/bbc/html5-video-compositor\",\"type\":\"link\",\"title\":\"bbc/html5-video-compositor\",\"description\":\"html5-video-compositor - This is the BBC Research &amp; Development UX Team&\#39;s experimental shader based video composition engine for the browser. For new projects please consider using or new V...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/828722?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/bbc/html5-video-compositor" %}
 
 This is the sequence taken in by the BBC video compositor to be able to render a video preview in canvas.
 
