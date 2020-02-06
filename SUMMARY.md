@@ -73,6 +73,9 @@
 ## Adobe Panel
 
 * [autoEdit Adobe CEP Panel dev setup](adobe-panel/autoedit-adobe-cep-panel-dev-setup/README.md)
+  * [.debug file](adobe-panel/autoedit-adobe-cep-panel-dev-setup/.debug-file.md)
+  * [manifest.xml](adobe-panel/autoedit-adobe-cep-panel-dev-setup/manifest.xml.md)
+  * [Premiere.jsx](adobe-panel/autoedit-adobe-cep-panel-dev-setup/premiere.jsx.md)
   * [Adobe Extensions HostList codes](adobe-panel/autoedit-adobe-cep-panel-dev-setup/adobe-extensions-hostlist-codes.md)
 * [autoEdit Adobe CEP Panel integration overview](adobe-panel/autoedit-adobe-cep-panel-integration-overview.md)
 * [Jsx functions for Adobe CEP autoEdit adobe Panel](adobe-panel/adobe-cep-jsx-functions-for-autoedit-adobe-panel.md)
