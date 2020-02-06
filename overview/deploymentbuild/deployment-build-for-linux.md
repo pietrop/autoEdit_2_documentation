@@ -16,9 +16,9 @@ It creates a `cache` and a `build` folder. `cache` is a folder used by deploy to
 
 It packages the app as a [`AppImages`](https://appimage.org) that works across linux distribution see deployment section and this [issue](https://github.com/OpenNewsLabs/autoEdit_2/issues/36) and corresponding [PR](https://github.com/OpenNewsLabs/autoEdit_2/pull/45) for more details.
 
-{% embed url="https://github.com/OpenNewsLabs/autoEdit\_2/issues/36" %}
+{% embed data="{\"url\":\"https://github.com/OpenNewsLabs/autoEdit\_2/issues/36\",\"type\":\"link\",\"title\":\"Linux version · Issue \#36 · OpenNewsLabs/autoEdit\_2\",\"description\":\"Is there any reason not to publish a Linux version?\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars0.githubusercontent.com/u/2480569?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
 
-{% embed url="https://github.com/OpenNewsLabs/autoEdit\_2/pull/45" %}
+{% embed data="{\"url\":\"https://github.com/OpenNewsLabs/autoEdit\_2/pull/45\",\"type\":\"link\",\"title\":\"AppImage by probonopd · Pull Request \#45 · OpenNewsLabs/autoEdit\_2\",\"description\":\"This PR, when merged, will compile this application on Travis CI upon each git push, and upload an AppImage to your GitHub Releases page. Providing an AppImage would have, among others, these advan...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars0.githubusercontent.com/u/2480569?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
 
 > Download an application, make it executable, and run! No need to install. No system libraries or system preferences are altered.
 >

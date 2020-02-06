@@ -80,7 +80,7 @@ If you are not familiar with [Node](https://nodejs.org/en/), [NWJS](http://docs.
 
 Each release has it's own trello baord that gets duplicated/cloned to move on for subsequent releases. [For instance this the trello board for v1.0.6](https://trello.com/b/8LP7y3EI/autoedit-v2-1-0-6-release-paperedit) which will be kept for record, and soon there will be the one to keep track for the next release v`1.0.13`.
 
-{% embed url="https://trello.com/b/Md913hIA/autoedit-v21013-release" %}
+{% embed data="{\"url\":\"https://trello.com/b/Md913hIA/autoedit-v21013-release\",\"type\":\"rich\",\"title\":\"Trello\",\"description\":\"Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what\'s being worked on, who\'s working on what, and where something is in a process.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://a.trellocdn.com/prgb/dist/images/ios/apple-touch-icon-152x152-precomposed.0307bc39ec6c9ff499c8.png\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"embed\":{\"type\":\"app\",\"html\":\"<blockquote class= trello-board-compact><a href=\\\"https://trello.com/b/Md913hIA\\\">Trello</a></blockquote><script src=\\\"https://p.trellocdn.com/embed.min.js\\\"></script>\",\"aspectRatio\":0}}" %}
 
 Trello board is used for planning and project management \(altho at the moment is more notes for feature brainstorming and[ Roadmap section of these docs](roadmap/roadmap-features-improvements-next-up.md) is used for next up planning\). [Github issues](https://github.com/OpenNewsLabs/autoEdit_2/issues) are used for bug handling. There is also a [waffle dashboard](https://waffle.io/OpenNewsLabs/autoEdit_2) that provides a trello like view of the github issues to help with organisation.
 
@@ -88,5 +88,5 @@ Trello board is used for planning and project management \(altho at the moment i
 
 This documentation is written using gitbooks, and synced with a [github repo](https://github.com/pietrop/autoEdit_2_documentation) for convenience.
 
-{% embed url="https://github.com/pietrop/autoEdit\_2\_documentation" %}
+{% embed data="{\"url\":\"https://github.com/pietrop/autoEdit\_2\_documentation\",\"type\":\"link\",\"title\":\"pietrop/autoEdit\_2\_documentation\",\"description\":\"autoEdit\_2\_documentation - Documentation for www.autoEdit.io syncs with gitbook version\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/4661975?s=400&v=4\",\"width\":372,\"height\":372,\"aspectRatio\":1}}" %}
 

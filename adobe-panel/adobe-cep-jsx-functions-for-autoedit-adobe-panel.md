@@ -6,7 +6,7 @@ _Can use the_ [_Property explorer_](https://www.adobeexchange.com/creativecloud.
 
 As explained here
 
-{% embed url="https://forums.adobe.com/thread/2387875" %}
+{% embed data="{\"url\":\"https://forums.adobe.com/thread/2387875\",\"type\":\"link\",\"title\":\"Moving from CEP7 to CEP8 will require changes t... \| Adobe Community\",\"description\":\"\[Apologies for broad distribution.\]  Hello, potential CEP panel developers!   Changes to CEP\'s Node.js handling are required, between CEP7 and CEP8; this\",\"icon\":{\"type\":\"icon\",\"url\":\"https://forums.adobe.com/themes/adobe-global/images/favicon.ico\",\"aspectRatio\":0}}" %}
 
   
 ****Adobe CEP  requires absolute path for nodejs, this is a problem when requiring modules, as you can no longer use relative path eg
@@ -50,7 +50,7 @@ Returns project item object \(?\) with information of what file you have selecte
 
 [**Code from sample app**](https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx#L1633)
 
-{% embed url="https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L1633" %}
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L1633\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
 ```javascript
 var viewIDs = app.getProjectViewIDs(); 
@@ -63,7 +63,7 @@ viewSelection[0].getMediaPath();
 
 also relevant thread 
 
-{% embed url="https://forums.adobe.com/message/10194319\#10194319" %}
+{% embed data="{\"url\":\"https://forums.adobe.com/message/10194319\#10194319\",\"type\":\"link\",\"title\":\"Is it possible to load a bin item in the Source... \| Adobe Community\",\"description\":\"Is it possible -- I know it wasn\'t years passed -- to load a bin item in the source monitor by means other than file path? I\'d love to be able to load\",\"icon\":{\"type\":\"icon\",\"url\":\"https://forums.adobe.com/themes/adobe-global/images/favicon.ico\",\"aspectRatio\":0}}" %}
 
 Only available in Premiere `12.1`  
 ****
@@ -77,7 +77,7 @@ For example connected with one above, once it know what click is selected in sou
 
 From sample app
 
-{% embed url="https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L249" %}
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L249\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
 ```javascript
 openInSource : function() {
@@ -132,7 +132,7 @@ app.sourceMonitor.openFilePath(selectionFilePath);
 
 Seems like this might not be possible?
 
-{% embed url="https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L1466" caption=undefined %}
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L1466 \",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
 ```javascript
 // closeFrontSourceClip
@@ -174,7 +174,7 @@ Unclear whether setStartTime changes the timecode metadata for the clip. Eg inst
 
 Code for bringing into sequence can be found in the sample panel JSX under the insert or append and overwrite functions
 
-{% embed url="https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L1415" caption=undefined %}
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L1415\\n\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
 ```javascript
 // insert clip in sequence 
@@ -197,7 +197,7 @@ if (vTrack1.clips.numItems > 0){
 }
 ```
 
-{% embed url="https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L1446" %}
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L1446\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
 ```javascript
 // overWrite
@@ -217,7 +217,7 @@ Is there a way to do this or do we have to combine previous insert/append functi
 
 From sample app, here is how to create a sequence
 
-{% embed url="https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L441" %}
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L441\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
 ```javascript
 createSequence : function(name) {
@@ -241,7 +241,7 @@ getActiveSequenceName : function() {
 
 From sample app
 
-{% embed url="https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L100" %}
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L100\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
 See autoEdit jsx file \`create\_sequence\_from\_paper\_edit\` for how to iterate over a sequence as described in the autoEdit edl composer component.
 
@@ -276,7 +276,7 @@ vTrack1.insertClip(clipInProjectPanel, '00;00;00;00');
 
 From Adobe's Forum this seems to trim clips in the sequence;
 
-{% embed url="https://forums.adobe.com/thread/2313445" %}
+{% embed data="{\"url\":\"https://forums.adobe.com/thread/2313445\",\"type\":\"link\",\"title\":\"Editing clips with ExtendScript \| Adobe Community\",\"description\":\"hello, you hardworking, knowledgeable people!  I desperately need to automate a big part of the editing process in Premiere. For the next project we will\",\"icon\":{\"type\":\"icon\",\"url\":\"https://forums.adobe.com/themes/adobe-global/images/favicon.ico\",\"aspectRatio\":0}}" %}
 
 But not sure exactly what the code does.
 
@@ -294,7 +294,7 @@ clip1.end = endTime;
 
 Exists in pond5 panel -- can be used to replace low quality footage with higher quality or replace placeholders with real footage
 
-{% embed url="https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L351" %}
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L351\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
 ### **✅Source monitor: scrub to position and play**
 
@@ -348,7 +348,7 @@ app.project.activeSequence.setPlayerPosition(pos * 254016000000)
 
 ### **✅Import files into bin**
 
-{% embed url="https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L278" %}
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L278\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
 ```javascript
 importFiles : function() {
@@ -377,7 +377,7 @@ importFiles : function() {
 
 From sample app:
 
-{% embed url="https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L234" caption=undefined %}
+{% embed data="{\"url\":\"https://github.com/Adobe-CEP/Samples/blob/master/PProPanel/jsx/PPRO/Premiere.jsx\#L234\\n\\n\",\"type\":\"link\",\"title\":\"Adobe-CEP/Samples\",\"description\":\"Samples - Code samples for CEP extensions\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7475984?s=400&v=4\",\"width\":396,\"height\":396,\"aspectRatio\":1}}" %}
 
 ```javascript
 // completeOutputPath == path to save fcp xml

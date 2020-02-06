@@ -132,7 +132,7 @@ Local server for adobe panel is at [http://localhost:8099/](http://localhost:809
 
 For a more comprehensive unofficial guide of Adobe CEP see this series of blog posts, highly recommended if you want to understand the overall setup and inner workings.
 
-{% embed url="http://aphall.com/2014/08/cep-mega-guide-en/" %}
+{% embed data="{\"url\":\"http://aphall.com/2014/08/cep-mega-guide-en/\",\"type\":\"link\",\"title\":\"CEP 5 Super mega guide: Extending Adobe apps with HTML5+Node.js \| aphall.com\",\"description\":\"Andy Hall is a developer in Tokyo, working on a game.\"}" %}
 
 
 

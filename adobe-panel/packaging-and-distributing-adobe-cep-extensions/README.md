@@ -48,7 +48,7 @@ See [submit to adobe section](submit-to-adobe.md) for how to distribute that way
 
 or some more instruction on how to install third party extensions
 
-{% embed url="https://helpx.adobe.com/creative-cloud/kb/installingextensionsandaddons.html\#Install\_third\_party\_extensions" %}
+{% embed data="{\"url\":\"https://helpx.adobe.com/creative-cloud/kb/installingextensionsandaddons.html\#Install\_third\_party\_extensions\",\"type\":\"link\",\"title\":\"Install add-ons and extensions for Adobe apps\",\"description\":\"As of Creative Cloud 2015, add-ons and extensions for Adobe applications are installed through the Creative Cloud desktop application. To install third-party extensions, you can use the Extension Manager command-line tool.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://helpx.adobe.com/include/img/favicon.ico\",\"aspectRatio\":0}}" %}
 
 
 
