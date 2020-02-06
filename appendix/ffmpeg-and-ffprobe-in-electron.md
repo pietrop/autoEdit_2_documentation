@@ -6,9 +6,9 @@ autoEdit uses `ffmpeg` under the hood, and getting `ffmpeg` and `electron` to wo
 
 I've since abstracted and published these two forks as npm packages
 
-{% embed data="{\"url\":\"https://www.npmjs.com/package/ffprobe-static-electron\",\"type\":\"link\",\"title\":\"ffprobe-static-electron\",\"description\":\"Static binaries for ffprobe.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://static.npmjs.com/1996fcfdf7ca81ea795f67f093d7f449.png\",\"width\":230,\"height\":230,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://static.npmjs.com/338e4905a2684ca96e08c7780fc68412.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+{% embed url="https://www.npmjs.com/package/ffprobe-static-electron" %}
 
-{% embed data="{\"url\":\"https://www.npmjs.com/package/ffmpeg-static-electron\",\"type\":\"link\",\"title\":\"ffmpeg-static-electron\",\"description\":\"ffmpeg static binaries for Mac OSX and Linux and Windows\",\"icon\":{\"type\":\"icon\",\"url\":\"https://static.npmjs.com/1996fcfdf7ca81ea795f67f093d7f449.png\",\"width\":230,\"height\":230,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://static.npmjs.com/338e4905a2684ca96e08c7780fc68412.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+{% embed url="https://www.npmjs.com/package/ffmpeg-static-electron" %}
 
 I was recently asked about how to use [ffmpeg](https://www.ffmpeg.org/) with the[ fluent-ffmpeg node library](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) in [electron](https://electron.atom.io/), and I had some notes[ in the autoEdit documentation](https://pietropassarelli.gitbooks.io/autoedit-2-documentation/content/ffmpeg-and-ffprobe-in-electron.html) but since they were at some sort of at draft stage I decided to expand more on this here, to make a more clear and comprehensive explanation.
 
