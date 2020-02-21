@@ -84,6 +84,24 @@ added to the the npm scripts
     ....
 ```
 
+## Skipping Code signing on Travis
+
+docs for [Code Signing - electron-builder](https://www.electron.build/code-signing)
+
+```text
+CSC_IDENTITY_AUTO_DISCOVERY=false
+```
+
+> To disable Code Signing when building for macOS leave all the above vars unset except for `CSC_IDENTITY_AUTO_DISCOVERY` which needs to be set to `false`. This can be done by running `export CSC_IDENTITY_AUTO_DISCOVERY=false`.
+
+Or you can set in travis settings, for ENVs
+
+> Another way — set `mac.identity` to `null`. You can pass additional configuration using CLI as well: `-c.mac.identity=null`.
+
+{% hint style="danger" %}
+if you skip this the build will fail on travis  
+{% endhint %}
+
 ## Electron builder documentation 
 
 more on electron builder here
